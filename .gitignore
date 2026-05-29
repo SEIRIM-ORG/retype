@@ -2,4 +2,3 @@ node_modules
 .retype
 retype.manifest
 .env
-package-lock.json
