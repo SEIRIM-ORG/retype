@@ -1,0 +1,4 @@
+node_modules
+.retype
+retype.manifest
+.env
