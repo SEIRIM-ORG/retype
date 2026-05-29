@@ -95,13 +95,16 @@ Tasks include:
 ### Protect
 
 
-Next content to write goes here
+Once you have determined the threats to your organization and everything you need to protect, it's time to,,, protect it!
 
-More Content:
+Some main tasks include:
 
-- ONe
-- - two
-- -three
+- Vulnerability Remediation - find and fix all vulnerabilities
+- Systems Hardening - lock down all configurations, settings, accounts and more
+- Penetration Testing - find even more issues to resolve with the red team approach
+- Backup Regime - backup all data in multiple locations and formats
+- Backup Testing - ensure backups are working well
+- Redundancy in Critical Systems - install redundant capabilities for every critical work task
 <br>
 <br>
 ![[1250 x 483 Header 100 Point QA Checklist.jpg]]

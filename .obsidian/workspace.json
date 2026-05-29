@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Start Here.md",
+                "file": "_test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Start Here"
+              "title": "_test"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "5faa40b8e68ac13c",
   "lastOpenFiles": [
+    "Start Here.md",
+    "_test.md",
     "1250 x 483 Header 100 Point QA Checklist.jpg",
-    "Introduction.md",
-    "Start Here.md"
+    "Introduction.md"
   ]
 }
