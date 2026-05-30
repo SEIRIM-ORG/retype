@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Protect Overview",
+      "path": "Protect/Protect Overview.md"
+    },
+    {
+      "basename": "Intrusion Prevention and Detection",
+      "path": "Protect/Intrusion Prevention and Detection.md"
+    },
+    {
+      "basename": "Endpoint Detection and Response",
+      "path": "Protect/Endpoint Detection and Response.md"
+    },
+    {
+      "basename": "Backup Regimes",
+      "path": "Protect/Backup Regimes.md"
+    },
+    {
+      "basename": "Identity and Access Management",
+      "path": "Protect/Identity and Access Management.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Start Here",
+      "path": "Start Here.md"
+    },
+    {
       "basename": "_Commands to Push to Github",
       "path": "_Commands to Push to Github.md"
     },
@@ -49,18 +77,6 @@
       "path": "Recover/Test Backup Regime.md"
     },
     {
-      "basename": "Endpoint Detection and Response",
-      "path": "Protect/Endpoint Detection and Response.md"
-    },
-    {
-      "basename": "Intrusion Prevention and Detection",
-      "path": "Protect/Intrusion Prevention and Detection.md"
-    },
-    {
-      "basename": "Backup Regimes",
-      "path": "Protect/Backup Regimes.md"
-    },
-    {
       "basename": "Identify Valuable Assets",
       "path": "Identify/Identify Valuable Assets.md"
     },
@@ -71,10 +87,6 @@
     {
       "basename": "_Steps",
       "path": "_Steps.md"
-    },
-    {
-      "basename": "Start Here",
-      "path": "Start Here.md"
     },
     {
       "basename": "index",
@@ -107,10 +119,6 @@
     {
       "basename": "index",
       "path": "Detect/index.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "index",

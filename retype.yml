@@ -6,7 +6,7 @@ url: playbook.seirim.com # Use your website address here
 branding:
   logo: static/seirim-logo.svg
   logoDark: static/seirim-logo.svg
-  favicon: static/favicon.png
+  favicon: static/favicon.ico
 
 start:
   # Uncomment the next line to try Retype Pro features
@@ -14,7 +14,7 @@ start:
 
 
 links:
-- text: Home
+- text: SEIRIM
   link: https://seirim.com/en/home
 - text: Services
   link: https://seirim.com/en/services/cybersecurity

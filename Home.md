@@ -9,16 +9,16 @@ order: 10000
 
 
 
-The SEIRIM Cyber Playbook is your complete plan to better secure your company's digital data and operations. 
+The SEIRIM Cybersecurity Playbook is your complete plan of action to better secure your company's digital data and operations. 
 
-The solutions within are geared towards small to medium sized businesses whose needs in this space are lacking, though the concepts apply to organizations of all sizes. The key differences include recommendations opting more often for open source or economical tools where possible, instead of pushing companies on limited budgets to expensive options. 
+The steps and solutions within are geared towards small to medium sized businesses whose needs in this space are lacking, though the concepts apply to organizations of all sizes. The key differences include recommendations opting more often for open source or economical tools where possible, instead of pushing companies on limited budgets to expensive options. 
 
 
 Every needed step, action, implementation and response is covered. 
 
 If you follow this playbook and adhere to its plan your company will be more secure and minimize losses from cyber attacks and incidents.
 
-The Playbook is organized with the first steps and highest priorities at the top, but in security as it's important to get "everything right" as it only takes a single angle of failure to cause harm, it is necessary to address every aspect of the playbook from top to bottom.
+The Playbook is organized with the first steps and highest priorities at the top, but because in security it's important to get "everything right" as it only takes a single angle of failure to cause harm, it is necessary to address every aspect of the playbook from top to bottom.
 
 We will highlight these main themes that your company must address:
 

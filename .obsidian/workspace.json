@@ -56,6 +56,20 @@
             }
           },
           {
+            "id": "3e1f5e33a0f4b6ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Protect/Identity and Access Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identity and Access Management"
+            }
+          },
+          {
             "id": "0e51771cf9156a48",
             "type": "leaf",
             "state": {
@@ -266,6 +280,20 @@
             }
           },
           {
+            "id": "38f2847a5d34354d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Protect/Protect Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Protect Overview"
+            }
+          },
+          {
             "id": "577a85d8c9b1e6e9",
             "type": "leaf",
             "state": {
@@ -433,7 +461,8 @@
               "title": "Understand the Current Threat Environment"
             }
           }
-        ]
+        ],
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -617,8 +646,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5faa40b8e68ac13c",
+  "active": "38f2847a5d34354d",
   "lastOpenFiles": [
+    "static/favicon.ico",
+    "Protect/Intrusion Prevention and Detection.md",
+    "Protect/Protect Overview.md",
+    "Protect/Endpoint Detection and Response.md",
+    "Protect/Backup Regimes.md",
+    "Protect/Identity and Access Management.md",
+    "Home.md",
+    "Start Here.md",
+    "_Commands to Push to Github.md",
     "Assess/Compliance and Contractual Requirements.md",
     "Assess/Understand the Current Threat Environment.md",
     "Assess/Current Security Posture.md",
@@ -630,21 +668,12 @@
     "Review/After Action Review.md",
     "Respond/Incident Response.md",
     "Recover/Test Backup Regime.md",
-    "Protect/Endpoint Detection and Response.md",
-    "Protect/Intrusion Prevention and Detection.md",
-    "Protect/Backup Regimes.md",
     "Identify/Identify Valuable Assets.md",
     "_Playbook Steps Overview.md",
     "_Steps.md",
-    "Start Here.md",
     "Review/index.md",
     "Respond/index.md",
     "Recover/index.md",
-    "Protect/index.md",
-    "Identify/index.md",
-    "Emergency Kit/Index.md",
-    "Educate/index.md",
-    "Detect/index.md",
     "Emergency Kit",
     "1250 x 483 Header 100 Point QA Checklist.jpg"
   ]
