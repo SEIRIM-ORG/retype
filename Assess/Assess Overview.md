@@ -1,5 +1,6 @@
 ---
-icon: clock
+icon: chevron-right
+order: 100
 ---
 
 Potential sections

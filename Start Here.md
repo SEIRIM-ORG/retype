@@ -1,6 +1,6 @@
 ---
 icon: arrow-right
-order: 200
+order: 2000
 ---
 The first thing to know about cybersecurity is that it's ongoing, time-consuming, and resource intensive - and worth it.
 
@@ -85,7 +85,7 @@ Tasks include:
 - Staff and suppliers who have access to what data and services
 - 
 
-[Identify your company's valuable assets ➝](Identify)
+[Identify your company's valuable assets ➝](Identify%20Valuable%20Assets.md)
 
 <br>
 <br>

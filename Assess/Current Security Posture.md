@@ -1,5 +1,5 @@
 ---
-icon: shield-lock
+icon: triangle-right
 ---
 
 First a crash course in security risks. 

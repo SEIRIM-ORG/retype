@@ -1,4 +1,4 @@
 ---
-icon: alert
-order: 70
+icon: shield-check
+order: 700
 ---

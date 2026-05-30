@@ -1,0 +1,128 @@
+{
+  "recentFiles": [
+    {
+      "basename": "_Commands to Push to Github",
+      "path": "_Commands to Push to Github.md"
+    },
+    {
+      "basename": "Compliance and Contractual Requirements",
+      "path": "Assess/Compliance and Contractual Requirements.md"
+    },
+    {
+      "basename": "Understand the Current Threat Environment",
+      "path": "Assess/Understand the Current Threat Environment.md"
+    },
+    {
+      "basename": "Current Security Posture",
+      "path": "Assess/Current Security Posture.md"
+    },
+    {
+      "basename": "Cybersecurity Maturity Assessment",
+      "path": "Assess/Cybersecurity Maturity Assessment.md"
+    },
+    {
+      "basename": "Conduct a Risk Assessment",
+      "path": "Assess/Conduct a Risk Assessment.md"
+    },
+    {
+      "basename": "Common Attack Types",
+      "path": "Assess/Common Attack Types.md"
+    },
+    {
+      "basename": "Gap Analysis",
+      "path": "Assess/Gap Analysis.md"
+    },
+    {
+      "basename": "Assess Overview",
+      "path": "Assess/Assess Overview.md"
+    },
+    {
+      "basename": "After Action Review",
+      "path": "Review/After Action Review.md"
+    },
+    {
+      "basename": "Incident Response",
+      "path": "Respond/Incident Response.md"
+    },
+    {
+      "basename": "Test Backup Regime",
+      "path": "Recover/Test Backup Regime.md"
+    },
+    {
+      "basename": "Endpoint Detection and Response",
+      "path": "Protect/Endpoint Detection and Response.md"
+    },
+    {
+      "basename": "Intrusion Prevention and Detection",
+      "path": "Protect/Intrusion Prevention and Detection.md"
+    },
+    {
+      "basename": "Backup Regimes",
+      "path": "Protect/Backup Regimes.md"
+    },
+    {
+      "basename": "Identify Valuable Assets",
+      "path": "Identify/Identify Valuable Assets.md"
+    },
+    {
+      "basename": "_Playbook Steps Overview",
+      "path": "_Playbook Steps Overview.md"
+    },
+    {
+      "basename": "_Steps",
+      "path": "_Steps.md"
+    },
+    {
+      "basename": "Start Here",
+      "path": "Start Here.md"
+    },
+    {
+      "basename": "index",
+      "path": "Review/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "Respond/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "Recover/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "Protect/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "Identify/index.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Emergency Kit/Index.md"
+    },
+    {
+      "basename": "index",
+      "path": "Educate/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "Detect/index.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "index",
+      "path": "Assess/index.md"
+    },
+    {
+      "basename": "_Kanban to-dos",
+      "path": "_Kanban to-dos.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

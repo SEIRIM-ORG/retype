@@ -1,4 +1,4 @@
 ---
 icon: bell
-order: 60
+order: 600
 ---
