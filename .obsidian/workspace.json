@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protect/Identity and Access Management.md",
+                "file": "3. Protect/Identity and Access Management.md",
                 "mode": "source",
                 "source": false
               },
@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Detect/index.md",
+                "file": "4. Detect/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -98,12 +98,40 @@
             }
           },
           {
+            "id": "72e278a093862b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Emergency Kit/Incident Response Toolkit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Incident Response Toolkit"
+            }
+          },
+          {
+            "id": "601548253378a79d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Emergency Kit/Unprepared Incident Response.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unprepared Incident Response"
+            }
+          },
+          {
             "id": "f85222749d22138a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Identify/index.md",
+                "file": "2. Identify/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -117,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protect/index.md",
+                "file": "3. Protect/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -131,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recover/index.md",
+                "file": "6. Recover/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -145,7 +173,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Respond/index.md",
+                "file": "5. Respond/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -159,7 +187,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Review/index.md",
+                "file": "7. Review/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,7 +201,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Educate/index.md",
+                "file": "8. Educate/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "e987e800b91f6703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worksheets/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -187,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assess/index.md",
+                "file": "1. Assess/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -243,12 +285,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Identify/Identify Valuable Assets.md",
+                "file": "2. Identify/Identify Physical Assets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identify Valuable Assets"
+              "title": "Identify Physical Assets"
+            }
+          },
+          {
+            "id": "23cb389056fbebc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worksheets/Further Reading.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Further Reading"
             }
           },
           {
@@ -257,7 +313,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protect/Backup Regimes.md",
+                "file": "3. Protect/Backup Regimes.md",
                 "mode": "source",
                 "source": false
               },
@@ -266,17 +322,129 @@
             }
           },
           {
+            "id": "91edfeeccf41af5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Detect/Detect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Detect"
+            }
+          },
+          {
+            "id": "b8137ec71be3ff53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Identify/Identify Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identify Overview"
+            }
+          },
+          {
+            "id": "3a0899773b02457b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Identify/Identify Dependencies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identify Dependencies"
+            }
+          },
+          {
+            "id": "2852d074f7514176",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Protect/Vulnerability Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vulnerability Management"
+            }
+          },
+          {
+            "id": "e14bacfb70862e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Protect/Systems Hardening.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Systems Hardening"
+            }
+          },
+          {
+            "id": "2ba0f93476abbd92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Identify/Identify Users and Accounts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identify Users and Accounts"
+            }
+          },
+          {
+            "id": "34e918e9c66d28d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Identify/Identify Apps and Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identify Apps and Services"
+            }
+          },
+          {
+            "id": "7560b83d4975eae0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Identify/Identify Data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identify Data"
+            }
+          },
+          {
             "id": "aa98cf034984e271",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protect/Intrusion Prevention and Detection.md",
+                "file": "4. Detect/Intrusion Detection and Prevention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrusion Prevention and Detection"
+              "title": "Intrusion Detection and Prevention"
             }
           },
           {
@@ -285,7 +453,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protect/Protect Overview.md",
+                "file": "3. Protect/Protect Overview.md",
                 "mode": "source",
                 "source": false
               },
@@ -299,7 +467,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protect/Endpoint Detection and Response.md",
+                "file": "4. Detect/Endpoint Detection and Response.md",
                 "mode": "source",
                 "source": false
               },
@@ -313,7 +481,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recover/Test Backup Regime.md",
+                "file": "6. Recover/Test Backup Regime.md",
                 "mode": "source",
                 "source": false
               },
@@ -327,7 +495,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Respond/Incident Response.md",
+                "file": "5. Respond/Incident Response.md",
                 "mode": "source",
                 "source": false
               },
@@ -341,7 +509,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Review/After Action Review.md",
+                "file": "7. Review/After Action Review.md",
                 "mode": "source",
                 "source": false
               },
@@ -355,7 +523,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assess/Assess Overview.md",
+                "file": "1. Assess/Assess Overview.md",
                 "mode": "source",
                 "source": false
               },
@@ -364,26 +532,12 @@
             }
           },
           {
-            "id": "935db835f6021de4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assess/Current Security Posture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Current Security Posture"
-            }
-          },
-          {
             "id": "7dffab6083b55102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assess/Common Attack Types.md",
+                "file": "1. Assess/Common Attack Types.md",
                 "mode": "source",
                 "source": false
               },
@@ -397,7 +551,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assess/Compliance and Contractual Requirements.md",
+                "file": "1. Assess/Compliance and Contractual Requirements.md",
                 "mode": "source",
                 "source": false
               },
@@ -411,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assess/Conduct a Risk Assessment.md",
+                "file": "1. Assess/Conduct a Risk Assessment.md",
                 "mode": "source",
                 "source": false
               },
@@ -425,26 +579,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assess/Cybersecurity Maturity Assessment.md",
+                "file": "1. Assess/Current Security Assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cybersecurity Maturity Assessment"
-            }
-          },
-          {
-            "id": "6ea2d53c45fff98c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assess/Gap Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gap Analysis"
+              "title": "Current Security Assessment"
             }
           },
           {
@@ -453,7 +593,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assess/Understand the Current Threat Environment.md",
+                "file": "1. Assess/Understand the Current Threat Environment.md",
                 "mode": "source",
                 "source": false
               },
@@ -462,7 +602,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -646,35 +786,40 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "38f2847a5d34354d",
+  "active": "3a0899773b02457b",
   "lastOpenFiles": [
-    "static/favicon.ico",
-    "Protect/Intrusion Prevention and Detection.md",
-    "Protect/Protect Overview.md",
-    "Protect/Endpoint Detection and Response.md",
-    "Protect/Backup Regimes.md",
-    "Protect/Identity and Access Management.md",
+    "2. Identify/Identify Users and Accounts.md",
+    "2. Identify/Identify Dependencies.md",
+    "1. Assess/Assess Overview.md",
+    "1. Assess/Current Security Assessment.md",
+    "1. Assess/Conduct a Risk Assessment.md",
+    "3. Protect/Identity and Access Management.md",
+    "3. Protect/Backup Regimes.md",
+    "2. Identify/Identify Apps and Services.md",
+    "4. Detect/Endpoint Detection and Response.md",
+    "3. Protect/Systems Hardening.md",
+    "3. Protect/Vulnerability Management.md",
+    "2. Identify/Identify Physical Assets.md",
+    "2. Identify/Identify Overview.md",
+    "3. Protect/index.md",
+    "4. Detect/Intrusion Detection and Prevention.md",
     "Home.md",
-    "Start Here.md",
-    "_Commands to Push to Github.md",
-    "Assess/Compliance and Contractual Requirements.md",
-    "Assess/Understand the Current Threat Environment.md",
+    "1. Assess/Common Attack Types.md",
     "Assess/Current Security Posture.md",
-    "Assess/Cybersecurity Maturity Assessment.md",
-    "Assess/Conduct a Risk Assessment.md",
-    "Assess/Common Attack Types.md",
     "Assess/Gap Analysis.md",
-    "Assess/Assess Overview.md",
-    "Review/After Action Review.md",
-    "Respond/Incident Response.md",
-    "Recover/Test Backup Regime.md",
-    "Identify/Identify Valuable Assets.md",
-    "_Playbook Steps Overview.md",
-    "_Steps.md",
-    "Review/index.md",
-    "Respond/index.md",
-    "Recover/index.md",
+    "1. Assess/Understand the Current Threat Environment.md",
+    "Assess/Understand Current Threats/index.md",
+    "Emergency Kit/Unprepared Incident Response.md",
+    "Assess/Understand Current Threats",
+    "Emergency Kit/Incident Response Toolkit.md",
+    "Emergency Kit/Index.md",
+    "Worksheets/index.md",
+    "8. Educate/index.md",
+    "Worksheets",
+    "x 483 Header 100 Point QA Checklist 1.jpg",
+    "static/seirim-logo-light.svg",
+    "static/favicon.ico",
     "Emergency Kit",
-    "1250 x 483 Header 100 Point QA Checklist.jpg"
+    "x 483 Header 100 Point QA Checklist.jpg"
   ]
 }

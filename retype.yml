@@ -4,7 +4,7 @@ output: .retype
 url: playbook.seirim.com # Use your website address here
 
 branding:
-  logo: static/seirim-logo.svg
+  logo: static/seirim-logo-light.svg
   logoDark: static/seirim-logo.svg
   favicon: static/favicon.ico
 

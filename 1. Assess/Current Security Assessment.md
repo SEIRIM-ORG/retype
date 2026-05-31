@@ -1,6 +1,9 @@
 ---
 icon: triangle-right
 ---
+## Cybersecurity Maturity Assessment and Gap Analysis
+
+
 
 First a crash course in security risks. 
 
@@ -98,3 +101,5 @@ Current-state assessment
 Risk register  
 Critical gaps list  
 Initial security priorities
+
+

@@ -1,28 +1,128 @@
 {
   "recentFiles": [
     {
-      "basename": "Protect Overview",
-      "path": "Protect/Protect Overview.md"
+      "basename": "Identify Dependencies",
+      "path": "2. Identify/Identify Dependencies.md"
     },
     {
-      "basename": "Intrusion Prevention and Detection",
-      "path": "Protect/Intrusion Prevention and Detection.md"
+      "basename": "Identify Users and Accounts",
+      "path": "2. Identify/Identify Users and Accounts.md"
     },
     {
-      "basename": "Endpoint Detection and Response",
-      "path": "Protect/Endpoint Detection and Response.md"
+      "basename": "Assess Overview",
+      "path": "1. Assess/Assess Overview.md"
     },
     {
-      "basename": "Backup Regimes",
-      "path": "Protect/Backup Regimes.md"
+      "basename": "Current Security Assessment",
+      "path": "1. Assess/Current Security Assessment.md"
+    },
+    {
+      "basename": "Conduct a Risk Assessment",
+      "path": "1. Assess/Conduct a Risk Assessment.md"
     },
     {
       "basename": "Identity and Access Management",
-      "path": "Protect/Identity and Access Management.md"
+      "path": "3. Protect/Identity and Access Management.md"
+    },
+    {
+      "basename": "Backup Regimes",
+      "path": "3. Protect/Backup Regimes.md"
+    },
+    {
+      "basename": "Identify Apps and Services",
+      "path": "2. Identify/Identify Apps and Services.md"
+    },
+    {
+      "basename": "Endpoint Detection and Response",
+      "path": "4. Detect/Endpoint Detection and Response.md"
+    },
+    {
+      "basename": "Systems Hardening",
+      "path": "3. Protect/Systems Hardening.md"
+    },
+    {
+      "basename": "Vulnerability Management",
+      "path": "3. Protect/Vulnerability Management.md"
+    },
+    {
+      "basename": "Identify Physical Assets",
+      "path": "2. Identify/Identify Physical Assets.md"
+    },
+    {
+      "basename": "Identify Overview",
+      "path": "2. Identify/Identify Overview.md"
+    },
+    {
+      "basename": "index",
+      "path": "3. Protect/index.md"
+    },
+    {
+      "basename": "Intrusion Detection and Prevention",
+      "path": "4. Detect/Intrusion Detection and Prevention.md"
     },
     {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "Common Attack Types",
+      "path": "1. Assess/Common Attack Types.md"
+    },
+    {
+      "basename": "Understand the Current Threat Environment",
+      "path": "1. Assess/Understand the Current Threat Environment.md"
+    },
+    {
+      "basename": "Unprepared Incident Response",
+      "path": "Emergency Kit/Unprepared Incident Response.md"
+    },
+    {
+      "basename": "Incident Response Toolkit",
+      "path": "Emergency Kit/Incident Response Toolkit.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Emergency Kit/Index.md"
+    },
+    {
+      "basename": "index",
+      "path": "Worksheets/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "8. Educate/index.md"
+    },
+    {
+      "basename": "Identify Data",
+      "path": "2. Identify/Identify Data.md"
+    },
+    {
+      "basename": "Further Reading",
+      "path": "Worksheets/Further Reading.md"
+    },
+    {
+      "basename": "Detect",
+      "path": "4. Detect/Detect.md"
+    },
+    {
+      "basename": "Backup Regimes",
+      "path": "03 Protect/Backup Regimes.md"
+    },
+    {
+      "basename": "Protect Overview",
+      "path": "03 Protect/Protect Overview.md"
+    },
+    {
+      "basename": "Intrusion Prevention and Detection",
+      "path": "03 Protect/Intrusion Prevention and Detection.md"
+    },
+    {
+      "basename": "Endpoint Detection and Response",
+      "path": "03 Protect/Endpoint Detection and Response.md"
+    },
+    {
+      "basename": "Identity and Access Management",
+      "path": "03 Protect/Identity and Access Management.md"
     },
     {
       "basename": "Start Here",
@@ -34,51 +134,19 @@
     },
     {
       "basename": "Compliance and Contractual Requirements",
-      "path": "Assess/Compliance and Contractual Requirements.md"
-    },
-    {
-      "basename": "Understand the Current Threat Environment",
-      "path": "Assess/Understand the Current Threat Environment.md"
-    },
-    {
-      "basename": "Current Security Posture",
-      "path": "Assess/Current Security Posture.md"
-    },
-    {
-      "basename": "Cybersecurity Maturity Assessment",
-      "path": "Assess/Cybersecurity Maturity Assessment.md"
-    },
-    {
-      "basename": "Conduct a Risk Assessment",
-      "path": "Assess/Conduct a Risk Assessment.md"
-    },
-    {
-      "basename": "Common Attack Types",
-      "path": "Assess/Common Attack Types.md"
-    },
-    {
-      "basename": "Gap Analysis",
-      "path": "Assess/Gap Analysis.md"
-    },
-    {
-      "basename": "Assess Overview",
-      "path": "Assess/Assess Overview.md"
+      "path": "1. Assess/Compliance and Contractual Requirements.md"
     },
     {
       "basename": "After Action Review",
-      "path": "Review/After Action Review.md"
+      "path": "7. Review/After Action Review.md"
     },
     {
       "basename": "Incident Response",
-      "path": "Respond/Incident Response.md"
+      "path": "5. Respond/Incident Response.md"
     },
     {
       "basename": "Test Backup Regime",
-      "path": "Recover/Test Backup Regime.md"
-    },
-    {
-      "basename": "Identify Valuable Assets",
-      "path": "Identify/Identify Valuable Assets.md"
+      "path": "06 Recover/Test Backup Regime.md"
     },
     {
       "basename": "_Playbook Steps Overview",
@@ -90,39 +158,31 @@
     },
     {
       "basename": "index",
-      "path": "Review/index.md"
+      "path": "7. Review/index.md"
     },
     {
       "basename": "index",
-      "path": "Respond/index.md"
+      "path": "5. Respond/index.md"
     },
     {
       "basename": "index",
-      "path": "Recover/index.md"
+      "path": "06 Recover/index.md"
     },
     {
       "basename": "index",
-      "path": "Protect/index.md"
+      "path": "03 Protect/index.md"
     },
     {
       "basename": "index",
-      "path": "Identify/index.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Emergency Kit/Index.md"
+      "path": "2. Identify/index.md"
     },
     {
       "basename": "index",
-      "path": "Educate/index.md"
+      "path": "4. Detect/index.md"
     },
     {
       "basename": "index",
-      "path": "Detect/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "Assess/index.md"
+      "path": "1. Assess/index.md"
     },
     {
       "basename": "_Kanban to-dos",

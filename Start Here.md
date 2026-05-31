@@ -14,7 +14,7 @@ All it takes is one serious attack or incident to cost or wipe out millions of d
 
 
 
-![[1250 x 483 Header Pros Cons Program Lang.jpg]]
+![[x 483 Header Pros Cons Program Lang.jpg]]
 
 
 <br>
@@ -46,7 +46,7 @@ From top to bottom, our SEIRIM playbook walks your company through all critical 
 
 
 
-![[1250 x 483 Header Image Mobile EDR.webp]]
+![[x 483 Header Image Mobile EDR.webp]]
 
 <br>
 <br>
@@ -85,7 +85,7 @@ Tasks include:
 - Staff and suppliers who have access to what data and services
 - 
 
-[Identify your company's valuable assets ➝](Identify%20Valuable%20Assets.md)
+[Identify your company's valuable assets ➝](Identify%20Physical%20Assets.md)
 
 <br>
 <br>
@@ -107,7 +107,7 @@ Some main tasks include:
 - Redundancy in Critical Systems - install redundant capabilities for every critical work task
 <br>
 <br>
-![[1250 x 483 Header 100 Point QA Checklist.jpg]]
+![[x 483 Header 100 Point QA Checklist.jpg]]
 
 <br>
 

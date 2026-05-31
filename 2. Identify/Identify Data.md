@@ -1,0 +1,299 @@
+---
+icon: triangle-right
+order: 90
+---
+## Goals
+
+Overall, organizations should identify, classify, handle, retain and dispose of data when required, prioritize sensitive data, establish and maintain a data inventory. To do this, companies act to identify all such data with a variety of methods we lay out.
+#### Identify:
+
+- What data the company holds
+- Where it lives 
+- Who owns it 
+- How sensitive it is 
+- How it moves 
+- Where it is copied or backed up 
+- Whether it is still needed
+
+## Main steps for identifying data
+
+### 1. Define what counts as company data
+
+Start by defining the data categories in scope. Do not only think about databases. SMEs usually lose visibility because data is scattered across email, shared drives, laptops, SaaS tools, exports, backups, old folders, and personal workarounds.
+
+**Include:**
+
+Customer data, employee data, supplier data, financial records, contracts, invoices, intellectual property, credentials, API keys, operational documents, business plans, regulated data, confidential files, emails, chat exports, backups, archives, and old project folders.
+
+Answer the key question: **What types of data does the company create, receive, process, store, share, or archive?**
+
+### 2. Identify all data locations
+
+Next, list where data lives. This should include structured and unstructured repositories.
+
+Common locations:
+
+File servers, SharePoint, OneDrive, Google Drive, Dropbox, Nextcloud, local laptops, email inboxes, CRM, ERP, accounting software, HR systems, ticketing tools, databases, cloud storage buckets, SaaS apps, backup platforms, Git repositories, external drives, NAS devices, and archived folders.
+
+Answer the key question: **Where is our sensitive and business-critical data stored today?**
+
+This is where most weak inventories fail. They list “customer database” and forget the exported spreadsheet sitting in someone’s Downloads folder.
+
+### 3. Define a simple data classification model
+
+Before scanning or cataloging, define classification levels. Keep it simple enough that employees can use it.
+
+A practical SME model:
+
+**Public** — safe for public release.  
+**Internal** — normal business information not meant for public release.  
+**Confidential** — sensitive business, customer, employee, financial, contractual, or operational data.  
+**Restricted** — regulated, high-risk, credential-related, security-sensitive, legal, or highly confidential data.
+
+Answer the key question:
+
+**How sensitive is this data if leaked, lost, altered, or exposed to the wrong person?**
+
+Do not over-engineer this. A 12-level classification scheme will die in real operations.
+
+### 4. Create the data inventory record
+
+For each data set or major data location, capture a standard set of fields.
+
+Minimum useful fields:
+
+Data name, data category, description, location, system or repository, owner, department, users/groups with access, sensitivity level, regulated status, source, format, retention requirement, backup location, third-party sharing, business purpose, last reviewed date, and status.
+
+For example:
+
+Customer contracts  
+Location: SharePoint / Legal / Contracts  
+Owner: Legal Manager  
+Classification: Confidential  
+Contains: customer names, signatures, pricing, service terms  
+Access: Legal, Sales leadership, Finance  
+Retention: 7 years after contract end  
+Backed up: Microsoft 365 backup provider  
+Last reviewed: May 2026
+
+Answer the key question:
+
+**Can someone understand what this data is, where it lives, who owns it, and why it exists without asking five people?**
+
+### 5. Discover and scan the data
+
+Use a combination of manual review, repository exports, search, metadata tools, and automated scanning.
+
+Methods include:
+
+Export folder structures from file shares.  
+Review SharePoint, OneDrive, Google Drive, and SaaS admin consoles.  
+Scan databases and data warehouses.  
+Search for sensitive patterns such as ID numbers, payment card numbers, tax IDs, health data, employee records, and credentials.  
+Scan Git repositories for secrets.  
+Review backup indexes and archive folders.  
+Check cloud storage buckets and object stores.
+
+Answer the key question:
+
+**What data can we actually prove exists through scanning, system exports, or repository review?**
+
+### 6. Catalog and classify the data
+
+After discovery, consolidate findings into your central data inventory or data catalog. Assign each data set a category, classification level, owner, and business purpose.
+
+This step should identify:
+
+Sensitive data, regulated data, confidential business files, intellectual property, credentials, duplicate copies, stale data, orphaned data, and data with unclear ownership.
+
+Answer the key question:
+
+**What is this data, how sensitive is it, and who is accountable for it?**
+
+### 7. Map data flows and copies
+
+This is the step that turns a data inventory into a useful data map.
+
+Track:
+
+Where the data comes from.  
+Where it is stored.  
+Which systems process it.  
+Who accesses it.  
+Which vendors receive it.  
+Where it is exported.  
+Where it is backed up.  
+Where old copies may exist.
+
+Answer the key question:
+
+**Where does this data move, and where are the copies?**
+
+This matters because data risk rarely sits only in the original system. It often sits in exports, reports, attachments, backups, and shared folders.
+
+### 8. Identify unmanaged, stale, duplicate, and high-risk data
+
+Flag data that should be reviewed.
+
+Examples:
+
+Old employee records with no owner.  
+Customer exports stored on desktops.  
+Credentials inside spreadsheets or code repositories.  
+Financial records in personal cloud folders.  
+Old backups with unclear retention.  
+Duplicate contract folders.  
+Archived data nobody can justify keeping.  
+Publicly shared links containing confidential files.
+
+Answer the key question:
+
+**Which data exists outside proper ownership, classification, retention, or access control?**
+
+This is still part of Identify. You are not yet fixing everything. You are exposing what exists.
+
+### 9. Validate with business owners
+
+Send the inventory to department owners for confirmation.
+
+Ask:
+
+Is this data still used?  
+Who owns it?  
+Who needs access?  
+Is the classification correct?  
+Is the retention period correct?  
+Is it stored in the correct place?  
+Is anything missing?
+
+Answer the key question:
+
+**Can the business owner confirm that this data record is accurate and still needed?**
+
+### 10. Maintain the data inventory
+
+Data identification is not a one-time cleanup. It needs triggers.
+
+Update the inventory when:
+
+A new system is added.  
+A new SaaS tool is approved.  
+A new data type is collected.  
+A vendor starts receiving company data.  
+A database, shared drive, or cloud storage bucket is created.  
+A major report/export process is introduced.  
+A system is retired.  
+A backup location changes.  
+A department changes its process.
+
+Minimum cadence:
+
+Quarterly review for sensitive data.  
+Annual review for the full data inventory.  
+Immediate update when new high-risk data or systems are introduced.
+
+CIS specifically recommends reviewing and updating the data inventory annually at minimum, with priority on sensitive data. ([CIS Controls](https://cas.docs.cisecurity.org/en/latest/source/Controls3/?utm_source=chatgpt.com "CIS Control 3: Data Protection"))
+
+## Recommended open-source or lower-cost tools
+
+|Tool|Best use|Why it fits|Watch-out|
+|---|---|---|---|
+|**OpenMetadata**|Central data catalog for databases, dashboards, pipelines, containers, topics, and data assets|OpenMetadata is an open-source metadata platform for data discovery, governance, observability, lineage, ownership, tags, glossaries, and policies. It has many connectors and is strong if the company has databases, BI tools, or cloud data systems. ([OpenMetadata](https://open-metadata.org/?utm_source=chatgpt.com "OpenMetadata: #1 Open Source Metadata Platform"))|Better for structured/technical data environments than random office documents.|
+|**DataHub**|Data catalog and metadata platform|DataHub is an open-source data catalog originally built at LinkedIn. It supports data discovery, governance, and observability across data ecosystems. ([GitHub](https://github.com/datahub-project/datahub?utm_source=chatgpt.com "datahub-project/datahub: The Context Platform for your ..."))|More technical. Good for data teams, less ideal for a very small business with only shared drives.|
+|**Apache Atlas**|Metadata governance, classification, and lineage|Apache Atlas provides open metadata management and governance capabilities to build catalogs of data assets. It supports classification and lineage, especially in more complex data environments. ([Apache Atlas](https://atlas.apache.org/?utm_source=chatgpt.com "Apache Atlas – Data Governance and Metadata framework for ..."))|Heavier and more enterprise/data-platform oriented. Not my first SME choice unless they have data engineering capability.|
+|**Apache Tika**|Extracting text and metadata from documents before scanning|Tika detects and extracts text and metadata from over a thousand file types, including PDFs, spreadsheets, presentations, and documents. ([Apache Tika](https://tika.apache.org/?utm_source=chatgpt.com "Apache Tika – Apache Tika"))|It extracts content; it does not classify business sensitivity by itself. Pair it with Presidio or custom rules.|
+|**Microsoft Presidio**|PII and sensitive data detection|Presidio is an open-source framework for detecting, redacting, masking, and anonymizing sensitive data across text, images, and structured data. It can detect entities like names, locations, credit card numbers, financial data, phone numbers, and more. ([Microsoft GitHub](https://microsoft.github.io/presidio/?utm_source=chatgpt.com "Presidio: Data Protection and De-identification SDK"))|Requires technical setup. False positives and false negatives still need human review.|
+|**Gitleaks**|Finding exposed credentials in code and files|Gitleaks detects secrets such as passwords, API keys, and tokens in Git repositories, files, directories, and input streams. ([GitHub](https://github.com/gitleaks/gitleaks?utm_source=chatgpt.com "Find secrets with Gitleaks"))|Good for detection, not credential management. Findings need verification and remediation.|
+|**TruffleHog**|Finding and verifying leaked secrets|TruffleHog scans for secrets across Git, chats, wikis, logs, object stores, filesystems, and more. It also emphasizes secret validation and classification. ([GitHub](https://github.com/trufflesecurity/trufflehog?utm_source=chatgpt.com "trufflesecurity/trufflehog: Find, verify, and analyze leaked ..."))|More powerful, but still noisy. Needs process ownership so findings do not get ignored.|
+|**CloudQuery**|Cloud data-location and cloud resource inventory|CloudQuery can sync cloud infrastructure metadata into a data warehouse and unify asset/configuration context across AWS, Azure, GCP, and many cloud/SaaS sources. ([GitHub](https://github.com/cloudquery/cloudquery?utm_source=chatgpt.com "cloudquery/cloudquery: Data pipelines for cloud config ..."))|It identifies cloud resources and metadata; it does not automatically understand every file’s business meaning.|
+|**Steampipe**|Querying cloud/SaaS/storage metadata using SQL|Steampipe lets teams query cloud APIs and services using SQL through plugins. This is useful for locating storage buckets, databases, repositories, and cloud resources that may contain data. ([Steampipe \| select * from cloud;](https://steampipe.io/?utm_source=chatgpt.com "Steampipe \| select * from cloud;"))|Better for technical teams. It is a query tool, not a polished data catalog.|
+|**Prowler**|Cloud security and compliance visibility|Prowler is an open-source cloud security platform for automated security and compliance across cloud environments. It supports AWS, Azure, GCP, Kubernetes, and other environments. ([GitHub](https://github.com/prowler-cloud/prowler?utm_source=chatgpt.com "Prowler is the world's most widely used open-source cloud ..."))|Better for exposure and configuration visibility than business data classification.|
+|**Scout Suite**|Multi-cloud auditing|Scout Suite is an open-source multi-cloud auditing tool that gathers configuration data via cloud-provider APIs and highlights risk areas for manual inspection. ([GitHub](https://github.com/nccgroup/scoutsuite?utm_source=chatgpt.com "nccgroup/ScoutSuite: Multi-Cloud Security Auditing Tool"))|Useful for finding exposed cloud data locations, but not a full data inventory platform.|
+|**Nextcloud Files**|Self-hosted file storage and sharing|Nextcloud Files provides open-source file storage, sharing, collaboration, desktop/mobile access, and control over where data is hosted. ([Nextcloud](https://nextcloud.com/files/?utm_source=chatgpt.com "Nextcloud Files - Open source file sync and share platform"))|It helps organize data going forward; it will not automatically classify legacy sprawl.|
+|**Paperless-ngx**|Scanned documents, contracts, receipts, archives|Paperless-ngx is an open-source document management system that turns physical documents into a searchable online archive. It includes tags, correspondents, document types, saved views, workflows, mail accounts, and mail rules. ([Paperless-ngx](https://docs.paperless-ngx.com/?utm_source=chatgpt.com "Paperless-ngx: Home"))|Good for document archives, not databases or cloud platforms.|
+|**Bitwarden Business**|Credential inventory and secure credential storage|Bitwarden is open source and offers business plans; its Teams plan is listed at $4/user/month and Enterprise at $6/user/month. ([Bitwarden](https://bitwarden.com/pricing/business/?utm_source=chatgpt.com "Bitwarden Business Password Manager Pricing"))|Use it to manage credentials, not to discover every exposed credential. Pair with Gitleaks or TruffleHog.|
+|**Passbolt**|Team password and credential collaboration|Passbolt is an open-source password manager built for teams and credential sharing. Its self-hosted business plan is listed at €4.5/user/month billed annually, minimum 10 users. ([Passbolt](https://www.passbolt.com/?utm_source=chatgpt.com "Passbolt: Open Source Password Manager for Teams"))|Better for technical teams and shared credentials. Requires disciplined group/permission setup.|
+|**Microsoft Purview**|Microsoft 365 data discovery, classification, retention, DLP|If the company already uses Microsoft 365 Business Premium or related licensing, Purview may be practical because Microsoft describes Purview capabilities for identifying, classifying, protecting, retaining, deleting, and governing sensitive data across Microsoft 365 and related environments. ([Microsoft](https://www.microsoft.com/en-us/security/small-medium-business/microsoft-purview-suite-business-premium?utm_source=chatgpt.com "Microsoft Purview Suite for Microsoft 365 Business Premium"))|Not open source, and licensing is confusing. Use it if the business already pays for Microsoft 365 capabilities.|
+|**Google Vault**|Google Workspace retention, search, export, and eDiscovery|Google Vault lets organizations retain, search, and export data from selected Google Workspace apps in Business and Enterprise editions. ([Google Workspace](https://workspace.google.com/products/vault/?utm_source=chatgpt.com "Google Vault: Data Loss Prevention & Retention"))|It is retention/eDiscovery, not a complete data classification platform. Useful if the SME already lives in Google Workspace.|
+
+## Best practical SME stack
+
+### For a small business with limited IT resources:
+
+- **Core record:** Spreadsheet, GLPI, Snipe-IT custom fields, OpenMetadata, or DataHub depending on maturity.  
+- **File/document organization:** Nextcloud or Microsoft 365/Google Workspace native storage.  
+- **Document archive:** Paperless-ngx for scanned contracts, invoices, and archived business documents.  
+- **Sensitive data scanning:** Apache Tika + Microsoft Presidio.  
+- **Credential discovery:** Gitleaks or TruffleHog.  
+- **Credential management:** Bitwarden or Passbolt.  
+- **Cloud data-location discovery:** CloudQuery or Steampipe.  
+- **Microsoft/Google environments:** Use Purview or Google Vault if already licensed.
+
+### The simplest realistic stack for an SME would be:
+
+- **Spreadsheet or GLPI for the data inventory + Nextcloud or Microsoft/Google storage + Paperless-ngx for archives + Gitleaks for secrets + Presidio/Tika for sensitive-data scanning.**
+
+### For a more technical SME:
+
+- **OpenMetadata + CloudQuery + Presidio/Tika + TruffleHog + Bitwarden/Passbolt.**
+
+## Data inventory fields to include
+
+For each data set or data repository, record:
+
+- Data name  
+- Data category  
+- Business purpose  
+- System or storage location  
+- Data owner  
+- Technical owner  
+- Department  
+- Sensitivity classification  
+- Regulated data type, if any  
+- User groups with access  
+- Source of data  
+- Downstream systems or exports  
+- Third-party sharing  
+- Backup location  
+- Retention period  
+- Archive status  
+- Last reviewed date  
+- Review owner  
+- Status: active, archived, stale, duplicate, unknown, pending review, or approved
+
+## Steps in Summary
+
+**Identify Data Process**
+
+1. Define data categories and classification levels.
+    
+2. Identify all locations where company data may exist.
+    
+3. Create a standard data inventory record.
+    
+4. Discover data through system exports, repository review, scanning, and owner interviews.
+    
+5. Scan for sensitive data, regulated data, credentials, and confidential files.
+    
+6. Catalog each data set with owner, location, purpose, sensitivity, access, retention, and backup details.
+    
+7. Map data flows, copies, exports, vendor sharing, and backup locations.
+    
+8. Flag unmanaged, duplicate, stale, orphaned, overexposed, or unknown data.
+    
+9. Validate the inventory with business and technical owners.
+    
+10. Maintain the inventory through change triggers and periodic review.
+    
+
+## Goals in Summary
+
+A mature company will have a firm knowledge base of: 
+
+- Where customer data lives
+- Where employee data lives
+- Where credentials are stored 
+- Where backups are kept and 
+- Who owns each data set 
+
+This key oversight thus enables the digital assets to be properly protected.

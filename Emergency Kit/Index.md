@@ -1,4 +1,4 @@
 ---
 icon: alert
-order: 50
+order: 30
 ---

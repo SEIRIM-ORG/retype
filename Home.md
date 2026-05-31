@@ -5,7 +5,7 @@ order: 10000
 
 
 
-![[1250 x 483 Header Annual Reports.jpg]]
+![[x 483 Header Annual Reports.jpg]]
 
 
 

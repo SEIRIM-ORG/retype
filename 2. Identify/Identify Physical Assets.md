@@ -1,0 +1,257 @@
+---
+icon: triangle-right
+order: 80
+---
+This covers the physical and virtual things the company owns or uses.
+
+Include:
+
+Physical devices, laptops, desktops, servers, mobile devices, printers, routers, switches, firewalls, IoT devices, cloud infrastructure, virtual machines, and storage systems.
+
+Core question:
+
+**What technology assets exist, where are they, who owns them, and are they still in use?**
+
+This is the foundation. If the company does not know what exists, it cannot protect it properly.
+
+For **Identify Assets**, the process should be a disciplined inventory workflow, not a vague “make a list” exercise.
+
+The goal is to discover, record, verify, assign ownership, and continuously update all physical, virtual, remote, and cloud assets used by the business. 
+
+Organizations should actively manage, inventory, track, and correct enterprise assets across physical, virtual, remote, and cloud environments. NIST CSF 2.0 also keeps asset inventories under Identify / Asset Management, including hardware, software, services, and systems. ([CIS](https://www.cisecurity.org/controls/inventory-and-control-of-enterprise-assets?utm_source=chatgpt.com "CIS Control 1: Inventory and Control of Enterprise Assets"))
+
+## Main steps in the Identify Assets process
+
+### 1. Define the asset scope
+
+First, define what counts as an asset. This prevents the team from only listing laptops and forgetting routers, cloud servers, virtual machines, storage buckets, backup devices, IoT devices, and remote endpoints.
+
+For this section, asset scope should include:
+
+Physical devices, servers, laptops, desktops, mobile devices, printers, routers, switches, firewalls, access points, IoT devices, virtual machines, cloud resources, storage systems, backup systems, and unmanaged or unknown devices found on the network.
+
+The key question:
+
+**What physical, virtual, cloud, and network-connected assets exist in or touch the company environment?**
+
+### 2. Choose the asset inventory record
+
+Before discovery, define the minimum information each asset record must contain. Otherwise, the inventory becomes inconsistent and useless.
+
+Minimum fields should include:
+
+Asset name, asset type, serial number or unique ID, owner, assigned user, department, location, IP address or hostname, operating system or firmware, business purpose, status, purchase date, warranty or support status, and whether the asset is approved or unauthorized.
+
+For cloud and virtual assets, include:
+
+Cloud provider, account/subscription/project, region, resource ID, resource type, workload name, owner, environment, and business function.
+
+The key question:
+
+**What information must be captured so this asset can be identified, owned, and managed later?**
+
+### 3. Discover existing assets
+
+Next, collect the actual asset data. Do not rely only on memory or spreadsheets. That is how companies miss shadow IT and forgotten systems.
+
+Use multiple discovery methods:
+
+Manual review of purchase records, employee equipment lists, network scans, endpoint agents, MDM tools, cloud inventory exports, virtualization platform exports, firewall/router logs, DHCP records, Wi-Fi controller records, and SaaS/admin console exports.
+
+For SMEs, this may be simple at first:
+
+Start with accounting/purchase records, router/DHCP device lists, Microsoft 365/Google Workspace admin devices, cloud provider resource lists, and endpoint security dashboards.
+
+The key question:
+
+**What assets can we prove exist from actual records, tools, scans, or system exports?**
+
+### 4. Normalize and deduplicate the inventory
+
+Raw discovery data will be messy. The same laptop might appear in the antivirus console, Microsoft account list, DHCP logs, and purchasing records. You need one clean record per asset.
+
+This step should standardize naming conventions, remove duplicates, merge partial records, and assign a consistent asset ID.
+
+Example:
+
+`LAPTOP-FIN-003`  
+`SERVER-APP-001`  
+`FW-MAIN-OFFICE-001`  
+`AWS-EC2-PROD-WEB-001`
+
+The key question:
+
+**Is each asset represented once, clearly, and consistently?**
+
+### 5. Assign ownership and business purpose
+
+Every asset needs an accountable owner. “IT owns everything” is lazy and usually false. IT may manage the device, but the business owner may be finance, sales, operations, HR, or leadership.
+
+Capture two types of ownership:
+
+The **technical owner** responsible for support and maintenance.
+
+The **business owner** responsible for why the asset exists and what process it supports.
+
+The key question:
+
+**Who is responsible for this asset, and what business function does it support?**
+
+This is where the inventory starts becoming useful. A list of devices is weak. A list of assets tied to people, departments, and business functions is operationally valuable.
+
+### 6. Identify asset location and exposure
+
+For each asset, record where it exists and how it connects.
+
+For physical devices:
+
+Office, home, branch site, data center, storage room, employee location, or mobile/remote.
+
+For networked assets:
+
+Internal only, VPN-accessible, Wi-Fi-connected, internet-facing, third-party-connected, cloud-hosted, or segmented network zone.
+
+For cloud assets:
+
+Provider, account, region, VPC/VNet, public/private exposure, and workload environment.
+
+The key question:
+
+**Where is the asset, and how can it be reached?**
+
+This matters because an internet-facing server and an offline spare laptop are not the same kind of asset operationally, even if both are listed in the inventory.
+
+### 7. Flag unknown, unauthorized, stale, and unmanaged assets
+
+This is the cleanup step. The process should not only identify approved assets. It should also expose assets that should not exist or are no longer properly managed.
+
+Flag assets as:
+
+Approved, pending review, unknown, unauthorized, retired, lost, stolen, unmanaged, duplicate, or inactive.
+
+Examples:
+
+A former employee’s laptop still active in Microsoft Entra ID.  
+A Wi-Fi device with no known owner.  
+A cloud VM created outside the approved process.  
+A router or printer with outdated ownership records.  
+A server that is still running but no department claims it.
+
+The key question:
+
+**Which assets are not properly known, owned, approved, or managed?**
+
+This is where Identify starts creating real value. Unknown assets are often where security gaps hide.
+
+### 8. Validate the inventory with business and technical owners
+
+Do not assume the first version is correct. Send the inventory to department heads, IT, finance, operations, and system owners for verification.
+
+Ask them to confirm:
+
+Is this asset still in use?  
+Who uses it?  
+Who owns it?  
+What business process depends on it?  
+Should it remain active?  
+Is anything missing?
+
+The key question:
+
+**Can the people closest to the asset confirm that this record is accurate?**
+
+Without validation, the inventory is just a rough guess with nicer formatting.
+
+### 9. Create an update and review cycle
+
+Asset identification is not a one-time project. New assets appear every month. Employees join and leave. Cloud resources are created and forgotten. Devices break, move, or get replaced.
+
+Define update triggers:
+
+New purchase, new hire, employee exit, device replacement, cloud resource creation, office move, vendor onboarding, system retirement, lost/stolen device, and quarterly inventory review.
+
+For SMEs, a practical cadence is:
+
+Monthly quick review for new/changed assets.  
+Quarterly full reconciliation.  
+Immediate update when an asset is purchased, assigned, retired, lost, or exposed to the internet.
+
+The key question:
+
+**How do we keep the inventory accurate after the first version is built?**
+
+## Process Summary
+
+
+**Identify Assets Process**
+
+1. Define which physical, virtual, cloud, and network-connected assets are in scope.
+    
+2. Define the required inventory fields for each asset type.
+    
+3. Discover assets using records, scans, admin consoles, cloud exports, and endpoint tools.
+    
+4. Normalize, deduplicate, and assign unique asset IDs.
+    
+5. Assign technical owner, business owner, location, user, and business purpose.
+    
+6. Record connectivity, hosting environment, and exposure level.
+    
+7. Flag unknown, unauthorized, stale, retired, unmanaged, or duplicate assets.
+    
+8. Validate the inventory with asset owners and department leads.
+    
+9. Maintain the inventory through update triggers and regular review cycles.
+    
+
+
+
+## Software Recommendations
+
+
+Find, catalog, assign ownership, and keep current records of every physical, virtual, cloud, and network-connected asset that could store, process, transmit, or provide access to company data.
+
+Here are the strongest open-source or lower-cost options we at SEIRIM would consider:
+
+|Tool|Best for|Why it fits|Watch-out|
+|---|---|---|---|
+|**Snipe-IT**|Core IT asset register for laptops, desktops, phones, monitors, accessories, licenses|Very good SME-friendly “source of record” for assigned assets, ownership, check-in/check-out, serials, locations, users, and lifecycle. Self-hosted is free; hosted plans are available, with Basic Hosting shown at $39.99/month and no max asset/user cap on listed plans. ([Snipe-IT](https://snipeitapp.com/pricing "Pricing - Snipe-IT Free open source IT asset management"))|Not a discovery engine. Use it to organize assets, not to automatically find everything.|
+|**GLPI**|All-in-one ITSM + asset management + CMDB|Stronger than Snipe-IT if the company also wants helpdesk, tickets, inventory, CMDB, data center management, dynamic inventory, and mobile device management in one ecosystem. GLPI lists asset management, CMDB, data center management, dynamic inventory, monitoring, and MDM among its capabilities. ([www.glpi-project.org](https://www.glpi-project.org/en/ "Smart IT Service Management, Helpdesk & Asset Tracking \| GLPI"))|More complex than Snipe-IT. Good if the SME has someone responsible for IT operations. Overkill for a tiny company.|
+|**OCS Inventory NG**|Agent-based computer/server inventory|Good for automatically collecting hardware and software inventory from machines. OCS uses agents installed on machines and sends information to a central server, and it lists asset scanning, inventory, remote deployment, and connections to GLPI/CMDBuild/iTop. ([OCS Inventory](https://www.ocsinventory-ng.com/en "The open source reference for IT asset inventory \| Ocs Inventory"))|Best for endpoints and servers. It will not be your clean business-facing asset register by itself.|
+|**Open-AudIT**|Network discovery and device inventory|Strong choice for discovering what is actually on the network. Its free plan lists unlimited devices, agentless discovery via SNMP/WMI/SSH, hardware/software inventory, database/web/file-share discovery, configuration change detection, and CSV/XML/JSON exports. ([Open-AudIT](https://open-audit.com/pricing/ "Open-AudIT pricing: free, professional and enterprise plans"))|More discovery/audit oriented than lifecycle/custody oriented. Pair it with Snipe-IT, GLPI, or a CMDB.|
+|**NetBox**|Network source of truth, IPAM, DCIM, virtual infrastructure|Excellent for routers, switches, firewalls, racks, circuits, IPs, VLANs, sites, devices, and virtual assets. NetBox positions itself as a central source of truth and explicitly supports physical assets, virtual assets, IPs/VLANs, DCIM, and IP address management. ([NetBox Labs](https://netboxlabs.com/products/netbox/ "World’s Leading Network Source of Truth (NSoT) \| NetBox Labs"))|It is not primarily an auto-discovery scanner. It becomes powerful when maintained or integrated with discovery tools.|
+|**phpIPAM**|Lightweight IP address and subnet management|Good budget tool for tracking IP addresses, subnets, VLANs, VRFs, device types, locations, and IP status scans. It supports IPv4/IPv6, subnet management, VLAN management, device/device type management, REST API, and custom fields. ([phpIPAM](https://phpipam.net/documents/features/ "Feature list"))|Narrower than NetBox. Good for IPAM, not full asset management.|
+|**Netdisco**|Network device discovery and switch-port visibility|Useful for identifying network devices and where endpoints are connected. Netdisco collects IP and MAC data using SNMP, CLI, or device APIs and stores it in PostgreSQL. ([Welcome to Netdisco!](https://netdisco.org/ "Welcome to Netdisco! \| Netdisco is a web-based network management tool suitable for small to very large networks. IP and MAC address data is collected into a PostgreSQL database using SNMP, CLI, or device APIs."))|More technical. Best for network admins, not general office asset tracking.|
+|**Wazuh**|Security-oriented endpoint inventory|Wazuh is an open-source XDR/SIEM platform, but its agent also collects useful endpoint inventory: hardware, OS, installed software, network interfaces, ports, running processes, browser extensions, services, users, and groups. ([Wazuh](https://wazuh.com/ "Wazuh - Open Source XDR. Open Source SIEM.")) ([Wazuh Documentation](https://documentation.wazuh.com/current/user-manual/capabilities/system-inventory/index.html "System inventory - Capabilities · Wazuh documentation"))|Do not treat it as the main asset database. It is better as a security telemetry and endpoint inventory source.|
+|**Fleet**|Modern endpoint inventory and device management|Strong for companies managing macOS, Windows, Linux, iOS, and Android. Fleet lists device inventory in both Free and Premium tiers, with Free at $0/host/month and Premium listed at $7/host/month. ([FleetDM](https://fleetdm.com/pricing "Fleet \| Pricing"))|Better for endpoint/device management than fixed asset custody. Pair with an asset register.|
+|**CloudQuery**|Cloud asset inventory across AWS, Azure, GCP|Good for cloud infrastructure visibility. CloudQuery’s asset inventory creates a unified view of cloud resources across connected integrations, including AWS, GCP, Azure, and other synced providers, with consistent schemas and searchable attributes. ([CloudQuery](https://www.cloudquery.io/docs/platform/features/asset-inventory "Asset Inventory \| CloudQuery"))|Cloud-focused. It will not manage laptops, printers, or physical routers.|
+|**Steampipe**|Querying cloud and SaaS assets using SQL|Useful for technical teams that want to query cloud metadata directly. Steampipe provides SQL-based querying across APIs, code, cloud services, and more, with 150+ plugins and use cases like finding open security groups, missing tags, and unused storage volumes. ([Steampipe \| select * from cloud;](https://steampipe.io/ "Steampipe \| select * from cloud;"))|It is more of a query/investigation tool than a polished asset management platform.|
+|**Ralph**|Data center + back-office asset management|Good if the company has servers, racks, data center rooms, laptops, desktops, printers, phones, licenses, vendor contracts, domains, and support contracts to track. Ralph’s documentation explicitly covers those asset types. ([Ralph](https://ralph-ng.readthedocs.io/en/stable/user/quickstart/ "Quickstart - Ralph Asset Management System"))|Less mainstream than Snipe-IT/GLPI. Better for infrastructure-heavy teams.|
+|**CMDBuild**|Custom CMDB and asset management workflows|Strong if the company wants a configurable open-source CMDB. CMDBuild lets organizations build custom CMDBs, workflows, reports, dashboards, scheduled operations, document management, maps, 3D models, and web-service integrations. ([CMDBuild](https://www.cmdbuild.org/en/homepage "Home — CMDBuild"))|Powerful but heavy. Bad choice if the SME just needs quick inventory discipline.|
+|**Lansweeper**|Commercial low-friction discovery and inventory|Not open-source, but worth listing because it is widely used for automated discovery. Its free option continues up to 100 assets, and the Starter plan includes 2,000 assets, with asset discovery and inventory. ([Lansweeper](https://www.lansweeper.com/pricing/ "Pricing & Plans - Lansweeper"))|Not cheap compared with self-hosted open source. Use when time is more expensive than licensing.|
+|**Shelf**|Simple equipment tracking and custody|Useful for tracking physical equipment, bookings, custody, QR labels, and locations. Shelf describes itself as open-source asset management for tracking gear and preventing double bookings, with a free-forever option. ([Shelf](https://www.shelf.nu/ "Open Source Asset Management Software — Free for Teams \| Shelf Asset Management"))|Better for equipment custody than cybersecurity-grade network discovery.|
+
+### Our practical recommendations:
+
+- For a **basic SME**, use **Snipe-IT + Open-AudIT**. Snipe-IT becomes the human-readable asset register. Open-AudIT helps discover what is actually connected.
+
+- For an SME with an internal IT person, use **GLPI + OCS Inventory NG**. GLPI gives asset management, CMDB, helpdesk, and workflow. OCS feeds inventory data.
+
+- For a network-heavy company, add **NetBox** or **phpIPAM**. NetBox is stronger if they need a proper source of truth for network infrastructure; phpIPAM is enough if they mainly need IP/subnet discipline.
+
+- For a cloud-heavy company, add **CloudQuery** or **Steampipe**. CloudQuery is better for building a recurring cloud asset inventory. Steampipe is better for technical investigation and SQL-style querying.
+
+- For endpoint security visibility, add **Wazuh** or **Fleet**. Wazuh is stronger if the company also wants open-source SIEM/XDR capability. Fleet is stronger if the priority is modern device management and endpoint inventory.
+
+
+### For a SME if we had to narrow it down more quickly:
+
+
+- **System of record:** Snipe-IT, GLPI, NetBox, or CMDBuild  
+- **Discovery source:** Open-AudIT, OCS Inventory, Netdisco, Wazuh, Fleet, CloudQuery, or Steampipe  
+- **Review process:** monthly reconciliation between discovered assets and approved asset records
+
+
+### Summary
+
+The company should maintain an asset inventory using a central asset register supported by automated discovery tools. The inventory should include physical devices, virtual assets, cloud resources, network equipment, storage systems, software, ownership, location, business function, lifecycle status, and whether each asset is approved for company use.

@@ -1,0 +1,416 @@
+---
+icon: triangle-right
+---
+**Task:**
+
+- List the software, SaaS tools, platforms, databases, websites, APIs, and cloud services the company relies on. 
+- This helps expose shadow IT, forgotten systems, duplicate tools, and business-critical platforms that may not be formally tracked.
+
+
+## Goals
+
+
+Identify every application, platform, SaaS tool, cloud service, internal system, API, database, infrastructure service, and vendor-managed service the company depends on, then record who owns it, what it supports, where it runs, what data it touches, and what it connects to.
+
+To better secure the organization, the cybersecurity teams needs to be actively managing software assets so authorized software is known and unauthorized or unmanaged software can be found. In our paradigm this is **visibility** that bolsters our risk assessments and protection design.
+
+## Main steps in the process
+
+### 1. Define what counts as an application or service
+
+Do not define this too narrowly. For SMEs, the dangerous blind spots are usually not just installed desktop apps. They are SaaS tools, browser-based platforms, cloud services, payment systems, backup services, identity-connected apps, websites, APIs, and third-party portals.
+
+**Include:**
+
+Business applications, SaaS tools, email systems, accounting software, CRM, ERP, HR systems, websites, customer portals, databases, APIs, cloud services, storage services, backup tools, VPN, DNS, domain registrar, hosting provider, identity provider, monitoring tools, endpoint tools, remote-access tools, ticketing systems, collaboration tools, code repositories, container platforms, and vendor-managed applications.
+
+Answer the key question: **What software, platform, or service does the company rely on to operate?**
+
+### 2. Create a standard application/service record
+
+Before discovery, define the fields every application or service must have. Otherwise the inventory becomes a messy list of names with no operational value.
+
+**Minimum fields:**
+
+- Application/service name  
+- Type: SaaS, installed software, cloud service, internal app, database, API, infrastructure service, vendor-managed service  
+- Business owner  
+- Technical owner  
+- Department  
+- Business purpose  
+- Users or groups  
+- Authentication method  
+- Hosting location  
+- Vendor/provider  
+- Contract or subscription owner  
+- Data handled  
+- Integrations/dependencies  
+- Critical business process supported  
+- Status: approved, unknown, duplicate, retired, shadow IT, pending review  
+- Renewal date  
+- Last reviewed date
+
+Answer the key question: **Can we understand what this application is, who owns it, why it exists, and what it connects to?**
+
+### 3. Discover business applications and SaaS tools
+
+Start with the tools people actually use to run the business.
+
+**Example places to discover**
+
+- Microsoft Entra enterprise applications  
+- Google Workspace third-party app access and OAuth logs  
+- Accounting/vendor payment records  
+- Credit card subscriptions  
+- Browser bookmarks and extensions  
+- Department interviews  
+- SSO login logs  
+- Password manager shared vaults  
+- Procurement records  
+- Helpdesk tickets  
+- Email searches for “invoice,” “subscription,” “trial,” “renewal,” and “admin”
+
+Applications like [Microsoft Entra](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal) (a cloud-based identity and access management(IAM) solution. It is a directory and identity management service that operates in the cloud and offers authentication and authorization services to various Microsoft services) lets administrators view enterprise applications registered in the tenant, while Google Workspace provides third-party app access controls and OAuth log events that show connected apps and authorized access. 
+
+These are not perfect SaaS management platforms, but for SMEs they are often the cheapest starting point because they may already be included in existing Microsoft or Google environments. 
+
+Answer the key question: **Which SaaS tools and web apps are employees actually using, whether officially approved or not?**
+
+Useful links:
+
+[Microsoft Entra – View enterprise applications](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal?utm_source=chatgpt.com)  
+[Google Workspace – Control third-party app access](https://knowledge.workspace.google.com/admin/apps/control-which-third-party-and-internal-apps-access-google-workspace-data?utm_source=chatgpt.com)
+
+### 4. Discover installed software on endpoints and servers
+
+Next, identify software installed on company-managed laptops, desktops, and servers.
+
+**Use endpoint inventory tools to collect:**
+
+- Installed applications  
+- Versions  
+- Operating systems  
+- Browser extensions  
+- Running services  
+- Open ports  
+- Local users/groups  
+- Agents installed  
+- Remote access tools  
+- Unsupported or unknown applications
+
+OCS Inventory NG can inventory hardware and software through agents. Wazuh’s Syscollector module gathers installed software, services, running processes, ports, browser extensions, users, and groups. Microsoft Intune also provides discovered apps/app inventory for Intune-managed devices, if the company already uses Microsoft endpoint management.
+
+Answer the key question: **What software is installed and running on company devices and servers?**
+
+Useful links:
+
+[OCS Inventory NG](https://ocsinventory-ng.org/)  
+[Wazuh System Inventory](https://documentation.wazuh.com/current/user-manual/capabilities/system-inventory/index.html?utm_source=chatgpt.com)  
+[Microsoft Intune enhanced app inventory](https://learn.microsoft.com/en-us/intune/intune-service/apps/apps-add)
+
+### 5. Discover cloud services and cloud-hosted applications
+
+**For AWS, Azure, Google Cloud, and similar environments, identify:**
+
+- Virtual machines  
+- Managed databases  
+- Storage buckets  
+- Serverless functions  
+- Load balancers  
+- Containers  
+- Kubernetes services  
+- App services  
+- IAM-connected applications  
+- Secrets managers  
+- Backup services  
+- DNS zones  
+- CDN services  
+- Monitoring/logging services
+
+CloudQuery provides a unified cloud asset inventory across connected cloud providers with consistent schemas and searchable attributes. Steampipe lets teams query cloud APIs and services using SQL, which is useful for finding cloud services, resources, and mislaid infrastructure records.
+
+The key question:
+
+**Which cloud services exist, where are they hosted, and which business applications depend on them?**
+
+Useful links:
+
+[CloudQuery asset inventory](https://docs.cloudquery.io/platform/features/asset-inventory?utm_source=chatgpt.com)  
+[Steampipe](https://steampipe.io/?utm_source=chatgpt.com)
+
+Answer the key question: **Which cloud services exist, where are they hosted, and which business applications depend on them?**
+
+### 6. Discover internal applications, websites, APIs, and databases
+
+For companies with custom and expansive software portfolios this step is essential.
+
+**Look at:**
+
+- GitHub/GitLab/Bitbucket repositories  
+- CI/CD pipelines  
+- Deployment platforms  
+- Web servers  
+- API gateways  
+- Database servers  
+- Container registries  
+- Kubernetes clusters  
+- DNS records  
+- SSL certificates  
+- Hosting panels  
+- Developer documentation  
+- Environment files  
+- Production/staging/dev systems
+
+Backstage is strong here because it is built as a software catalog that tracks ownership and metadata for services, websites, libraries, data pipelines, and similar software components. For containerized environments, Portainer Community Edition can help manage Docker, Swarm, Kubernetes, and ACI environments, including containers, images, volumes, and networks.
+
+Useful links:
+
+[Backstage software catalog](https://backstage.io/docs/features/software-catalog/?utm_source=chatgpt.com)  
+[Portainer Community Edition](https://github.com/portainer/portainer?utm_source=chatgpt.com)
+
+Answer the key question: **What custom applications, APIs, websites, and databases exist, and who owns them?**
+
+### 7. Identify infrastructure services
+
+Infrastructure services are often forgotten because they feel “background.” That is dangerous because many of them are business-critical.
+
+Include:
+
+- DNS  
+- Domain registrar  
+- Email hosting  
+- Identity provider  
+- VPN  
+- Firewall management  
+- Endpoint management  
+- Backup platform  
+- Monitoring  
+- Logging  
+- Certificate management  
+- Remote support  
+- Wi-Fi controller  
+- MDM  
+- Patch management  
+- Password manager  
+- File sharing  
+- Print services
+
+Key question: **What services must keep working for the company’s applications and users to function?**
+
+### 8. Assign ownership and business purpose
+
+Every application or service needs two owners:
+
+- The **business owner** who explains why the tool exists and what business process it supports.
+
+- The **technical owner** who manages configuration, support, integrations, access, and lifecycle.
+
+Incomplete inventory entry:
+
+“HubSpot — Sales.”
+
+Better inventory entry:
+
+“HubSpot — CRM used by Sales and Marketing for lead tracking, customer communication, and campaign workflows. Business owner: Head of Sales. Technical owner: IT/Admin. Data: customer contact data, deal notes, email activity. Auth: SSO. Integrations: Gmail, website forms, reporting dashboard.”
+
+Key question: **Who is accountable for every application, and what business process does it support?**
+
+### 9. Map integrations and dependencies
+
+This is where the inventory becomes useful. Applications rarely stand alone.
+
+**Map:**
+
+- Identity provider dependencies  
+- APIs  
+- Data imports/exports  
+- Payment processors  
+- Email integrations  
+- CRM/accounting integrations  
+- Backup dependencies  
+- Cloud services  
+- Databases  
+- File storage  
+- Vendor portals  
+- Automation tools  
+- Webhooks  
+- Third-party plugins
+
+Answer the key question: **What does this application depend on, and what depends on it?**
+
+This belongs partly in your later **Dependencies and Connections** subsection, but you should still capture basic dependency fields here so the app catalog is not flat and useless.
+
+### 10. Identify data touched by each application
+
+For each application/service, record the kind of data it handles.
+
+Examples:
+
+- Customer data  
+- Employee data  
+- Financial records  
+- Contracts  
+- Credentials  
+- Intellectual property  
+- Confidential documents  
+- Regulated data  
+- Business communications  
+- Backups  
+- System logs  
+- Payment data
+
+Answer the key question: **What data does this application store, process, transmit, or access?**
+
+
+### 11. Normalize, deduplicate, and classify the application list
+
+Raw discovery will create duplicates.
+
+Example:
+
+- “Microsoft 365”  
+- “Office 365”  
+- “Outlook”  
+- “SharePoint”  
+- “OneDrive”  
+- “Teams”
+
+Some of these are part of the same platform but may need separate records if they handle different data or business functions.
+
+Classify each item as:
+
+- Approved  
+- Approved but undocumented  
+- Unknown  
+- Duplicate  
+- Shadow IT  
+- Trial  
+- Retired  
+- Vendor-managed  
+- Business-critical  
+- Pending owner confirmation
+
+Answer the key question: **Is this a real, active, approved application/service, and is it recorded once in the right way?**
+
+### 12. Validate with departments and technical owners
+
+Send the list to business units and technical owners.
+
+Ask:
+
+- Do you still use this?  
+- Who owns it?  
+- Who pays for it?  
+- Who has admin access?  
+- What data is inside it?  
+- What systems does it connect to?  
+- Is there a duplicate tool doing the same job?  
+- Is it still needed?  
+- Is anything missing?
+
+Key question: **Can the people who use and manage the application confirm the record is accurate?**
+
+### 13. Maintain the inventory through lifecycle triggers
+
+The app/service inventory must change when the environment changes.
+
+**Update the catalog when:**
+
+- A new SaaS subscription is purchased  
+- A new app is approved  
+- A new vendor service is onboarded  
+- A department starts using a new platform  
+- A cloud service is created  
+- A new website/API/database is deployed  
+- A contract renews  
+- A tool is retired  
+- An integration is added  
+- Admin ownership changes  
+- An application starts handling new data  
+- A business process changes
+
+Recommended process:
+
+- Monthly review for new/changed apps  
+- Quarterly review for SaaS, cloud, and critical services  
+- Annual full application rationalization  
+- Immediate update for anything internet-facing, identity-connected, or handling sensitive data
+
+Answer the key question: **How do we prevent this inventory from becoming stale within three months?**
+
+
+## Recommended open-source or lower-cost tools
+
+|Tool|Best use|Why it fits|Watch-out|
+|---|---|---|---|
+|**GLPI**|Central IT asset, software, license, service, and helpdesk inventory|GLPI is open source and centralizes requests, assets, workflows, support, inventory, software, and licenses.|Good all-around SME option, but it needs setup discipline. [GLPI](https://www.glpi-project.org/en/)|
+|**iTop**|CMDB and service catalog|iTop is an open-source ITSM and CMDB tool that manages configuration items and their relationships, plus user requests, incidents, problems, changes, and service catalog.|Stronger if you want relationship mapping; weaker if you only want a simple list. [iTop](https://www.itophub.io/)|
+|**CMDBuild**|Custom application/service CMDB|CMDBuild is open source and lets organizations configure custom asset-management applications, workflows, reports, dashboards, and connectors.|Powerful but heavy. Bad fit if the SME has no technical admin. [CMDBuild](https://www.cmdbuild.org/en/homepage)|
+|**Snipe-IT**|Simple software/license and asset tracking|Snipe-IT is free if self-hosted and can track assets and software licenses.|Good for licenses and ownership; weak for dependency mapping. [Snipe-IT](https://snipeitapp.com/pricing)|
+|**Backstage**|Internal software catalog|Backstage tracks ownership and metadata for software components such as services, websites, libraries, and data pipelines.|Best for companies with developers or internal software. Overkill for a non-technical SME. [Backstage](https://backstage.io/docs/features/software-catalog/)|
+|**NetBox**|Network and infrastructure service source of truth|NetBox models physical components, virtual assets, IPAM, DCIM, and network infrastructure as a source of truth.|Excellent for infrastructure; not a SaaS catalog. [NetBox](https://netboxlabs.com/products/netbox/)|
+|**Ralph**|Data center, back-office assets, licenses, contracts, domains|Ralph tracks data center assets, back-office assets, software/hardware licenses, vendor contracts, support, and domains.|Less mainstream than GLPI or Snipe-IT. Better for infrastructure-heavy teams. [Ralph](https://ralph-ng.readthedocs.io/en/stable/user/quickstart/)|
+|**OCS Inventory NG**|Installed software discovery|OCS Inventory NG is open source and scans/inventories devices, including hardware and software.|Good discovery input; not a full application/service catalog. [OCS Inventory NG](https://ocsinventory-ng.org/)|
+|**Open-AudIT**|Network discovery and software/application inventory|Open-AudIT scans networks, stores discovered device configurations, and reports on software licensing, configuration changes, unauthorized devices, and more.|Strong discovery/audit tool, but pair it with a system of record. [Open-AudIT](https://open-audit.com/pricing/)|
+|**Wazuh**|Endpoint software, services, processes, ports, users|Wazuh collects installed software, services, running processes, ports, browser extensions, users, and groups from monitored endpoints.|Security-oriented; do not use it as the only app catalog. [Wazuh inventory](https://documentation.wazuh.com/current/user-manual/capabilities/system-inventory/index.html)|
+|**Fleet / osquery**|Endpoint app and system querying|Fleet is open source and has a free version; osquery exposes OS data through SQL across Linux, macOS, and Windows.|More technical than OCS or GLPI. Strong if you have IT/security skills. [Fleet](https://fleetdm.com/)|
+|**Microsoft Intune**|App inventory for managed Windows devices|Intune app inventory provides visibility into applications installed on managed devices.|Only useful if devices are enrolled and licensing is already in place. [Microsoft Intune apps](https://learn.microsoft.com/en-us/intune/intune-service/apps/apps-add)|
+|**Microsoft Entra ID**|SaaS and identity-connected application discovery|Entra enterprise applications show applications using the tenant for identity management, and app registrations list/manage application objects.|Does not find apps people use outside Microsoft login or SSO. [Microsoft Entra applications](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/application-list)|
+|**Google Workspace Admin / OAuth logs**|Google-connected SaaS and third-party apps|Google Workspace lets admins view/control third-party apps accessing Workspace data and use OAuth logs to identify connected apps and users.|Does not find tools paid by credit card but not connected to Google. [Google Workspace third-party apps](https://knowledge.workspace.google.com/admin/apps/control-which-third-party-and-internal-apps-access-google-workspace-data)|
+|**CloudQuery**|Cloud service and resource inventory|CloudQuery provides a unified, normalized inventory of cloud assets across AWS, Azure, GCP, and other connected providers.|Cloud-focused only. [CloudQuery asset inventory](https://docs.cloudquery.io/platform/features/asset-inventory)|
+|**Steampipe**|SQL queries across cloud/SaaS/API services|Steampipe lets teams query cloud, code, logs, and APIs with SQL through plugins.|Powerful, but it is a query layer, not a polished inventory UI. [Steampipe](https://steampipe.io/)|
+|**Portainer CE**|Containers, Docker, Kubernetes, Podman environments|Portainer Community Edition manages Docker, Swarm, Kubernetes, and ACI environments, including containers, images, volumes, and networks.|Useful for container visibility; not SaaS or business app ownership. [Portainer](https://github.com/portainer/portainer)|
+|**Uptime Kuma**|Service endpoint list and availability checks|Uptime Kuma is an easy-to-use self-hosted monitoring tool.|Monitoring belongs more to Detect, but its monitor list can help maintain a basic service register. [Uptime Kuma](https://github.com/louislam/uptime-kuma)|
+## Practical stack recommendations
+
+#### For a small non-technical SME, use:
+
+- **Spreadsheet or GLPI + Microsoft/Google admin exports + accounting subscription review + Snipe-IT for licenses.**
+
+This is not elegant, but it is realistic. The strongest discovery source for shadow SaaS is often not a scanner. It is the credit card statement, SSO app list, OAuth app list, and department interview.
+
+#### For a normal SME with basic IT capability, use:
+
+- **GLPI + OCS Inventory NG or Open-AudIT + Microsoft Entra/Google Workspace app review + Bitwarden/Passbolt shared vault review.**
+
+GLPI becomes the catalog. OCS/Open-AudIT discovers installed software and systems. Entra/Google reveals many SaaS integrations.
+
+#### For a cloud-heavy SME, use:
+
+- **GLPI or iTop + CloudQuery + Steampipe + Entra/Google app inventory + Uptime Kuma.**
+
+CloudQuery and Steampipe help identify cloud-hosted services. Uptime Kuma can maintain a basic list of key live endpoints.
+
+#### For a software-development company, use:
+
+- **Backstage + CloudQuery + Portainer + NetBox + GitHub/GitLab repository review.**
+
+Backstage should own the internal software catalog. NetBox should own infrastructure/network truth. CloudQuery and Portainer help reveal cloud and containerized workloads.
+
+#### For an infrastructure-heavy company, use:
+
+- **NetBox + GLPI or iTop + Open-AudIT + Wazuh/Fleet.**
+
+NetBox handles network/infrastructure source of truth. GLPI/iTop handles service ownership and business mapping. Wazuh/Fleet gives endpoint reality.
+
+## Summary of the Steps
+
+**Identify Applications and Services Process**
+
+1. Define what counts as an application, platform, service, SaaS tool, cloud service, internal system, API, database, and vendor-managed service.
+2. Create a standard application/service inventory record.
+3. Discover SaaS and business applications through SSO, Microsoft/Google admin portals, OAuth logs, procurement records, vendor payments, and department interviews.
+4. Discover installed applications through endpoint inventory tools, device management tools, and server inventories.
+5. Discover cloud-hosted applications and services through cloud inventory tools and provider exports.
+6. Discover internal applications, websites, APIs, databases, repositories, and containerized services.
+7. Identify infrastructure services such as DNS, identity, email, VPN, backup, monitoring, endpoint management, and domain hosting.
+8. Assign business owner, technical owner, department, purpose, users, and support responsibility.
+9. Record data handled, authentication method, integrations, dependencies, vendor, contract owner, and renewal date.
+10. Normalize duplicate records and classify each item as approved, unknown, shadow IT, duplicate, retired, vendor-managed, or pending review.
+11. Validate the inventory with business and technical owners.
+12. Maintain the inventory through onboarding, procurement, cloud creation, deployment, integration, renewal, retirement, and periodic review triggers.
+
+## Summary
+
+
+If the company cannot answer **which applications exist, who owns them, who uses them, what data they touch, how users log in, what they connect to, and which ones are paid for but forgotten**, then it does not have an application inventory. It has scattered subscriptions and tribal knowledge.
