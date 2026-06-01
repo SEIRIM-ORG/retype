@@ -602,7 +602,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -786,10 +786,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a0899773b02457b",
+  "active": "d63f113a40dfa925",
   "lastOpenFiles": [
-    "2. Identify/Identify Users and Accounts.md",
     "2. Identify/Identify Dependencies.md",
+    "2. Identify/Identify Users and Accounts.md",
     "1. Assess/Assess Overview.md",
     "1. Assess/Current Security Assessment.md",
     "1. Assess/Conduct a Risk Assessment.md",

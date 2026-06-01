@@ -9,6 +9,7 @@ order: 10000
 
 
 
+
 The SEIRIM Cybersecurity Playbook is your complete plan of action to better secure your company's digital data and operations. 
 
 The steps and solutions within are geared towards small to medium sized businesses whose needs in this space are lacking, though the concepts apply to organizations of all sizes. The key differences include recommendations opting more often for open source or economical tools where possible, instead of pushing companies on limited budgets to expensive options. 
@@ -44,4 +45,5 @@ The above are the "must haves" but they leave out some ideal steps which the who
 
 
 ![](https://youtu.be/tW1FcB8LGGo?si=MinjaLCmzzHN8rVf)
+
 
