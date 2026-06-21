@@ -1,0 +1,480 @@
+---
+icon: triangle-right
+order: 40
+---
+
+
+## Purpose of This Section
+
+After learning about common attack types, current threats, compliance requirements, and business risks, the company now needs to ask a very practical question:
+
+How strong are our cybersecurity practices today compared with where they need to be?
+
+That difference is the security maturity gap. Every company has gaps. The point is to find them clearly, rank them sensibly, and turn them into work that can actually be done.
+
+For an SME, this step is especially important because cybersecurity resources are limited. The company may not have a full security team, a large budget, or advanced monitoring tools. That makes clarity even more important. The business needs to know which controls are working, which are weak, which exist only on paper, and which are completely missing.
+
+A maturity gap review helps leadership see the difference between “we think we are protected” and “we can prove we are protected.”
+
+## What Security Maturity Means
+
+Security maturity means how well the company has built cybersecurity into its normal way of working.
+
+A low-maturity company may have some tools, but no consistent process. It may have antivirus, but no access reviews. It may have backups, but no restore testing. It may have policies, but employees do not know what they say. It may have an MSP, but nobody inside the company checks what the MSP is actually doing.
+
+A higher-maturity company does not just buy tools. It has clear owners, repeatable processes, written expectations, tested recovery, basic monitoring, employee training, and evidence that important controls are working.
+
+Simply put: maturity is the difference between having good intentions and having a security system that can stand up under pressure.
+
+## What This Section Should Measure
+
+This section should measure the company’s current security practices across the most important control areas.
+
+**The review should include:**
+
+- Asset visibility
+
+- Data visibility
+
+- Account and access control
+
+- Multi-factor authentication
+
+- Password management
+
+- Endpoint protection
+
+- Patch management
+
+- Email and phishing defense
+
+- Cloud and SaaS security
+
+- Backup and recovery readiness
+
+- Logging and monitoring
+
+- Vendor access control
+
+- Security awareness training
+
+- Incident response readiness
+
+- Policy and documentation quality
+
+- Management ownership
+
+These areas give the company a practical view of how prepared it is. The goal is not to prove perfection. The goal is to find the weak points before attackers, customers, insurers, or regulators find them first.
+
+## Use a Simple Maturity Scale
+
+Do not make the scoring system too clever. SMEs need something easy to understand and easy to repeat.
+
+Use this scale:
+
+**0 — Not in place**
+
+The control does not exist, or nobody can prove it exists.
+
+**1 — Informal**
+
+The control exists in some places, but it is inconsistent, undocumented, or dependent on one person remembering to do it.
+
+**2 — Defined**
+
+The control is documented and assigned to an owner, but it may not be fully implemented or regularly checked.
+
+**3 — Implemented**
+
+The control is active, used consistently, and supported by evidence.
+
+**4 — Managed and improved**
+
+The control is measured, reviewed, improved over time, and tested where appropriate.
+
+This scale is enough. More complexity usually makes the assessment slower without making it more useful.
+
+## Set a Target Baseline
+
+The company should not measure itself against perfection. That is not realistic and usually leads to paralysis.
+
+Instead, the company should choose a target baseline.
+
+**For most SMEs, a practical starting baseline should be:**
+
+- CIS Controls Implementation Group 1
+
+- NIST Cybersecurity Framework 2.0 Small Business Quick Start Guide
+
+- CISA Cybersecurity Performance Goals
+
+- Cyber insurance requirements
+
+- Customer security expectations
+
+- Internal business needs
+
+The target baseline should reflect the company’s real situation. A small local business with basic systems does not need the same control depth as a financial technology company, healthcare provider, defense supplier, or software company handling customer production data.
+
+The point is to choose a reasonable target, then measure against it honestly.
+
+## Practical Tasks for the Company
+
+## Task 1: Choose the Maturity Baseline
+
+The company should decide which framework or control set it will use as the measuring stick.
+
+Good options include:
+
+[CIS Controls IG1](https://www.cisecurity.org/controls/implementation-groups/ig1)
+
+[NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
+
+[NIST CSF 2.0 Small Business Quick Start Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf)
+
+[CISA Cybersecurity Performance Goals 2.0](https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0)
+
+For most SMEs, CIS Controls IG1 is the cleanest starting point because it focuses on essential cyber hygiene. NIST CSF is better for organizing the overall program. CISA CPGs are useful because they focus on high-impact security actions.
+
+The output should be a selected baseline and a short reason for choosing it.
+
+## Task 2: Define the Areas to Measure
+
+The company should define the control areas it wants to measure.
+
+**A practical SME maturity review should cover these areas:**
+
+- Governance and ownership
+
+- Asset inventory
+
+- Data inventory
+
+- Identity and access management
+
+- MFA and password security
+
+- Endpoint and device security
+
+- Patch and vulnerability management
+
+- Email and phishing protection
+
+- Cloud and SaaS security
+
+- Backup and recovery
+
+- Logging and monitoring
+
+- Vendor and third-party access
+
+- Security training
+
+- Incident response readiness
+
+- Documentation and evidence
+
+This list should not become a huge audit. The first maturity review should be small enough to complete, but strong enough to expose the real weaknesses.
+
+The output should be a maturity assessment checklist.
+
+## Task 3: Score the Current State
+
+For each control area, score where the company is today.
+
+Use the simple 0 to 4 maturity scale.
+
+**Example:**
+
+- Control area: MFA
+
+- Current score: 2
+
+- Reason: MFA is enabled for Microsoft 365 and some admin accounts, but not all SaaS platforms, VPN users, accounting systems, or third-party access.
+
+- Evidence: Microsoft 365 MFA report available. No complete SaaS MFA report yet.
+
+- Gap: MFA coverage is incomplete.
+
+Do this for each control area. Do not inflate the score. If the company cannot prove a control exists, the score should stay low.
+
+The output should be a current-state maturity score for each control area.
+
+## Task 4: Define the Target State
+
+After scoring the current state, define the target state.
+
+The target should be realistic for the next 6 to 12 months.
+
+**Example:**
+
+Control area: MFA
+
+Current score: 2
+
+Target score: 3
+
+Target state: MFA enforced for email, VPN, accounting, payroll, cloud storage, password manager, admin accounts, and all critical SaaS platforms.
+
+This keeps the maturity review practical. A target score of 4 for everything is usually unrealistic for an SME. The first goal is to close the most dangerous gaps, not to build an enterprise security program overnight.
+
+The output should be a target maturity score for each control area.
+
+## Task 5: Document the Gap
+
+The gap is the difference between the current score and the target score.
+
+**Example:**
+
+- Control area: Backups
+
+- Current score: 1
+
+- Target score: 3
+
+- Gap: Backups exist, but restore testing is not performed, backup coverage is unclear, and backup admin access is not separated from normal admin accounts.
+
+This is the useful part of the maturity review. The company should be able to see where it is most exposed.
+
+The output should be a maturity gap list.
+
+## Task 6: Collect Evidence
+
+A maturity score without evidence is just opinion.
+
+For each control area, the company should collect proof where possible.
+
+**Evidence may include:**
+
+- MFA reports
+
+- Endpoint protection dashboard screenshots
+
+- Patch reports
+
+- Backup job reports
+
+- Backup restore test records
+
+- Asset inventory exports
+
+- User access review records
+
+- Security training completion records
+
+- Vendor access lists
+
+- Email security configuration screenshots
+
+- Incident response plan
+
+- Policy documents
+
+- Firewall or VPN configuration records
+
+- SaaS admin logs
+
+- Insurance questionnaire responses
+
+- MSP service reports
+
+The company does not need perfect evidence on day one. But it should know what evidence exists, what is missing, and where the evidence is stored.
+
+The output should be an evidence folder and an evidence column in the maturity tracker.
+
+## Task 7: Identify Paper Controls
+
+This is one of the most important parts of the review.
+
+A paper control is something the company says it does, but does not actually do consistently.
+
+**Examples:**
+
+- A password policy exists, but nobody checks password manager usage.
+
+- A backup policy exists, but restores are never tested.
+
+- An access review policy exists, but former employees still have accounts.
+
+- A vendor security policy exists, but vendors are onboarded without review.
+
+- A phishing reporting process exists, but employees do not know where to report.
+
+- An incident response plan exists, but nobody has practiced it.
+
+Paper controls create false confidence. They are worse than obvious gaps because they make leadership think the company is safer than it really is.
+
+The output should be a list of controls that exist in documentation but are not proven in practice.
+
+## Task 8: Mark Quick Wins
+
+Some gaps are serious but easy to fix. These should be marked clearly.
+
+**Examples:**
+
+- Turn on MFA for admin accounts
+
+- Remove former employee accounts
+
+- Disable unused shared accounts
+
+- Create a phishing reporting email address
+
+- Review mailbox forwarding rules
+
+- Confirm backup jobs are running
+
+- Store emergency contacts in one place
+
+- Create a basic incident log template
+
+- Remove local admin rights from normal users
+
+- Update firewall and VPN firmware
+
+Quick wins are important because they build momentum. A maturity review that only produces a long list of hard problems will stall.
+
+The output should be a quick-win list.
+
+## Task 9: Mark High-Effort Improvements
+
+Some gaps matter, but they take more planning, budget, or coordination.
+
+**Examples:**
+
+- Move to centralized endpoint detection
+
+- Build a complete SaaS access review process
+
+- Implement conditional access
+
+- Improve logging and alerting
+
+- Segment the network
+
+- Deploy a vulnerability management process
+
+- Create isolated or immutable backups
+
+- Build a formal vendor review process
+
+- Run tabletop exercises
+
+- Improve identity governance
+
+These should not be ignored. They should be separated from quick wins so leadership can plan time, budget, and ownership properly.
+
+The output should be a high-effort improvement list.
+
+## Task 10: Create a Maturity Gap Summary for Leadership
+
+Leadership does not need every technical detail. They need the truth in plain language.
+
+**The summary should answer:**
+
+- Where are we strongest?
+
+- Where are we weakest?
+
+- Which gaps could hurt the business fastest?
+
+- Which gaps are easy to fix?
+
+- Which gaps require budget or outside help?
+
+- Which controls exist only on paper?
+
+- Which gaps should be carried into the improvement roadmap?
+
+The output should be a short maturity gap summary that leadership can read and act on.
+
+## Suggested Maturity Tracker Format
+
+The company should track the review in a simple table.
+
+|Control Area|Current Score|Target Score|Gap|Evidence Available|Main Weakness|Owner|Priority|
+|---|--:|--:|---|---|---|---|---|
+|MFA|2|3|Partial MFA coverage|Some|Not enforced on all critical systems|IT Lead|High|
+|Backups|1|3|Backups not fully tested|Limited|Restore process not proven|MSP / IT Lead|High|
+|Asset Inventory|1|3|Inventory incomplete|Limited|SaaS and network devices missing|Operations / IT|High|
+|Patch Management|2|3|Process partly defined|Some|No emergency patch process|IT Lead|Medium|
+|Security Training|1|2|Informal training only|No|No tracking of completion|HR / Operations|Medium|
+
+Keep this tracker simple. If the table becomes too complicated, nobody will keep it updated.
+
+## Tools to Help Measure the Maturity Gap
+
+|Tool or Resource|Link|Best Use|
+|---|---|---|
+|CIS Controls Self Assessment Tool|[CIS CSAT](https://csat.cisecurity.org/)|Free self-assessment tool for tracking CIS Controls implementation. Good for companies using CIS as their baseline.|
+|CIS Controls Assessment Specification|[CIS CAS](https://cas8.docs.cisecurity.org/)|Helps define what should be measured to verify whether CIS safeguards are actually implemented.|
+|CISA Cyber Security Evaluation Tool|[CISA CSET](https://www.cisa.gov/resources-tools/services/cyber-security-evaluation-tool-cset)|Free open-source tool for evaluating cybersecurity posture against standards and recommendations.|
+|NIST CSF 2.0 Small Business Quick Start Guide|[NIST SP 1300](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf)|Practical starting guide for small and medium businesses using NIST CSF 2.0.|
+|CISA Cybersecurity Performance Goals 2.0|[CISA CPG 2.0](https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0)|High-priority baseline practices that help organizations focus on measurable security improvements.|
+|Microsoft Secure Score|[Microsoft Secure Score](https://learn.microsoft.com/en-us/defender-xdr/microsoft-secure-score)|Useful for measuring Microsoft 365 security posture and recommended improvements.|
+|Google Workspace Security Center|[Google Workspace Security Center](https://support.google.com/a/answer/7492330)|Useful for reviewing Google Workspace security settings, alerts, and investigation data where available.|
+|Microsoft 365 Admin Center Reports|[Microsoft 365 Reports](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports)|Helps collect evidence on users, activity, email, and service usage.|
+|Google Admin Reports|[Google Admin Reports](https://support.google.com/a/answer/6000239)|Helps review Google Workspace audit and usage data.|
+|Wazuh|[Wazuh](https://wazuh.com/)|Open-source security monitoring, endpoint visibility, and compliance support. Useful for more technical teams.|
+|OpenVAS / Greenbone Community Edition|[Greenbone Community Edition](https://greenbone.github.io/docs/latest/)|Open-source vulnerability scanning for identifying technical weaknesses.|
+|GLPI|[GLPI](https://glpi-project.org/)|Open-source IT asset and service management. Useful for asset tracking and ownership.|
+|Snipe-IT|[Snipe-IT](https://snipeitapp.com/)|Open-source asset management for devices, licenses, and ownership tracking.|
+|eramba|[eramba](https://www.eramba.org/)|GRC platform for tracking risks, controls, policies, compliance, and evidence.|
+|SimpleRisk|[SimpleRisk](https://www.simplerisk.com/)|GRC platform for risk and control tracking. Useful once spreadsheets become weak.|
+|CISO Assistant|[CISO Assistant](https://intuitem.com/)|Open-source GRC tool for frameworks, controls, risk, compliance, and audit work.|
+|Excel|[Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)|A practical first maturity tracker for many SMEs.|
+|Google Sheets|[Google Sheets](https://www.google.com/sheets/about/)|Shared maturity tracker for small teams.|
+
+## Online Resources to Use
+
+|Resource|Link|Use It For|
+|---|---|---|
+|NIST Cybersecurity Framework 2.0|[NIST CSF 2.0](https://www.nist.gov/cyberframework)|Organizing cybersecurity outcomes and building current and target profiles.|
+|NIST CSF 2.0 Small Business Quick Start Guide|[NIST SP 1300](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf)|SME-friendly starting point for applying the NIST CSF.|
+|NIST CSF 2.0 Tiers Quick Start Guide|[NIST SP 1302](https://csrc.nist.gov/pubs/sp/1302/final)|Understanding maturity-style tiers and how cybersecurity risk management is practiced.|
+|CIS Controls|[CIS Controls](https://www.cisecurity.org/controls)|Practical cybersecurity safeguards covering core security areas.|
+|CIS Controls IG1|[CIS IG1](https://www.cisecurity.org/controls/implementation-groups/ig1)|Essential cyber hygiene baseline for most SMEs.|
+|CIS Controls Assessment Specification|[CIS CAS](https://cas8.docs.cisecurity.org/)|Measurement guidance for verifying CIS safeguard implementation.|
+|CISA Cybersecurity Performance Goals 2.0|[CISA CPG 2.0](https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0)|High-impact measurable security goals.|
+|CISA CSET|[CISA CSET](https://www.cisa.gov/resources-tools/services/cyber-security-evaluation-tool-cset)|Free assessment tool for evaluating cybersecurity posture.|
+|FTC Cybersecurity for Small Business|[FTC Small Business Cybersecurity](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity)|Practical small business cybersecurity guidance.|
+|NIST Small Business Cybersecurity Corner|[NIST Small Business Cybersecurity Corner](https://www.nist.gov/itl/smallbusinesscyber)|Small business cybersecurity resources and guidance.|
+
+
+## Expected Outputs from This Section
+
+**At the end of this section, the company should have:**
+
+- A selected maturity baseline
+
+- A list of control areas to measure
+
+- A current maturity score for each control area
+
+- A target maturity score for each control area
+
+- A documented gap between current and target maturity
+
+- Evidence showing which controls are real and which are only assumed
+
+- A list of paper controls
+
+- A list of quick wins
+
+- A list of higher-effort improvements
+
+- A short leadership summary
+
+- A maturity tracker that can be reviewed again later
+
+## Objective
+
+A company should leave this section able to say:
+
+“We know where our cybersecurity program stands today. We know which controls are missing, weak, or only on paper. We know what evidence we have. We know what needs to improve first. And we have a simple tracker we can use to measure progress over time.”
+
+That is a useful maturity gap review.
+
+
+----
+

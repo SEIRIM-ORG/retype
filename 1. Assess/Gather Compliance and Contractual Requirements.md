@@ -1,0 +1,585 @@
+---
+icon: triangle-right
+order: 60
+---
+
+## Purpose of This Section
+
+Before a company can properly assess cybersecurity risk, it needs to understand what cybersecurity obligations already apply to the business.
+
+These obligations may come from laws, regulations, customer contracts, vendor agreements, cyber insurance policies, payment processors, industry standards, privacy rules, or promises the company has made in writing.
+
+This step is not the full compliance audit or the full risk assessment. The goal here is to gather the requirements, organize them, and make sure the company knows what it is already expected to do.
+
+Many companies assume cybersecurity requirements only come from government regulations but some of the strongest cybersecurity obligations may already be hidden inside customer contracts, vendor agreements, SaaS terms, insurance questionnaires, data processing agreements, or security addendums.
+
+If the company does not collect these requirements, it cannot know whether it is meeting them.
+
+## Why This Matters
+
+Cybersecurity is not only about what the company wants to protect. It is also about what the company has promised to protect.
+
+A company may have agreed to notify customers within a certain time after a security incident. It may have promised to use MFA. It may have agreed to encrypt sensitive data. It may have accepted audit rights from a customer. It may have told a cyber insurer that backups are tested or that endpoint protection is deployed. It may be required to protect payment card data, health data, financial data, personal data, confidential business data, or government-related information.
+
+If these obligations are scattered across contracts, inboxes, PDF files, insurance forms, and old procurement folders, the company is exposed.
+
+This section helps bring those obligations into one place.
+
+## What the Company Should Gather
+
+The company should collect all documents that may contain cybersecurity, privacy, data handling, incident response, or technology requirements.
+
+**This should include:**
+
+- Customer contracts
+
+- Master service agreements
+
+- Statements of work
+
+- Data processing agreements
+
+- Privacy addendums
+
+- Security addendums
+
+- Vendor agreements
+
+- Supplier contracts
+
+- SaaS agreements
+
+- Managed service provider agreements
+
+- Payment processor agreements
+
+- Cyber insurance applications and policy documents
+
+- Client security questionnaires
+
+- Audit reports or customer security reviews
+
+- Regulatory guidance relevant to the business
+
+- Industry standards the company claims to follow
+
+- Internal security policies already shared with customers
+
+- Privacy policies published on company websites
+
+- Terms of service published to customers
+
+The rule is simple: if the document says anything about data, systems, access, security, privacy, confidentiality, breach notification, backups, audit rights, or service availability, collect it.
+
+## Practical Tasks for the Company
+
+## Task 1: Assign an Owner for Requirements Collection
+
+The company should assign one person or role to coordinate this work.
+
+This does not mean that one person knows every requirement. It means one person is responsible for making sure the requirements are collected and organized.
+
+Good candidates include the Operations manager, IT manager, Security lead, Compliance lead, Legal or contract manager, Office manager in a smaller SME or similar.
+
+The owner should coordinate with leadership, finance, legal, sales, HR, IT, procurement, and any MSP or outsourced technology provider.
+
+The output should be a named owner and a clear deadline for the initial collection.
+
+## Task 2: Create a Central Requirements Folder
+
+Do not let this work live in scattered email threads.
+
+Create one central folder for all collected documents. This can be in SharePoint, Google Drive, OneDrive, Nextcloud, or another approved company document system.
+
+**Suggested folder structure:**
+
+- Compliance and Contractual Requirements
+
+- Customer Contracts
+
+- Vendor Contracts
+
+- Insurance Documents
+
+- Regulatory Requirements
+
+- Security Questionnaires
+
+- Data Processing Agreements
+
+- Internal Policies
+
+- Evidence and Supporting Documents
+
+- Open Questions
+
+The folder should have controlled access. Sensitive contracts and insurance documents should not be available to everyone. It might be advisable to only include the portion of the documents that pertains to security and data preservation obligations
+
+The output should be one organized document repository.
+
+## Task 3: Identify Which Laws and Regulations May Apply
+
+The company should make a first-pass list of laws or regulations that may apply based on where it operates, who its customers are, what data it handles, and what industry it serves.
+
+This is not a legal opinion and final interpretation should come from qualified counsel where needed. The purpose here is to identify likely obligations that should be reviewed.
+
+**Examples of areas to check:**
+
+- Personal data and privacy
+
+- Payment card data
+
+- Health information
+
+- Financial customer information
+
+- Government contract information
+
+- Children’s data
+
+- Employee data
+
+- Consumer data
+
+- International data transfers
+
+- Sector-specific cybersecurity rules
+
+- Data breach notification requirements
+
+**Common examples include:**
+
+[GDPR / EDPB SME Data Protection Guide](https://www.edpb.europa.eu/sme-data-protection-guide/home_en)
+
+[UK ICO Small Organization Data Protection Assessment](https://ico.org.uk/for-organisations/advice-for-small-organisations/getting-started-with-gdpr/assessment-for-small-business-owners-and-sole-traders/)
+
+[California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa)
+
+[FTC Cybersecurity for Small Business](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity)
+
+[FTC Safeguards Rule](https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know)
+
+[HIPAA](https://www.hhs.gov/hipaa/index.html)
+
+[PCI DSS](https://www.pcisecuritystandards.org/standards/pci-dss/)
+
+[CMMC](https://dodcio.defense.gov/CMMC/about/)
+
+[NIS2 Directive](https://digital-strategy.ec.europa.eu/en/policies/nis2-directive)
+
+[NYDFS Cybersecurity Regulation](https://www.dfs.ny.gov/industry_guidance/cybersecurity)
+
+The output should be a short “possible regulatory obligations” list.
+
+## Task 4: Collect Customer Security Requirements
+
+Many customer contracts contain cybersecurity obligations. These may be in the main contract, a security schedule, a data processing agreement, a confidentiality clause, or a procurement questionnaire.
+
+**Look for clauses that mention:**
+
+- Information security program
+
+- Access control
+
+- MFA
+
+- Encryption
+
+- Data handling
+
+- Data retention
+
+- Data deletion
+
+- Breach notification
+
+- Incident response
+
+- Audit rights
+
+- Vulnerability management
+
+- Penetration testing
+
+- Employee background checks
+
+- Security training
+
+- Subcontractor controls
+
+- Data location
+
+- Business continuity
+
+- Disaster recovery
+
+- Cyber insurance
+
+- Compliance with specific frameworks
+
+- Customer approval before using subcontractors
+
+The company should not trust memory here. The actual contract language matters.
+
+The output should be a collected set of customer cybersecurity obligations.
+
+## Task 5: Collect Vendor and Third-Party Security Obligations
+
+The company should also collect requirements from vendors, SaaS platforms, IT providers, MSPs, cloud providers, payment processors, payroll providers, website developers, accountants, marketing platforms, and other third parties.
+
+**This work looks in two directions.**
+
+- First, what does the vendor require from the company?
+
+- Second, what does the company require from the vendor?
+
+For example, a SaaS provider may require the company to manage user access securely. A payment processor may require PCI DSS compliance. A customer may require the company to ensure that its subcontractors meet similar security standards.
+
+The output should be a vendor and third-party obligations list.
+
+## Task 6: Collect Cyber Insurance Requirements
+
+If the company has cyber insurance, collect the full policy, application, renewal questionnaire, exclusions, endorsements, incident reporting instructions, and broker communications.
+
+Pay special attention to statements the company made during the application or renewal process.
+
+Common insurance-related areas include:
+
+- MFA
+
+- Endpoint protection
+
+- Backups
+
+- Backup testing
+
+- Patch management
+
+- Incident response plan
+
+- Security awareness training
+
+- Remote access protection
+
+- Privileged account controls
+
+- Encryption
+
+- Business continuity
+
+- Use of an approved incident response provider
+
+- Notification requirements after an incident
+
+This matters because inaccurate answers on an insurance questionnaire can create serious problems later. If the company told the insurer that a control exists, the company should know whether that control is actually in place.
+
+The output should be a cyber insurance obligations summary.
+
+## Task 7: Extract the Actual Requirements
+
+After the documents are collected, the company should extract the actual cybersecurity and privacy requirements into a simple register.
+
+Do not only save the PDF. Pull the obligation out into a usable format.
+
+**Suggested columns:**
+
+- Requirement ID
+
+- Source document
+
+- Customer, vendor, law, regulation, or insurer
+
+- Exact clause or requirement summary
+
+- Affected system, data, department, or process
+
+- Requirement type
+
+- Required action
+
+- Deadline or review frequency
+
+- Internal owner
+
+- Evidence needed
+
+- Current status
+
+- Open questions
+
+- Notes
+
+Example:
+
+Requirement ID: CR-001
+
+Source: Customer MSA, Section 8.4
+
+Requirement: Notify customer of confirmed security incident affecting customer data within 72 hours.
+
+Affected area: Customer data, incident response, legal notification
+
+Owner: Operations Manager and IT Lead
+
+Evidence needed: Incident response procedure, customer notification process, incident log template
+
+Status: Needs review
+
+This is where the work becomes useful.
+
+The output should be a compliance and contractual requirements register.
+
+## Task 8: Separate Hard Requirements from General Expectations
+
+Not every clause carries the same weight.
+
+The company should separate requirements into practical categories.
+
+Required: The company must do this because of law, regulation, contract, insurance, or signed commitment.
+
+Expected: The customer, industry, or insurer expects this, even if the exact language is less strict.
+
+Recommended: A strong practice that is useful but not yet required.
+
+Unknown: Needs legal, customer, insurer, or leadership clarification.
+
+This prevents confusion. A legal requirement is not the same as a best practice. A customer contract obligation is not the same as a blog recommendation. A cyber insurance promise is not optional if the company relies on the policy.
+
+The output should be a requirement priority label for each item.
+
+## Task 9: Identify Evidence the Company May Need
+
+Many companies say they have security controls, but cannot prove them.
+
+For each major requirement, the company should identify what evidence would be needed if a customer, auditor, insurer, regulator, or executive asked for proof.
+
+Evidence may include:
+
+Written policy
+
+System screenshot
+
+Access review record
+
+MFA report
+
+Backup test result
+
+Training completion record
+
+Vendor review record
+
+Incident response plan
+
+Patch report
+
+Vulnerability scan report
+
+Penetration test report
+
+Encryption configuration
+
+Data deletion confirmation
+
+Security questionnaire response
+
+Cyber insurance application
+
+Signed agreement
+
+Audit report
+
+The goal is not to collect all evidence yet. That can be handled later. The goal in this section is to know what evidence may be required.
+
+The output should be an evidence-needed column in the requirements register.
+
+## Task 10: Identify Conflicts and Unclear Obligations
+
+Contracts are not always clean. One customer may require 24-hour incident notification. Another may require 72 hours. A vendor may limit liability while the company has promised stronger guarantees to its own customer. A cyber insurance policy may require using an approved incident response provider before certain work begins.
+
+These conflicts should be flagged early.
+
+Examples of items to flag:
+
+Different incident notification timelines
+
+Different encryption expectations
+
+Different data retention periods
+
+Different audit rights
+
+Conflicting subcontractor obligations
+
+Different backup or recovery requirements
+
+Unclear definitions of “security incident”
+
+Unclear definition of “personal data” or “customer data”
+
+Promises made in sales security questionnaires that are not backed by internal controls
+
+The output should be a list of unclear or conflicting obligations.
+
+## Task 11: Create a Review Schedule
+
+Requirements change. Contracts renew. Insurance questionnaires update. New vendors are added. New customers ask for security commitments. Regulations evolve.
+
+The company should review this requirements register on a fixed schedule.
+
+Recommended review timing:
+
+At least annually
+
+Before cyber insurance renewal
+
+Before signing major customer contracts
+
+Before onboarding high-risk vendors
+
+After major business changes
+
+After entering a new market or region
+
+After launching a new product or service
+
+After a major security incident
+
+The output should be a review cadence and calendar owner.
+
+## Tools to Help With This Work
+
+The company does not need expensive tooling to begin. A clean spreadsheet and disciplined folder structure can work well for many SMEs.
+
+However, tools can help once the requirements list becomes larger.
+
+|Tool or Resource|Link|Best Use|
+|---|---|---|
+|Microsoft Excel|[Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)|Simple compliance and contractual requirements register. Good first step for most SMEs.|
+|Google Sheets|[Google Sheets](https://www.google.com/sheets/about/)|Shared requirements tracker for small teams. Easy to update collaboratively.|
+|Microsoft SharePoint|[Microsoft SharePoint](https://www.microsoft.com/microsoft-365/sharepoint/collaboration)|Central document repository for contracts, policies, evidence, and security documents.|
+|Google Drive|[Google Drive](https://www.google.com/drive/)|Simple document repository for smaller teams already using Google Workspace.|
+|Nextcloud|[Nextcloud](https://nextcloud.com/)|Self-hosted file storage and collaboration for teams that want more control over data location.|
+|Paperless-ngx|[Paperless-ngx](https://docs.paperless-ngx.com/)|Open-source document management system for searchable archives of contracts, PDFs, and scanned documents.|
+|eramba|[eramba](https://www.eramba.org/)|GRC platform for compliance management, policies, risk, awareness, and evidence tracking.|
+|SimpleRisk|[SimpleRisk](https://www.simplerisk.com/)|GRC platform for risk, compliance, and governance tracking. Useful when spreadsheets become too weak.|
+|CISO Assistant|[CISO Assistant](https://intuitem.com/)|Open-source GRC platform for managing frameworks, compliance, risk, and audit work.|
+|OpenProject|[OpenProject](https://www.openproject.org/)|Open-source project management for assigning follow-up tasks from the requirements register.|
+|Notion|[Notion](https://www.notion.com/)|Lightweight documentation hub and tracker for small teams. Use carefully for sensitive contracts.|
+|Airtable|[Airtable](https://www.airtable.com/)|Structured database-style tracker for contracts, requirements, owners, and evidence.|
+|Vanta|[Vanta](https://www.vanta.com/)|Compliance automation for companies pursuing SOC 2, ISO 27001, HIPAA, PCI, GDPR, and related programs.|
+|Drata|[Drata](https://drata.com/)|Compliance automation and continuous evidence collection for growing companies.|
+|Secureframe|[Secureframe](https://secureframe.com/)|Compliance automation and framework tracking for companies preparing for audits or customer security reviews.|
+
+## Online Resources to Use
+
+|Resource|Link|Use It For|
+|---|---|---|
+|FTC Cybersecurity for Small Business|[FTC Cybersecurity for Small Business](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity)|Practical small business cybersecurity guidance, including legal, regulatory, contractual, and cyber insurance considerations.|
+|NIST Small Business Cybersecurity Corner|[NIST Small Business Cybersecurity Corner](https://www.nist.gov/itl/smallbusinesscyber)|Small business cybersecurity guidance, planning resources, and framework support.|
+|NIST Cybersecurity Framework 2.0|[NIST CSF 2.0](https://www.nist.gov/cyberframework)|General cybersecurity framework for managing and organizing cybersecurity risk.|
+|NIST CSF 2.0 Small Business Quick Start Guide|[NIST SP 1300](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf)|Practical NIST CSF guidance for small and medium-sized businesses.|
+|CIS Controls IG1|[CIS Controls IG1](https://www.cisecurity.org/controls/implementation-groups/ig1)|Essential cyber hygiene baseline for smaller organizations.|
+|PCI DSS|[PCI DSS](https://www.pcisecuritystandards.org/standards/pci-dss/)|Requirements for protecting payment card data.|
+|EDPB SME Data Protection Guide|[EDPB SME Guide](https://www.edpb.europa.eu/sme-data-protection-guide/home_en)|Practical GDPR guidance for SMEs handling personal data.|
+|ICO Small Business Data Protection Assessment|[ICO Small Business Assessment](https://ico.org.uk/for-organisations/advice-for-small-organisations/getting-started-with-gdpr/assessment-for-small-business-owners-and-sole-traders/)|Practical self-assessment for small organizations dealing with UK data protection obligations.|
+|IAPP U.S. State Privacy Legislation Tracker|[IAPP State Privacy Tracker](https://iapp.org/resources/article/us-state-privacy-legislation-tracker)|Tracking U.S. state privacy laws and changing privacy requirements.|
+|California CCPA|[California CCPA](https://oag.ca.gov/privacy/ccpa)|California consumer privacy rights and business obligations.|
+|FTC Safeguards Rule|[FTC Safeguards Rule](https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know)|Requirements for covered financial institutions to protect customer information.|
+|HHS HIPAA|[HIPAA](https://www.hhs.gov/hipaa/index.html)|Privacy and security requirements for covered health information where HIPAA applies.|
+|CMMC|[CMMC](https://dodcio.defense.gov/CMMC/about/)|Cybersecurity requirements for relevant U.S. defense contractors and subcontractors.|
+|NIS2 Directive|[NIS2 Directive](https://digital-strategy.ec.europa.eu/en/policies/nis2-directive)|EU cybersecurity obligations for covered essential and important entities.|
+|NYDFS Cybersecurity Regulation|[NYDFS Cybersecurity](https://www.dfs.ny.gov/industry_guidance/cybersecurity)|Cybersecurity requirements for covered financial services entities in New York.|
+|FTC Cyber Insurance Guidance|[FTC Cyber Insurance](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/cyber-insurance)|Basic cyber insurance considerations for small businesses.|
+|NIST Cyber Insurance Resources|[NIST Cyber Insurance](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/cyber-insurance)|Cyber insurance resources for small and medium-sized businesses.|
+
+## Suggested Requirements Register Template
+
+The company should create a simple tracker with these fields:
+
+- Requirement ID
+
+- Requirement source
+
+- Source type
+
+- Customer, vendor, regulator, insurer, or internal policy
+
+- Requirement summary
+
+- Exact contract clause or reference
+
+- Affected system or data
+
+- Affected department
+
+- Required action
+
+- Required deadline
+
+- Evidence needed
+
+- Internal owner
+
+- Status
+
+- Open questions
+
+- Review date
+
+- Notes
+
+
+**Suggested source types:**
+
+- Law or regulation
+
+- Customer contract
+
+- Vendor contract
+
+- Cyber insurance
+
+- Payment processor
+
+- Security questionnaire
+
+- Internal policy
+
+- Industry standard
+
+- Framework
+
+- SaaS agreement
+
+## Expected Outputs from This Section
+
+At the end of this section, the company should have:
+
+- A named owner for gathering compliance and contractual requirements.
+
+- A central folder containing relevant contracts, policies, insurance documents, regulatory notes, and security questionnaires.
+
+- A list of possible laws and regulations that may apply.
+
+- A list of customer cybersecurity requirements.
+
+- A list of vendor and third-party obligations.
+
+- A cyber insurance obligations summary.
+
+- A compliance and contractual requirements register.
+
+- A list of evidence the company may need to produce.
+
+- A list of unclear or conflicting obligations.
+
+- A review schedule for keeping the register current.
+
+## Objective
+
+The company should leave this section able to say: 
+
+“We know which cybersecurity, privacy, contract, customer, vendor, and insurance requirements apply or may apply to us. We know where those requirements are written. We know who owns them. We know what evidence may be needed. And we know which unclear items need follow-up.”
+
+That is the right foundation before moving into the risk assessment.

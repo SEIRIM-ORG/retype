@@ -1,8 +1,128 @@
 {
   "recentFiles": [
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "Respond Overview",
+      "path": "5. Respond/Respond Overview.md"
+    },
+    {
+      "basename": "Eradication, Stabilization, and Safe Handoff to Recover",
+      "path": "5. Respond/Eradication, Stabilization, and Safe Handoff to Recover.md"
+    },
+    {
+      "basename": "Communication, Escalation, and External Support",
+      "path": "5. Respond/Communication, Escalation, and External Support.md"
+    },
+    {
+      "basename": "Containment and Immediate Risk Reduction",
+      "path": "5. Respond/Containment and Immediate Risk Reduction.md"
+    },
+    {
+      "basename": "Initial Triage, Evidence, and Incident Classification",
+      "path": "5. Respond/Initial Triage, Evidence, and Incident Classification.md"
+    },
+    {
+      "basename": "Incident Response Ownership and Activation",
+      "path": "5. Respond/Incident Response Ownership and Activation.md"
+    },
+    {
+      "basename": "Detect Checklist",
+      "path": "4. Detect/Detect Checklist.md"
+    },
+    {
+      "basename": "External Exposure and Control Failure Detection",
+      "path": "4. Detect/External Exposure and Control Failure Detection.md"
+    },
+    {
+      "basename": "Detect Overview",
+      "path": "4. Detect/Detect Overview.md"
+    },
+    {
+      "basename": "Monitoring the Main Attack Paths",
+      "path": "4. Detect/Monitoring the Main Attack Paths.md"
+    },
+    {
+      "basename": "Logging, Alerts, and Security Visibility",
+      "path": "4. Detect/Logging, Alerts, and Security Visibility.md"
+    },
+    {
+      "basename": "Employee Reporting, Triage, and Handoff to Respond",
+      "path": "4. Detect/Employee Reporting, Triage, and Handoff to Respond.md"
+    },
+    {
+      "basename": "Detection Ownership and Coverage",
+      "path": "4. Detect/Detection Ownership and Coverage.md"
+    },
+    {
+      "basename": "Protect Overview",
+      "path": "3. Protect/Protect Overview.md"
+    },
+    {
+      "basename": "_Endpoint Detection and Response",
+      "path": "4. Detect/_Endpoint Detection and Response.md"
+    },
+    {
+      "basename": "_Intrusion Detection and Prevention",
+      "path": "4. Detect/_Intrusion Detection and Prevention.md"
+    },
+    {
+      "basename": "Protect Checklist",
+      "path": "3. Protect/Protect Checklist.md"
+    },
+    {
+      "basename": "Assessments Checklist",
+      "path": "1. Assess/Assessments Checklist.md"
+    },
+    {
+      "basename": "Identify Checklist",
+      "path": "2. Identify/Identify Checklist.md"
+    },
+    {
+      "basename": "Educate Checklist",
+      "path": "8. Educate/Educate Checklist.md"
+    },
+    {
+      "basename": "Review Checklist",
+      "path": "7. Review/Review Checklist.md"
+    },
+    {
+      "basename": "Recover Checklist",
+      "path": "6. Recover/Recover Checklist.md"
+    },
+    {
+      "basename": "Respond Checklist",
+      "path": "5. Respond/Respond Checklist.md"
+    },
+    {
+      "basename": "Network, Remote Access, and Internet Exposure Protection",
+      "path": "3. Protect/Network, Remote Access, and Internet Exposure Protection.md"
+    },
+    {
+      "basename": "Endpoint, Server, and Mobile Device Protection",
+      "path": "3. Protect/Endpoint, Server, and Mobile Device Protection.md"
+    },
+    {
+      "basename": "Email, Web, Cloud, and SaaS Protection",
+      "path": "3. Protect/Email, Web, Cloud, and SaaS Protection.md"
+    },
+    {
+      "basename": "Vulnerability and Patch Management",
+      "path": "3. Protect/Vulnerability and Patch Management.md"
+    },
+    {
+      "basename": "Identity and Access Management",
+      "path": "3. Protect/Identity and Access Management.md"
+    },
+    {
+      "basename": "Systems Hardening",
+      "path": "3. Protect/Systems Hardening.md"
+    },
+    {
+      "basename": "Backup and Recovery Readiness",
+      "path": "3. Protect/Backup and Recovery Readiness.md"
+    },
+    {
+      "basename": "Identify Overview",
+      "path": "2. Identify/Identify Overview.md"
     },
     {
       "basename": "Identify Dependencies",
@@ -13,64 +133,64 @@
       "path": "2. Identify/Identify Users and Accounts.md"
     },
     {
-      "basename": "Assess Overview",
-      "path": "1. Assess/Assess Overview.md"
-    },
-    {
-      "basename": "Current Security Assessment",
-      "path": "1. Assess/Current Security Assessment.md"
-    },
-    {
-      "basename": "Conduct a Risk Assessment",
-      "path": "1. Assess/Conduct a Risk Assessment.md"
-    },
-    {
-      "basename": "Identity and Access Management",
-      "path": "3. Protect/Identity and Access Management.md"
-    },
-    {
-      "basename": "Backup Regimes",
-      "path": "3. Protect/Backup Regimes.md"
-    },
-    {
       "basename": "Identify Apps and Services",
       "path": "2. Identify/Identify Apps and Services.md"
-    },
-    {
-      "basename": "Endpoint Detection and Response",
-      "path": "4. Detect/Endpoint Detection and Response.md"
-    },
-    {
-      "basename": "Systems Hardening",
-      "path": "3. Protect/Systems Hardening.md"
-    },
-    {
-      "basename": "Vulnerability Management",
-      "path": "3. Protect/Vulnerability Management.md"
     },
     {
       "basename": "Identify Physical Assets",
       "path": "2. Identify/Identify Physical Assets.md"
     },
     {
-      "basename": "Identify Overview",
-      "path": "2. Identify/Identify Overview.md"
+      "basename": "Identify Data",
+      "path": "2. Identify/Identify Data.md"
     },
     {
-      "basename": "index",
-      "path": "3. Protect/index.md"
+      "basename": "Measure Current Security Maturity Gap",
+      "path": "1. Assess/Measure Current Security Maturity Gap.md"
     },
     {
-      "basename": "Intrusion Detection and Prevention",
-      "path": "4. Detect/Intrusion Detection and Prevention.md"
+      "basename": "Assess Overview",
+      "path": "1. Assess/Assess Overview.md"
     },
     {
-      "basename": "Common Attack Types",
-      "path": "1. Assess/Common Attack Types.md"
+      "basename": "Conduct a Risk Assessment",
+      "path": "1. Assess/Conduct a Risk Assessment.md"
+    },
+    {
+      "basename": "Gather Compliance and Contractual Requirements",
+      "path": "1. Assess/Gather Compliance and Contractual Requirements.md"
     },
     {
       "basename": "Understand the Current Threat Environment",
       "path": "1. Assess/Understand the Current Threat Environment.md"
+    },
+    {
+      "basename": "Understand Common Attack Types",
+      "path": "1. Assess/Understand Common Attack Types.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Verizon - Known initial access vectors over time",
+      "path": "Verizon - Known initial access vectors over time.png"
+    },
+    {
+      "basename": "_Start Here",
+      "path": "_Start Here.md"
+    },
+    {
+      "basename": "Risk Assessment Frameworks",
+      "path": "Worksheets/Risk Assessment Frameworks.md"
+    },
+    {
+      "basename": "CIS RAM Risk Assessments",
+      "path": "Worksheets/CIS RAM Risk Assessments.md"
+    },
+    {
+      "basename": "index",
+      "path": "3. Protect/index.md"
     },
     {
       "basename": "Unprepared Incident Response",
@@ -79,114 +199,6 @@
     {
       "basename": "Incident Response Toolkit",
       "path": "Emergency Kit/Incident Response Toolkit.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Emergency Kit/Index.md"
-    },
-    {
-      "basename": "index",
-      "path": "Worksheets/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "8. Educate/index.md"
-    },
-    {
-      "basename": "Identify Data",
-      "path": "2. Identify/Identify Data.md"
-    },
-    {
-      "basename": "Further Reading",
-      "path": "Worksheets/Further Reading.md"
-    },
-    {
-      "basename": "Detect",
-      "path": "4. Detect/Detect.md"
-    },
-    {
-      "basename": "Backup Regimes",
-      "path": "03 Protect/Backup Regimes.md"
-    },
-    {
-      "basename": "Protect Overview",
-      "path": "03 Protect/Protect Overview.md"
-    },
-    {
-      "basename": "Intrusion Prevention and Detection",
-      "path": "03 Protect/Intrusion Prevention and Detection.md"
-    },
-    {
-      "basename": "Endpoint Detection and Response",
-      "path": "03 Protect/Endpoint Detection and Response.md"
-    },
-    {
-      "basename": "Identity and Access Management",
-      "path": "03 Protect/Identity and Access Management.md"
-    },
-    {
-      "basename": "Start Here",
-      "path": "Start Here.md"
-    },
-    {
-      "basename": "_Commands to Push to Github",
-      "path": "_Commands to Push to Github.md"
-    },
-    {
-      "basename": "Compliance and Contractual Requirements",
-      "path": "1. Assess/Compliance and Contractual Requirements.md"
-    },
-    {
-      "basename": "After Action Review",
-      "path": "7. Review/After Action Review.md"
-    },
-    {
-      "basename": "Incident Response",
-      "path": "5. Respond/Incident Response.md"
-    },
-    {
-      "basename": "Test Backup Regime",
-      "path": "06 Recover/Test Backup Regime.md"
-    },
-    {
-      "basename": "_Playbook Steps Overview",
-      "path": "_Playbook Steps Overview.md"
-    },
-    {
-      "basename": "_Steps",
-      "path": "_Steps.md"
-    },
-    {
-      "basename": "index",
-      "path": "7. Review/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "5. Respond/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "06 Recover/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "03 Protect/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "2. Identify/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "4. Detect/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "1. Assess/index.md"
-    },
-    {
-      "basename": "_Kanban to-dos",
-      "path": "_Kanban to-dos.md"
     }
   ],
   "omittedPaths": [],

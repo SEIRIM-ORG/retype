@@ -2,23 +2,22 @@
 icon: triangle-right
 order: 80
 ---
-This covers the physical and virtual things the company owns or uses.
+This covers the physical and virtual things the company owns or uses. This does blur the line between "physical" and "virtual", but think of the virtual cloud objects as actually existing on servers, and acting as servers or machines and it makes sense.
 
-Include:
+There will also be overlap there with the Data Inventory step preceding this but that's ok, the key is that no asset falls through the cracks.
+
+**Include:**
 
 Physical devices, laptops, desktops, servers, mobile devices, printers, routers, switches, firewalls, IoT devices, cloud infrastructure, virtual machines, and storage systems.
 
-Core question:
+**Core question:**
 
 **What technology assets exist, where are they, who owns them, and are they still in use?**
 
-This is the foundation. If the company does not know what exists, it cannot protect it properly.
+This is the foundation - if the company does not know what exists, it cannot protect it properly - and this includes physical equipment.
 
-For **Identify Assets**, the process should be a disciplined inventory workflow, not a vague “make a list” exercise.
+When we are identifying physical assets the process should be a disciplined inventory workflow, not a vague “make a list” exercise.
 
-The goal is to discover, record, verify, assign ownership, and continuously update all physical, virtual, remote, and cloud assets used by the business. 
-
-Organizations should actively manage, inventory, track, and correct enterprise assets across physical, virtual, remote, and cloud environments. NIST CSF 2.0 also keeps asset inventories under Identify / Asset Management, including hardware, software, services, and systems. ([CIS](https://www.cisecurity.org/controls/inventory-and-control-of-enterprise-assets?utm_source=chatgpt.com "CIS Control 1: Inventory and Control of Enterprise Assets"))
 
 ## Main steps in the Identify Assets process
 
@@ -26,11 +25,11 @@ Organizations should actively manage, inventory, track, and correct enterprise a
 
 First, define what counts as an asset. This prevents the team from only listing laptops and forgetting routers, cloud servers, virtual machines, storage buckets, backup devices, IoT devices, and remote endpoints.
 
-For this section, asset scope should include:
+**For this section, asset scope should include:**
 
 Physical devices, servers, laptops, desktops, mobile devices, printers, routers, switches, firewalls, access points, IoT devices, virtual machines, cloud resources, storage systems, backup systems, and unmanaged or unknown devices found on the network.
 
-The key question:
+**The key question:**
 
 **What physical, virtual, cloud, and network-connected assets exist in or touch the company environment?**
 
@@ -38,15 +37,15 @@ The key question:
 
 Before discovery, define the minimum information each asset record must contain. Otherwise, the inventory becomes inconsistent and useless.
 
-Minimum fields should include:
+**Minimum fields should include:**
 
 Asset name, asset type, serial number or unique ID, owner, assigned user, department, location, IP address or hostname, operating system or firmware, business purpose, status, purchase date, warranty or support status, and whether the asset is approved or unauthorized.
 
-For cloud and virtual assets, include:
+**For cloud and virtual assets, include:**
 
 Cloud provider, account/subscription/project, region, resource ID, resource type, workload name, owner, environment, and business function.
 
-The key question:
+**The key question:**
 
 **What information must be captured so this asset can be identified, owned, and managed later?**
 
@@ -54,15 +53,15 @@ The key question:
 
 Next, collect the actual asset data. Do not rely only on memory or spreadsheets. That is how companies miss shadow IT and forgotten systems.
 
-Use multiple discovery methods:
+**Use multiple discovery methods:**
 
 Manual review of purchase records, employee equipment lists, network scans, endpoint agents, MDM tools, cloud inventory exports, virtualization platform exports, firewall/router logs, DHCP records, Wi-Fi controller records, and SaaS/admin console exports.
 
-For SMEs, this may be simple at first:
+**For SMEs, this may be simple at first:**
 
 Start with accounting/purchase records, router/DHCP device lists, Microsoft 365/Google Workspace admin devices, cloud provider resource lists, and endpoint security dashboards.
 
-The key question:
+**The key question:**
 
 **What assets can we prove exist from actual records, tools, scans, or system exports?**
 
@@ -72,28 +71,28 @@ Raw discovery data will be messy. The same laptop might appear in the antivirus 
 
 This step should standardize naming conventions, remove duplicates, merge partial records, and assign a consistent asset ID.
 
-Example:
+**Example:**
 
 `LAPTOP-FIN-003`  
 `SERVER-APP-001`  
 `FW-MAIN-OFFICE-001`  
 `AWS-EC2-PROD-WEB-001`
 
-The key question:
+**The key question:**
 
 **Is each asset represented once, clearly, and consistently?**
 
 ### 5. Assign ownership and business purpose
 
-Every asset needs an accountable owner. “IT owns everything” is lazy and usually false. IT may manage the device, but the business owner may be finance, sales, operations, HR, or leadership.
+Every asset needs an accountable owner. IT may manage the device, but the business owner may be finance, sales, operations, HR, or leadership.
 
-Capture two types of ownership:
+**Capture two types of ownership:**
 
-The **technical owner** responsible for support and maintenance.
+- The **technical owner** responsible for support and maintenance.
 
-The **business owner** responsible for why the asset exists and what process it supports.
+- The **business owner** responsible for why the asset exists and what process it supports.
 
-The key question:
+**The key question:**
 
 **Who is responsible for this asset, and what business function does it support?**
 
@@ -103,19 +102,19 @@ This is where the inventory starts becoming useful. A list of devices is weak. A
 
 For each asset, record where it exists and how it connects.
 
-For physical devices:
+**For physical devices:**
 
 Office, home, branch site, data center, storage room, employee location, or mobile/remote.
 
-For networked assets:
+**For networked assets:**
 
 Internal only, VPN-accessible, Wi-Fi-connected, internet-facing, third-party-connected, cloud-hosted, or segmented network zone.
 
-For cloud assets:
+**For cloud assets:**
 
 Provider, account, region, VPC/VNet, public/private exposure, and workload environment.
 
-The key question:
+**The key question:**
 
 **Where is the asset, and how can it be reached?**
 
@@ -125,19 +124,19 @@ This matters because an internet-facing server and an offline spare laptop are n
 
 This is the cleanup step. The process should not only identify approved assets. It should also expose assets that should not exist or are no longer properly managed.
 
-Flag assets as:
+**Flag assets as:**
 
 Approved, pending review, unknown, unauthorized, retired, lost, stolen, unmanaged, duplicate, or inactive.
 
-Examples:
+**Examples:**
 
-A former employee’s laptop still active in Microsoft Entra ID.  
-A Wi-Fi device with no known owner.  
-A cloud VM created outside the approved process.  
-A router or printer with outdated ownership records.  
-A server that is still running but no department claims it.
+- A former employee’s laptop still active in Microsoft Entra ID.  
+- A Wi-Fi device with no known owner.  
+- A cloud VM created outside the approved process.  
+- A router or printer with outdated ownership records.  
+- A server that is still running but no department claims it.
 
-The key question:
+**The key question:**
 
 **Which assets are not properly known, owned, approved, or managed?**
 
@@ -147,14 +146,14 @@ This is where Identify starts creating real value. Unknown assets are often wher
 
 Do not assume the first version is correct. Send the inventory to department heads, IT, finance, operations, and system owners for verification.
 
-Ask them to confirm:
+**Ask them to confirm:**
 
-Is this asset still in use?  
-Who uses it?  
-Who owns it?  
-What business process depends on it?  
-Should it remain active?  
-Is anything missing?
+- Is this asset still in use?  
+- Who uses it?  
+- Who owns it?  
+- What business process depends on it?  
+- Should it remain active?  
+- Is anything missing?
 
 The key question:
 
@@ -166,17 +165,17 @@ Without validation, the inventory is just a rough guess with nicer formatting.
 
 Asset identification is not a one-time project. New assets appear every month. Employees join and leave. Cloud resources are created and forgotten. Devices break, move, or get replaced.
 
-Define update triggers:
+**Define update triggers:**
 
 New purchase, new hire, employee exit, device replacement, cloud resource creation, office move, vendor onboarding, system retirement, lost/stolen device, and quarterly inventory review.
 
-For SMEs, a practical cadence is:
+**For SMEs, a practical cadence is:**
 
-Monthly quick review for new/changed assets.  
-Quarterly full reconciliation.  
-Immediate update when an asset is purchased, assigned, retired, lost, or exposed to the internet.
+- **Monthly** quick review for new/changed assets.  
+- **Quarterly** full reconciliation.  
+- **Immediate** update when an asset is purchased, assigned, retired, lost, or exposed to the internet.
 
-The key question:
+**The key question:**
 
 **How do we keep the inventory accurate after the first version is built?**
 
@@ -255,3 +254,6 @@ Here are the strongest open-source or lower-cost options we at SEIRIM would cons
 ### Summary
 
 The company should maintain an asset inventory using a central asset register supported by automated discovery tools. The inventory should include physical devices, virtual assets, cloud resources, network equipment, storage systems, software, ownership, location, business function, lifecycle status, and whether each asset is approved for company use.
+
+----
+

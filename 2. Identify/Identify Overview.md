@@ -64,73 +64,86 @@ Identify what the company owns, what data it handles, what systems it uses, who 
 
 If this stage is weak, the rest of the playbook is built on incomplete knowledge and assumptions. You cannot secure assets you do not know exist, protect data you have not located, remove access you have not identified, or recover systems whose dependencies you never mapped.
 
+## 5 Key Data Identification Steps
 
-## 1. Identify Assets
 
-This covers the physical and virtual things the company owns or uses.
-
-Include:
-
-Physical devices, laptops, desktops, servers, mobile devices, printers, routers, switches, firewalls, IoT devices, cloud infrastructure, virtual machines, and storage systems.
-
-Core question:
-
-**What technology assets exist, where are they, who owns them, and are they still in use?**
-
-This is the foundation. If the company does not know what exists, it cannot protect it properly.
-
-## 2. Identify Data
+### 1. Identify Data
 
 This covers the information the business creates, stores, processes, or shares.
 
-Include:
+**Include:**
 
 Customer data, employee data, financial records, contracts, intellectual property, credentials, business documents, backups, regulated data, confidential files, and archived data.
 
-Core question:
+**Core question:**
 
 **What data do we have, where is it stored, how sensitive is it, and who can access it?**
 
 This should include basic data classification: public, internal, confidential, restricted, or regulated.
 
-## 3. Identify Applications and Services
+
+### 2. Identify Physical Assets
+
+This covers the physical and virtual things the company owns or uses.
+
+**Include:**
+
+Physical devices, laptops, desktops, servers, mobile devices, printers, routers, switches, firewalls, IoT devices, cloud infrastructure, virtual machines, and storage systems.
+
+**Core question:**
+
+**What technology assets exist, where are they, who owns them, and are they still in use?**
+
+This is the foundation. If the company does not know what exists, it cannot protect it properly.
+
+
+
+### 3. Identify Applications and Services
 
 This covers the software, systems, platforms, and cloud services the company depends on.
 
-Include:
+**Include:**
 
 Business applications, SaaS tools, email platforms, accounting systems, CRM systems, ERP systems, websites, APIs, databases, cloud services, backup platforms, security tools, and third-party portals.
 
-Core question:
+**Core question:**
 
 **What applications and services are used to run the business, and what role does each one play?**
 
 This is where shadow IT often appears. SMEs usually underestimate how many tools employees actually use.
 
-## 4. Identify Accounts and Users
+### 4. Identify Users and Accounts
 
 This covers human and non-human access identities.
 
-Include:
+**Include:**
 
 Employees, contractors, administrators, shared accounts, service accounts, privileged accounts, API keys, automation accounts, vendor accounts, dormant accounts, and former employee accounts.
 
-Core question:
+**Core question:**
 
 **Who or what has access to company systems, what level of access do they have, and is that access still justified?**
 
 This deserves its own category because compromised accounts are one of the most common ways attackers get in. Do not bury this under “assets.”
 
-## 5. Identify Dependencies and Connections
+### 5. Identify Dependencies and Connections
 
 This maps how everything depends on everything else.
 
-Include:
+**Include:**
 
 Vendor dependencies, cloud dependencies, internet-facing systems, network connections, integrations, APIs, payment processors, email dependencies, supply chain links, managed service providers, outsourced IT, and critical business process dependencies.
 
-Core question:
+**Core question:**
 
 **What systems, vendors, data flows, and services does the business rely on to operate?**
 
 This is the category that turns a flat inventory into a useful cybersecurity map. Without dependency mapping, the inventory is just a list.
+
+
+## Objective
+
+Let's identify all these critical assets so we can get them protected!
+
+---
+

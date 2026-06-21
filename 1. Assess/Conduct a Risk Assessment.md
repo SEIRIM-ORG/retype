@@ -1,3 +1,478 @@
 ---
 icon: triangle-right
+order: 50
 ---
+## Goal
+
+The goal of the cybersecurity risk assessment is to identify which cyber threats could materially harm the organization, measure how likely and severe those risks are, and give leadership a defensible basis for deciding what to fix, fund, accept, transfer, or avoid.
+
+<br>
+<br>
+
+![[Risk-blocks-on-white.jpg]]
+
+<br>
+<br>
+
+## Task
+
+The assessment seeks to determine which cyber risks could disrupt operations, expose sensitive data, cause financial loss, create legal or regulatory exposure, or damage trust — and then prioritize action based on business impact.
+
+In the end the key outputs will be:
+
+- Risk register  
+- Prioritized risk ratings  
+- Clear risk owners  
+- Recommended treatment actions  
+- Residual risk view  
+- Executive decision points  
+- 90-day remediation priorities
+
+## Step 1: Define the assessment scope
+
+Start by defining exactly what will be assessed. Do not assess “the company” as one vague object. That creates a messy, shallow result.
+
+**Define the scope by listing:**
+
+- Business units  
+- Locations  
+- Cloud platforms  
+- Websites and applications  
+- Internal systems  
+- Critical business processes  
+- Third-party platforms  
+- Data types  
+- Employee groups  
+- Suppliers and external dependencies
+
+For most SMEs, the first risk assessment should include email, cloud storage, endpoints, finance systems, customer data, websites, remote access, backups, identity systems, and key SaaS platforms. 
+
+To get started with first ideas less formally this can be sketched out in one sitting, but to accomplish a more in depth assessment, which is recommended, it's necessary to also conduct a thorough inventory of data, assets, users, apps, services and more which is a whole step of its own in the playbook process here: [[Identify Overview]]
+
+Useful reference: [NIST SP 800-30 Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final). NIST describes risk assessments as part of the broader risk management process that helps senior leaders determine appropriate courses of action in response to identified risks.
+
+Output: **Risk Assessment Scope Statement**
+
+## Step 2: Choose the risk assessment model
+
+Choose the scoring method before collecting evidence. If the scoring model is invented after the findings are known, the results become biased.
+
+For SMEs, use a simple 1–5 scoring model.
+
+**Likelihood:**
+
+1 = Rare  
+2 = Unlikely  
+3 = Possible  
+4 = Likely  
+5 = Almost certain
+
+**Impact:**
+
+1 = Minor inconvenience  
+2 = Limited disruption  
+3 = Material business disruption  
+4 = Severe financial, operational, legal, or reputational damage  
+5 = Catastrophic or existential impact
+
+**Risk score:**
+
+Likelihood × Impact = Risk Score
+
+**Risk rating:**
+
+1–5 = Low  
+6–10 = Medium  
+11–15 = High  
+16–25 = Critical
+
+For a more formal model, use [CIS RAM](https://learn.cisecurity.org/cis-ram), which is designed to help organizations assess cybersecurity risk against the CIS Controls.
+
+Output: **Risk Scoring Method**
+
+## Step 3: Identify critical business processes
+
+Before looking at technology, identify what the company must keep running.
+
+**Examples:**
+
+- Taking customer orders  
+- Processing payments  
+- Delivering services  
+- Shipping products  
+- Paying employees  
+- Managing customer records  
+- Running production systems  
+- Communicating with clients  
+- Meeting contractual obligations  
+- Maintaining regulatory compliance
+
+For each process, identify the systems, people, data, vendors, and infrastructure that support it.
+
+**Example:**
+
+Customer billing may depend on Microsoft 365, QuickBooks Online, bank portal access, finance laptops, MFA, customer records, and internet connectivity.
+
+This step matters because cyber risk is not just about systems. It is about business interruption, financial loss, data exposure, and operational failure.
+
+Output: **Critical Process Map**
+
+## Step 4: Identify critical assets
+
+Use the playbook’s **Identify** section as the foundation. A risk assessment is weak if the asset inventory is weak.
+
+A first pass inventory can be conducted to create a first risk assessment, but a more complete, more comprehensive asset inventory should be conducted as well in the next #2 [[Identify Overview]] phase in a very thorough process especially before heading into the #3 [[Protect Overview]] phase.
+
+**Document:**
+
+- Laptops and desktops  
+- Servers  
+- Cloud platforms  
+- SaaS applications  
+- Network devices  
+- Websites  
+- Databases  
+- Admin accounts  
+- Shared mailboxes  
+- Data repositories  
+- Backup systems  
+- Third-party integrations  
+- Operational technology, if applicable  
+- Shadow IT systems
+
+Recommended tools:
+
+[Nmap](https://nmap.org/) for network discovery and security auditing.  
+[Snipe-IT](https://snipeitapp.com/) for open-source asset management.  
+[Lansweeper](https://www.lansweeper.com/) for IT asset inventory.  
+[GLPI](https://glpi-project.org/) for open-source IT asset and service management.
+
+Check the upcoming [[Identify Overview]] section for a complete process.
+
+Output: **Critical Asset Inventory**
+
+## Step 5: Identify threat scenarios
+
+Do not write generic risks like “hackers may attack us.” That is too vague to act on.
+
+Use this format:
+
+**Threat actor + attack method + vulnerable asset/control gap + business impact**
+
+Examples:
+
+- A phishing attacker steals a Microsoft 365 password because MFA is not enforced, resulting in business email compromise and fraudulent payment instructions.
+
+- Ransomware encrypts file shares because endpoint protection and backups are weak, causing multi-day operational downtime.
+
+- A former employee accesses cloud files because account deprovisioning is manual, causing data leakage.
+
+- A supplier outage stops order fulfillment because there is no alternate provider or manual fallback process.
+
+- An attacker exploits an unpatched public-facing website, leading to customer data exposure and reputational damage.
+
+Use [MITRE ATT&CK](https://attack.mitre.org/) to structure realistic attacker techniques. MITRE describes ATT&CK as a globally accessible knowledge base of adversary tactics and techniques based on real-world observations. ([MITRE ATT&CK](https://attack.mitre.org/?utm_source=chatgpt.com "MITRE ATT&CK®"))
+
+Output: **Threat Scenario List**
+
+## Step 6: Assess existing controls
+
+Now review what protections already exist. This should include technical, administrative, and procedural controls.
+
+**Assess:**
+
+- MFA coverage  
+- Password policy  
+- Identity and access management  
+- Endpoint protection  
+- Patch management  
+- Backup and restore capability  
+- Email security  
+- Firewall configuration  
+- Remote access controls  
+- Logging and monitoring  
+- Incident response readiness  
+- Vendor access  
+- Data access permissions  
+- Security awareness training  
+- Privileged account management  
+- Website and application security  
+- Cloud security configuration  
+- Physical security where relevant
+
+**Recommended tools:**
+
+[CISA CSET](https://github.com/cisagov/cset) for structured cybersecurity evaluation. CISA describes CSET as a tool that guides users through a step-by-step process to evaluate IT and OT security practices. ([CISA](https://www.cisa.gov/downloading-and-installing-cset?utm_source=chatgpt.com "Downloading and Installing CSET"))
+
+[CIS CSAT](https://csat.cisecurity.org/) for assessing implementation of the CIS Controls.
+
+[Eramba Community](https://www.eramba.org/get-community) for risk, compliance, policy, and control tracking.
+
+[SimpleRisk](https://www.simplerisk.com/) for affordable risk register and GRC workflow management.
+
+Output: **Control Assessment Summary**
+
+## Step 7: Collect technical evidence
+
+This is where security tools are useful. But the tool output should support the assessment, not replace it.
+
+Collect evidence for:
+
+- Exposed services  
+- Missing patches  
+- Weak configurations  
+- Vulnerable software  
+- Misconfigured cloud accounts  
+- Weak passwords or identity gaps  
+- Unprotected endpoints  
+- Unsecured web applications  
+- Outdated dependencies  
+- Open storage buckets  
+- Missing logs  
+- Backup weaknesses  
+- Excessive user permissions
+
+#### Recommended evidence-gathering tools:
+
+|Assessment Need|Recommended Tool|Purpose|
+|---|---|---|
+|Network discovery|[Nmap](https://nmap.org/)|Identify hosts, ports, and exposed services|
+|Vulnerability scanning|[Greenbone Community Edition / OpenVAS](https://community.greenbone.net/)|Identify known vulnerabilities and misconfigurations|
+|Web application scanning|[OWASP ZAP](https://www.zaproxy.org/)|Test websites and web applications for common security issues|
+|Cloud security review|[Prowler](https://github.com/prowler-cloud/prowler)|Assess cloud environments against security best practices|
+|Linux/macOS auditing|[Lynis](https://cisofy.com/lynis/)|Audit Unix-based systems for hardening gaps|
+|Compliance scanning|[OpenSCAP](https://www.open-scap.org/)|Run configuration and compliance checks|
+|Container, IaC, and dependency scanning|[Trivy](https://trivy.dev/)|Find vulnerabilities and misconfigurations across containers, code repositories, IaC, and Kubernetes. ([Trivy](https://trivy.dev/?utm_source=chatgpt.com "Trivy"))|
+|Software supply chain risk|[OWASP Dependency-Track](https://owasp.org/www-project-dependency-track/)|Identify and reduce software supply chain risk using SBOM analysis. ([OWASP Foundation](https://owasp.org/www-project-dependency-track/?utm_source=chatgpt.com "OWASP Dependency-Track"))|
+|Vulnerability management|[DefectDojo](https://github.com/DefectDojo/django-DefectDojo)|Track, de-duplicate, manage, and report security findings. ([GitHub](https://github.com/defectdojo/django-defectdojo?utm_source=chatgpt.com "DefectDojo/django-DefectDojo: Open-Source Unified ..."))|
+|SIEM and security monitoring|[Wazuh](https://wazuh.com/)|Open-source SIEM/XDR for endpoints and cloud workloads. ([Wazuh](https://wazuh.com/?utm_source=chatgpt.com "Wazuh - Open Source XDR. Open Source SIEM."))|
+
+Important: only scan systems the company owns or is explicitly authorized to assess.
+
+Output: **Technical Evidence Pack**
+
+## Step 8: Rate likelihood
+
+Likelihood should be evidence-based, not emotional.
+
+**Increase likelihood when:**
+
+- The system is internet-facing  
+- MFA is missing  
+- The vulnerability is actively exploited  
+- The system is unpatched  
+- The asset contains sensitive data  
+- Users are frequently targeted by phishing  
+- Admin access is excessive  
+- Backups are untested  
+- The supplier is critical and weakly governed  
+- There is prior incident history  
+- Security monitoring is limited
+
+Use the [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) to identify vulnerabilities already known to be exploited. CISA maintains the catalog to help organizations better manage known exploited vulnerabilities. ([CISA](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?utm_source=chatgpt.com "Known Exploited Vulnerabilities Catalog"))
+
+Output: **Likelihood Rating per Risk Scenario**
+
+## Step 9: Rate business impact
+
+Impact should not be rated by IT alone. Business owners need to participate because they understand revenue loss, customer impact, contractual exposure, and operational consequences.
+
+**Assess impact across:**
+
+- Financial loss  
+- Operational downtime  
+- Customer disruption  
+- Legal exposure  
+- Regulatory penalties  
+- Contractual breach  
+- Reputational damage  
+- Data loss  
+- Recovery cost  
+- Safety risk, if applicable  
+- Executive accountability
+
+Ask this for every major scenario:
+
+“If this happened tomorrow, what would break, how long would it hurt, and who would it impact?”
+
+Output: **Impact Rating per Risk Scenario**
+
+## Step 10: Build the risk register
+
+The risk register is the core deliverable. If the assessment does not produce a usable risk register, the process failed.
+
+#### Risk Register
+
+A cybersecurity risk register is a centralized, dynamic repository used by organizations to systematically document, track, and manage potential security threats and vulnerabilities.
+Rather than being a static list, it serves as a core component of a cyber Governance, Risk, and Compliance (GRC) program, enabling organizations to prioritize security investments and communicate their risk posture to leadership.
+
+#### Key Components of a Risk Register
+
+**A comprehensive risk register typically includes the following elements for each identified risk:**
+
+- **Risk Description:** A clear explanation of the potential threat or vulnerability.
+- **Likelihood and Impact:** Assessments of how probable a risk is to occur and the potential damage it could cause to the organization.
+- **Mitigation Strategies:** Defined actions or controls intended to reduce, transfer, avoid, or accept the risk.
+- **Risk Ownership:** Assignment of responsibility to specific individuals or departments for monitoring and managing the risk.
+- **Residual Risk:** The level of risk that remains after mitigation efforts have been implemented.
+
+**Minimum fields:**
+
+- Risk ID  
+- Risk scenario  
+- Affected asset or process  
+- Threat source  
+- Vulnerability or control gap  
+- Existing controls  
+- Likelihood  
+- Impact  
+- Risk score  
+- Risk rating  
+- Risk owner  
+- Recommended treatment  
+- Target date  
+- Residual risk  
+- Status  
+- Evidence source
+
+**Example:**
+
+- Risk ID: RA-001  
+- Risk scenario: Microsoft 365 account takeover leading to business email compromise.  
+- Affected process: Finance and vendor payment approvals.  
+- Control gap: MFA not enforced for all users; mailbox forwarding not monitored.  
+- Likelihood: 4  
+- Impact: 4  
+- Risk score: 16  
+- Risk rating: Critical  
+- Treatment: Enforce MFA, disable legacy authentication, monitor forwarding rules, implement payment callback verification.  
+- Owner: Finance Manager and IT Admin  
+- Target date: 30 days  
+- Residual risk: Medium after controls are implemented.
+
+Output: **Cyber Risk Register**
+
+## Step 11: Decide risk treatment
+
+Every risk needs a clear treatment decision.
+
+**There are four options:**
+
+- **Mitigate:** reduce the likelihood or impact with controls.  
+- **Transfer:** use insurance or contractual protection, while recognizing that operational risk still remains.  
+- **Accept:** leadership formally accepts the risk.  
+- **Avoid:** stop the risky activity, retire the system, block the exposure, or change the process.
+
+Weak treatment:
+
+“We will improve security.”
+
+Strong treatment:
+
+“We will enforce MFA for all Microsoft 365 users, disable legacy authentication, monitor mailbox forwarding rules, and require verbal confirmation for payment changes above $5,000 by July 15.”
+
+Output: **Risk Treatment Plan**
+
+## Step 12: Prioritize remediation
+
+Do not prioritize only by CVSS. That is too narrow. A medium vulnerability on a critical public-facing system may matter more than a high vulnerability on an isolated lab machine.
+
+**Prioritize by:**
+
+- Business criticality  
+- Internet exposure  
+- Known exploitation  
+- Exploitability  
+- Data sensitivity  
+- Control weakness  
+- Ease of remediation  
+- Regulatory pressure  
+- Contractual exposure  
+- Blast radius
+
+**Fast wins usually include:**
+
+- Enforce MFA  
+- Review admin accounts  
+- Test backup restoration  
+- Patch critical internet-facing systems  
+- Remove stale users  
+- Disable legacy authentication  
+- Restrict remote access  
+- Deploy endpoint protection  
+- Fix exposed storage  
+- Enable identity and email logging  
+- Document incident response contacts  
+- Implement payment verification controls
+
+Output: **90-Day Risk Reduction Roadmap**
+
+## Step 13: Present the results to leadership
+
+Executives do not need a technical dump. They need decisions.
+
+**Give them:**
+
+- Top 10 risks  
+- Business impact  
+- Likely attack paths  
+- Cost of inaction  
+- Recommended actions  
+- Owners  
+- Deadlines  
+- Residual risk  
+- Budget or policy decisions required
+
+Weak executive summary:
+
+“We found 143 vulnerabilities.”
+
+Strong executive summary:
+
+“The company has a high likelihood of Microsoft 365 account takeover because MFA is incomplete, finance approvals rely heavily on email, and mailbox forwarding is not monitored. A single successful attack could redirect vendor payments or expose customer data.”
+
+Output: **Executive Risk Briefing**
+
+## Step 14: Review and repeat
+
+A risk assessment should not be annual theater. It should become part of the company’s operating rhythm.
+
+**Recommended cadence:**
+
+- Full risk assessment annually  
+- Top-risk review quarterly  
+- Review after major system changes  
+- Review after incidents  
+- Review after major vendor changes  
+- Review after cloud migrations  
+- Review after mergers or acquisitions  
+- Review when major new threats affect the business
+
+Use [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) as the broader structure for managing cybersecurity risk across governance, identification, protection, detection, response, and recovery. The CSF is designed to help organizations better understand and improve cybersecurity risk management. ([NIST](https://www.nist.gov/cyberframework?utm_source=chatgpt.com "Cybersecurity Framework | NIST"))
+
+Output: **Risk Review Cadence**
+
+## Recommended SME Tool Stack
+
+For an SME, the practical stack should be simple. Do not build an enterprise GRC monster before the basics are under control.
+
+**Minimum recommended stack:**
+
+- [CISA CSET](https://github.com/cisagov/cset) for structured assessment  
+- [CIS CSAT](https://csat.cisecurity.org/) for CIS Controls scoring  
+- [CIS RAM](https://learn.cisecurity.org/cis-ram) for risk methodology  
+- [Nmap](https://nmap.org/) for asset and network discovery  
+- [Greenbone Community Edition / OpenVAS](https://community.greenbone.net/) for vulnerability scanning  
+- [OWASP ZAP](https://www.zaproxy.org/) for web application testing  
+- [Trivy](https://trivy.dev/) for containers, dependencies, IaC, and Kubernetes scanning  
+- [Wazuh](https://wazuh.com/) for open-source SIEM/XDR monitoring  
+- [OWASP Dependency-Track](https://owasp.org/www-project-dependency-track/) for SBOM and software supply chain risk  
+- [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) for vulnerability management  
+- [Eramba Community](https://www.eramba.org/get-community) or [SimpleRisk](https://www.simplerisk.com/) for risk register and GRC workflow
+
+## Process Summary
+
+Use this as the concise process statement:
+
+**Assess → Risk Assessment → Define Scope → Map Critical Processes → Identify Assets → Build Threat Scenarios → Review Existing Controls → Collect Technical Evidence → Score Likelihood and Impact → Build Risk Register → Decide Risk Treatment → Prioritize Remediation → Brief Leadership → Review Regularly**
+

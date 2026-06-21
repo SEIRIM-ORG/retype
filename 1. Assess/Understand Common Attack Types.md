@@ -5,7 +5,7 @@ icon: triangle-right
 
 ## Intro
 
-When you consider your security preparedness, it is useful to look through the lens of the kinds of attacks your company is most likely to experience and need to prepare for.
+When you consider your security preparedness, it is useful to look first through the lens of the kinds of attacks your company is most likely to experience and need to prepare for.
 
 As we start the cybersecurity risk assessment, the most important attack types to consider are:
 
@@ -22,6 +22,16 @@ As we start the cybersecurity risk assessment, the most important attack types t
 
 As a warm up for the cybersecurity assessments ask “Are we ready for when these kinds of attacks hit our business, and what would happen if they did? How will we react?” 
 
+
+## Tasks
+
+- Understand the main attack types
+- Compare the attack types to your organization's actual structure and makeup
+- Determine which attack types are the most critical, moderately critical and less applicable to your case.
+
+## Attack Types
+
+The following are the most prominent cybersecurity attack types and vectors. This means they are the most likely types of attacks your organization will encounter and should prepare for.
 
 ## 1. Phishing and Social Engineering
 
@@ -103,3 +113,298 @@ IBM’s 2025 breach research described malicious insider threats as among the co
 
 Assessment question: **Do employees and contractors only have the access they need, and do we remove that access immediately when their role changes or ends?**
 
+## Key Tasks After Understanding Common Attack Types
+
+After your organization reviews the main attack types, the next step is to **translate that knowledge into company-specific risk work**. 
+
+**Proceed through the following steps:**
+
+## 1. Create a Company-Specific Attack Scenario List
+
+The organization should convert general attack types into realistic business scenarios.
+
+For example instead of listing “phishing” as a generic risk, define what phishing would look like inside the company.
+
+**Examples:**
+
+- A finance employee receives a fake invoice from a vendor impersonator.
+
+- An executive receives a fake Microsoft 365 login page and enters credentials.
+
+- A help desk employee receives a phone call requesting an MFA reset.
+
+- A staff member downloads a fake software update that installs malware.
+
+- An employee approves a fraudulent bank-detail change.
+
+- A remote worker’s stolen password is used to access cloud storage.
+
+The output should be a list of multiple realistic attack scenarios the company can actually imagine happening.
+
+## 2. Identify Which Attack Types Are Most Relevant to the Company
+
+Not every company faces the same risk profile. An e-commerce company, legal firm, manufacturer, clinic, accounting firm, logistics company, and software agency will each have different exposure.
+
+Your organization should rate each attack type by relevance.
+
+**Suggested rating:**
+
+- High relevance: likely to affect the company and could cause serious damage.
+
+- Medium relevance: possible, but not the most urgent risk.
+
+- Low relevance: possible, but less likely or lower impact.
+
+**Attack types to assess:**
+
+- Phishing and social engineering  
+- Business email compromise  
+- Invoice fraud and payment redirection  
+- Stolen credentials  
+- Ransomware  
+- Cloud and SaaS account compromise  
+- Malware and infostealers  
+- Exploitation of unpatched systems  
+- Third-party or vendor compromise  
+- Website compromise  
+- Data theft and extortion  
+- Insider threat or employee misuse  
+- DDoS or service disruption
+
+The output should be a prioritized attack-type risk list.
+
+## 3. Map Each Attack Type to Business Impact
+
+The company should connect each attack type to business consequences. Executives do not need a technical threat catalog. They need to know how each attack can hurt operations, cash flow, customers, compliance, and reputation.
+
+**For each attack type, ask:**
+
+- Could this stop revenue?
+
+- Could this expose customer, employee, or financial data?
+
+- Could this create legal or contractual obligations?
+
+- Could this damage customer trust?
+
+- Could this trigger cyber insurance notification?
+
+- Could this interrupt payroll, invoicing, operations, or customer service?
+
+- Could this cause direct financial loss?
+
+**Example:**
+
+Attack type: Business email compromise  
+Business impact: fraudulent payment, vendor bank-detail change, payroll redirection, customer invoice manipulation, reputational damage.
+
+Attack type: Ransomware  
+Business impact: downtime, data loss, recovery cost, customer disruption, operational paralysis, possible extortion.
+
+Attack type: SaaS compromise  
+Business impact: email takeover, file theft, CRM exposure, customer data access, internal phishing, account persistence.
+
+The output should be a business impact map.
+
+## 4. Identify Likely Targets Inside the Company
+
+Most attacks target specific people, systems, or processes. The organization should identify where each attack type would most likely land.
+
+At the initial stage this can be done less formally, as it is a precursor to the more intensive Identify stage after Assess.
+
+**High-risk people usually include:**
+
+- Executives  
+- Finance staff  
+- HR staff  
+- IT administrators  
+- Help desk staff  
+- Sales teams  
+- Procurement staff  
+- Customer support teams  
+- Employees with access to sensitive data  
+- Employees with approval authority
+
+**High-risk systems usually include:**
+
+- Email  
+- Microsoft 365 or Google Workspace  
+- Accounting software  
+- Payroll systems  
+- CRM  
+- Cloud storage  
+- VPN or remote access  
+- Website admin panels  
+- Password managers  
+- Admin consoles  
+- Backup systems  
+- Endpoint management tools
+
+**High-risk processes usually include:**
+
+- Invoice approval  
+- Supplier bank-detail changes  
+- Password resets  
+- MFA resets  
+- New vendor onboarding  
+- Employee onboarding  
+- Employee offboarding  
+- Customer data exports  
+- Contract sharing  
+- Remote access approval
+
+The output should be a target map showing which teams, systems, and workflows are most exposed.
+
+## 5. Review Existing Controls Against Each Attack Type
+
+Your company should then ask: “What do we already have in place to prevent, detect, and respond to this?”
+
+For each attack type, review whether controls exist.
+
+**Examples:**
+
+**For phishing:**
+
+- Email filtering  
+- Phishing reporting button or process  
+- Employee training  
+- Attachment controls  
+- URL scanning  
+- DMARC, SPF, and DKIM  
+- Clear reporting path
+
+**For stolen credentials:**
+
+- MFA  
+- Password manager  
+- Password reuse policy  
+- Dark web credential monitoring  
+- Login alerts  
+- Access reviews  
+- Fast offboarding
+
+**For ransomware:**
+
+- Endpoint protection  
+- Patch management  
+- Restricted admin rights  
+- Network segmentation  
+- Immutable or offline backups  
+- Restore testing  
+- Incident response plan
+
+**For SaaS compromise:**
+
+- Admin MFA  
+- Audit logs  
+- External sharing controls  
+- OAuth app review  
+- Mailbox forwarding rule alerts  
+- User access reviews  
+- Backup or export plan
+
+**For invoice fraud:**
+
+- Payment verification policy  
+- Bank-detail change controls  
+- Dual approval  
+- Out-of-band confirmation  
+- Vendor contact validation  
+- Finance-team training
+
+The output should be a control coverage checklist.
+
+## 8. Prioritize the Top Risks for Immediate Action
+
+The company should not try to fix everything at once. That is how SME security programs fail.
+
+**Prioritize based on:**
+
+- Likelihood  
+- Business impact  
+- Ease of exploitation  
+- Current control weakness  
+- Recovery difficulty  
+- Legal or contractual exposure  
+- Cost and effort to reduce the risk
+
+A practical SME should identify the top six attack scenarios that require immediate attention.
+
+**Example top six for many SMEs:**
+
+Social Engineering and Phishing
+Business Email Compromise  
+Ransomware  
+Stolen credentials  
+Cloud/SaaS compromise  
+Invoice fraud or payment redirection
+
+The output should be a short priority list for action.
+
+## 9. Convert the Findings into Risk Assessment Inputs
+
+This section should feed directly into the formal risk assessment. Each attack scenario should become a risk item that can be scored and tracked.
+
+**Example:**
+
+- **Risk:** Attackers compromise a Microsoft 365 account through stolen credentials.  
+
+- **Cause:** Weak MFA coverage, password reuse, limited login monitoring.  
+
+- **Impact:** Email access, file theft, internal phishing, invoice fraud.  
+
+- **Current controls:** MFA on some users, email filtering, basic antivirus.  
+
+- **Gaps:** No conditional access, no mailbox forwarding alerts, no access review.  
+
+- **Risk level:** High.  
+
+- **Recommended action:** Enforce MFA, review forwarding rules, enable login alerts, conduct access review.
+
+The output should be draft entries for the company’s risk register.
+
+## 10. Brief Leadership on the Most Realistic Attack Paths
+
+The final task is to summarize the findings for leadership in business language.
+
+**The briefing should answer:**
+
+- Which attacks are most likely to affect us?
+
+- Which attacks would hurt us most?
+
+- Which systems, people, and vendors are most exposed?
+
+- Which controls are missing or weak?
+
+- What should we fix first?
+
+- What decisions or budget approvals are needed?
+
+The output should be a short executive briefing, not a technical report.
+
+### Expected Outputs from This Section
+
+At the end of this “Understand Common Attack Types” step the organization should have:
+
+- A list of realistic company-specific attack scenarios.
+
+- A prioritized list of attack types most relevant to the business.
+
+- A map of likely targets, including people, systems, vendors, and workflows.
+
+- A business impact summary for each major attack type.
+
+- A control coverage checklist.
+
+- A list of missing or weak controls.
+
+- Assigned owners for major attack scenarios.
+
+- A short list of top risks to carry into the formal risk assessment.
+
+## Practical Result
+
+Your company should leave this stage with a clearer view of where it is exposed and compiled conclusions applying potential attack type risks to your actual organization makeup
+
+After studying common attack types, the company should be able to say, “Here are the five attacks most likely to hurt us, here is how they would probably happen, here is what would fail, and here is what we need to fix first.”

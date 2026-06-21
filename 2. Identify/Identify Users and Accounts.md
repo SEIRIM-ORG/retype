@@ -1,16 +1,15 @@
 ---
 icon: triangle-right
 ---
-## Task
-
-- Identify users, administrators, contractors, service accounts, shared accounts, vendor accounts, API keys, and automation identities. 
-- The aim is to understand every access point into the environment, especially privileged or unmanaged access.
-
-
-## Goals
+### Goals
 
 
 Identify every human and non-human identity that can access company systems, data, devices, cloud resources, applications, or services; record who owns each account, what it can access, whether it is still needed, and whether it is managed through a proper lifecycle.
+
+### Task
+
+- Identify users, administrators, contractors, service accounts, shared accounts, vendor accounts, API keys, and automation identities. 
+- The aim is to understand every access point into the environment, especially privileged or unmanaged access.
 
 
 ## Main steps in the Identify Users and Accounts process
@@ -171,7 +170,7 @@ This is where many SMEs are blind. Non-human identities often outlive the people
 - Application registrations  
 - Secrets in scripts or environment files
 
-Useful links:
+**Useful links:**
 
 [Google Cloud service accounts overview](https://cloud.google.com/iam/docs/service-account-overview)  
 [Microsoft Entra application and service principal objects](https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals)
@@ -182,7 +181,7 @@ Answer the key question: **What non-human identities exist, what systems use the
 
 Shared accounts are operationally convenient but problematic from a security accountability perspective as they dramatically increase risk by increasing the likelihood the account credentials will be leaked, if there is a leak it can be untraceable, and the impact of attacks is worsened.
 
-Examples:
+**Examples:**
 
 - admin  
 - reception  
@@ -213,9 +212,9 @@ Answer the key question: **Which accounts are not tied to one accountable person
 
 ### 8. Map users and accounts to systems, roles, and data
 
-An account list alone is weak. It must show access relationships.
+An account list alone is weak, it must show access relationships.
 
-Map each account to:
+**Map each account to:**
 
 - Applications  
 - Groups  
@@ -497,3 +496,7 @@ Use these fields in the playbook or spreadsheet:
 ## Summary
 
 If the company cannot answer **who has access, what they can access, which accounts are privileged, which accounts are shared, which accounts belong to former users, and which service accounts have no owner**, then access management is mostly theater. The company does not have identity visibility; it has login sprawl.
+
+
+----
+

@@ -1,10 +1,6 @@
 ---
 icon: triangle-right
 ---
-**Task:**
-
-- List the software, SaaS tools, platforms, databases, websites, APIs, and cloud services the company relies on. 
-- This helps expose shadow IT, forgotten systems, duplicate tools, and business-critical platforms that may not be formally tracked.
 
 
 ## Goals
@@ -13,6 +9,12 @@ icon: triangle-right
 Identify every application, platform, SaaS tool, cloud service, internal system, API, database, infrastructure service, and vendor-managed service the company depends on, then record who owns it, what it supports, where it runs, what data it touches, and what it connects to.
 
 To better secure the organization, the cybersecurity teams needs to be actively managing software assets so authorized software is known and unauthorized or unmanaged software can be found. In our paradigm this is **visibility** that bolsters our risk assessments and protection design.
+
+## Task:
+
+- List the software, SaaS tools, platforms, databases, websites, APIs, and cloud services the company relies on. 
+- This helps expose shadow IT, forgotten systems, duplicate tools, and business-critical platforms that may not be formally tracked.
+
 
 ## Main steps in the process
 
@@ -70,13 +72,13 @@ Start with the tools people actually use to run the business.
 - Helpdesk tickets  
 - Email searches for “invoice,” “subscription,” “trial,” “renewal,” and “admin”
 
-Applications like [Microsoft Entra](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal) (a cloud-based identity and access management(IAM) solution. It is a directory and identity management service that operates in the cloud and offers authentication and authorization services to various Microsoft services) lets administrators view enterprise applications registered in the tenant, while Google Workspace provides third-party app access controls and OAuth log events that show connected apps and authorized access. 
+Consider using qpplications like [Microsoft Entra](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal) (a cloud-based identity and access management (IAM) solution, which is a directory and identity management service that operates in the cloud and offers authentication and authorization services to various Microsoft services) lets administrators view enterprise applications registered in the tenant, while Google Workspace provides third-party app access controls and OAuth log events that show connected apps and authorized access. 
 
 These are not perfect SaaS management platforms, but for SMEs they are often the cheapest starting point because they may already be included in existing Microsoft or Google environments. 
 
 Answer the key question: **Which SaaS tools and web apps are employees actually using, whether officially approved or not?**
 
-Useful links:
+**Useful links:**
 
 [Microsoft Entra – View enterprise applications](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal?utm_source=chatgpt.com)  
 [Google Workspace – Control third-party app access](https://knowledge.workspace.google.com/admin/apps/control-which-third-party-and-internal-apps-access-google-workspace-data?utm_source=chatgpt.com)
@@ -102,7 +104,7 @@ OCS Inventory NG can inventory hardware and software through agents. Wazuh’s S
 
 Answer the key question: **What software is installed and running on company devices and servers?**
 
-Useful links:
+**Useful links:**
 
 [OCS Inventory NG](https://ocsinventory-ng.org/)  
 [Wazuh System Inventory](https://documentation.wazuh.com/current/user-manual/capabilities/system-inventory/index.html?utm_source=chatgpt.com)  
@@ -129,11 +131,11 @@ Useful links:
 
 CloudQuery provides a unified cloud asset inventory across connected cloud providers with consistent schemas and searchable attributes. Steampipe lets teams query cloud APIs and services using SQL, which is useful for finding cloud services, resources, and mislaid infrastructure records.
 
-The key question:
+**The key question:**
 
 **Which cloud services exist, where are they hosted, and which business applications depend on them?**
 
-Useful links:
+**Useful links:**
 
 [CloudQuery asset inventory](https://docs.cloudquery.io/platform/features/asset-inventory?utm_source=chatgpt.com)  
 [Steampipe](https://steampipe.io/?utm_source=chatgpt.com)
@@ -163,7 +165,7 @@ For companies with custom and expansive software portfolios this step is essenti
 
 Backstage is strong here because it is built as a software catalog that tracks ownership and metadata for services, websites, libraries, data pipelines, and similar software components. For containerized environments, Portainer Community Edition can help manage Docker, Swarm, Kubernetes, and ACI environments, including containers, images, volumes, and networks.
 
-Useful links:
+**Useful links:**
 
 [Backstage software catalog](https://backstage.io/docs/features/software-catalog/?utm_source=chatgpt.com)  
 [Portainer Community Edition](https://github.com/portainer/portainer?utm_source=chatgpt.com)
@@ -238,13 +240,13 @@ This is where the inventory becomes useful. Applications rarely stand alone.
 
 Answer the key question: **What does this application depend on, and what depends on it?**
 
-This belongs partly in your later **Dependencies and Connections** subsection, but you should still capture basic dependency fields here so the app catalog is not flat and useless.
+This step overlaps with our later **Identify Dependencies and Connections** subsection, but you should still capture basic dependency fields here so the app catalog builds up to that stage already partly completed.
 
 ### 10. Identify data touched by each application
 
 For each application/service, record the kind of data it handles.
 
-Examples:
+**Examples:**
 
 - Customer data  
 - Employee data  
@@ -266,7 +268,7 @@ Answer the key question: **What data does this application store, process, trans
 
 Raw discovery will create duplicates.
 
-Example:
+**Example:**
 
 - “Microsoft 365”  
 - “Office 365”  
@@ -277,7 +279,7 @@ Example:
 
 Some of these are part of the same platform but may need separate records if they handle different data or business functions.
 
-Classify each item as:
+**Classify each item as:**
 
 - Approved  
 - Approved but undocumented  
@@ -296,7 +298,7 @@ Answer the key question: **Is this a real, active, approved application/service,
 
 Send the list to business units and technical owners.
 
-Ask:
+**Ask:**
 
 - Do you still use this?  
 - Who owns it?  
@@ -329,7 +331,7 @@ The app/service inventory must change when the environment changes.
 - An application starts handling new data  
 - A business process changes
 
-Recommended process:
+**Recommended process:**
 
 - Monthly review for new/changed apps  
 - Quarterly review for SaaS, cloud, and critical services  
@@ -414,3 +416,6 @@ NetBox handles network/infrastructure source of truth. GLPI/iTop handles service
 
 
 If the company cannot answer **which applications exist, who owns them, who uses them, what data they touch, how users log in, what they connect to, and which ones are paid for but forgotten**, then it does not have an application inventory. It has scattered subscriptions and tribal knowledge.
+
+----
+

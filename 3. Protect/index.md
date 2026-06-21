@@ -6,13 +6,13 @@ Proceed to the [[Protect Overview]] to get started
 
 Or to one of these main sections:
 
-[[Backup Regimes]]
+[[Backup and Recovery Readiness]]
 
-[[Endpoint Detection and Response]]
+[[_Endpoint Detection and Response]]
 
 [[Identity and Access Management]]
 
-[[Intrusion Detection and Prevention]]
+[[_Intrusion Detection and Prevention]]
 
 
 

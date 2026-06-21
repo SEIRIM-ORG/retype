@@ -2,27 +2,25 @@
 icon: triangle-right
 order: -10
 ---
-**Task:**
-
-- Map the relationships between systems, users, data, vendors, cloud services, integrations, and business processes. 
-- This shows what breaks if a key system, supplier, account, or service becomes unavailable or compromised.
-
-
-## Goals
+### Goals
 
 
 **Identify how business processes, applications, services, data, users, assets, vendors, cloud resources, network paths, and third-party providers depend on each other, so the company understands what breaks when one component fails, changes, is compromised, or becomes unavailable.**
 
 This section connects the previous inventories. It is not just a vendor list, and it is not itself the risk assessment but is the supporting documentation for it as the relationship map underneath the cybersecurity playbook. 
 
+### Task:
+
+- Map the relationships between systems, users, data, vendors, cloud services, integrations, and business processes. 
+- This shows what breaks if a key system, supplier, account, or service becomes unavailable or compromised.
+
 
 ## Main Steps in the Identify Dependencies Process
 
-### Goal
 
-**Create a clear map of what each critical business function, application, data set, user group, and vendor depends on, so the company understands what could break operations if one component fails or changes.**
+Create a clear map of what each critical business function, application, data set, user group, and vendor depends on, so the company understands what could break operations if one component fails or changes.
 
-The point is not to document every minor relationship. The point is to identify the dependencies that matter.
+The point is not to document every minor relationship but rather to identify the dependencies that matter.
 
 ## 1. Define the critical business functions first
 
@@ -61,7 +59,7 @@ For each critical business function, identify the required components.
 - Identity/login requirements  
 - Backup or recovery requirements
 
-Example:
+**Example:**
 
 **Payroll depends on:** HR system, payroll provider, bank portal, finance approver, employee records, MFA, email, internet access, and payroll backup records.
 
@@ -113,8 +111,6 @@ Now identify the relationships that need attention later during Assess, Protect,
 
 Answer the key question: **Which dependencies would create serious disruption if they failed?**
 
-
-
 ## 5. Validate and maintain the dependency map
 
 Review the dependency map with business owners, IT, finance, operations, and vendor managers.
@@ -140,15 +136,13 @@ Review the dependency map with business owners, IT, finance, operations, and ven
 - DNS, domain, certificate, backup, or identity systems change  
 - A system is retired
 
-Recommended process:
+**Recommended process:**
 
 - Quarterly review for critical dependencies.  
 - Annual review for the full dependency map.  
 - Immediate update after major system, vendor, or process changes.
 
 Answer the key question: **Is the dependency map still accurate enough to support decisions?**
-
-
 
 
 ## Recommended open-source or affordable tools
@@ -339,4 +333,5 @@ This is the fuller model. It is also easy to overbuild. The rule should be: do n
 
 **The Identify Dependencies step maps the most important relationships between business functions, applications, data, users, assets, vendors, cloud resources, and infrastructure. The purpose is to understand what each critical function depends on, who owns those dependencies, and which relationships could create disruption if they fail.**
 
-The tighter version is stronger. The previous 14-step version was accurate, but too bloated. For an SME playbook, this should be practical enough that a company can actually complete it.
+---
+

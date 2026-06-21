@@ -1,0 +1,754 @@
+---
+icon: triangle-right
+order: 40
+---
+
+### Goal
+
+Email, websites, cloud platforms, and SaaS tools are now part of the company’s main operating environment.
+
+They are also common attack paths.
+
+A weak email domain can be abused for phishing. A poorly configured mailbox can leak data. A website plugin can expose the business. A cloud storage folder can be made public. A SaaS admin account can give an attacker access to customer records, files, invoices, payroll data, or internal conversations.
+
+This section defines how the company protects these platforms before they become the entry point for an incident.
+
+## Step 1: Assign Platform Owners
+
+Every important platform needs a named owner.
+
+|Platform Area|Owner to Assign|
+|---|---|
+|Email|IT, MSP, or email administrator|
+|Website|Website owner, developer, hosting provider, or IT|
+|Domain and DNS|IT, MSP, web provider, or executive owner|
+|Microsoft 365 or Google Workspace|IT, MSP, or workspace administrator|
+|Cloud platforms|Cloud administrator or technical owner|
+|SaaS platforms|Business owner and technical owner|
+|CRM|Sales or operations owner|
+|Accounting and payroll|Finance owner|
+|HR platform|HR owner|
+|File storage|Operations, IT, or department owner|
+|Marketing platforms|Marketing owner|
+
+Do not leave admin ownership unclear.
+
+If nobody owns a platform, nobody will notice weak settings, old users, exposed files, or risky integrations.
+
+## Step 2: Create a Platform Protection Register
+
+**Track each important platform in one place:**
+
+|Field|What to Record|
+|---|---|
+|Platform Name|Microsoft 365, Google Workspace, website CMS, CRM, accounting system, cloud account|
+|Platform Type|Email, web, cloud, SaaS, storage, finance, HR, CRM|
+|Business Owner|Department or person responsible for business use|
+|Technical Owner|IT, MSP, vendor, developer, or administrator|
+|Admin Users|Named administrators|
+|MFA Status|Enabled, partial, unavailable, or unknown|
+|SSO Status|Enabled, unavailable, or not configured|
+|External Sharing|Allowed, restricted, blocked, or unknown|
+|Guest Access|Allowed, restricted, blocked, or unknown|
+|Audit Logging|Enabled, unavailable, or unknown|
+|Backup or Export Method|Native retention, backup tool, export, vendor recovery, or none|
+|Data Sensitivity|Public, Internal, Confidential, or Restricted|
+|Main Risk|Phishing, public links, weak admin, exposed data, old plugin, risky integration|
+|Last Review|Date last checked|
+|Next Action|Required fix|
+
+This register connects the Protect section back to the Identify work.
+
+## Step 3: Protect the Company Email Domain
+
+The company’s domain must be protected against spoofing and impersonation.
+
+**Configure and review:**
+
+|Email Domain Control|Requirement|
+|---|---|
+|SPF|Publish a valid SPF record for approved sending services|
+|DKIM|Enable DKIM signing for the main email platform and approved senders|
+|DMARC|Publish a DMARC record and move toward quarantine or reject|
+|DMARC Reporting|Review reports to find unauthorized senders|
+|Marketing Senders|Add approved platforms correctly, such as newsletters or CRM mail|
+|Domain Alignment|Make sure sending platforms align with the company domain|
+|Old Senders|Remove old email services from SPF and DKIM|
+|Lookalike Domains|Review obvious impersonation domains where practical|
+|Subdomains|Decide whether subdomains can send email|
+|DNS Access|Limit who can change email DNS records|
+
+Do not publish SPF, DKIM, and DMARC once and forget them.
+
+Review the records after changing email platforms, marketing tools, CRM tools, website forms, or transactional email providers.
+
+## Step 4: Strengthen Inbound Email Protection
+
+Email filtering should reduce phishing, malware, spoofing, and suspicious attachments before users see them.
+
+**Check:**
+
+|Email Protection Area|What to Configure|
+|---|---|
+|Spam Filtering|Enabled and tuned|
+|Malware Scanning|Enabled|
+|Phishing Protection|Enabled|
+|Impersonation Protection|Protect executives, finance, HR, IT, and key vendors|
+|Attachment Scanning|Scan or detonate risky attachments where available|
+|Link Protection|Rewrite or scan links where available|
+|External Sender Warning|Mark messages from outside the company|
+|Dangerous File Types|Block or quarantine risky extensions|
+|Encrypted Attachments|Review or quarantine where needed|
+|Spoofed Internal Names|Detect employee and executive impersonation|
+|Quarantine Review|Assign owner and schedule|
+|User Report Button|Provide a simple way to report suspicious messages|
+
+Do not rely only on users noticing bad messages.
+
+The system should block the obvious threats before they reach the inbox.
+
+## Step 5: Control Email Forwarding and Mailbox Rules
+
+Attackers often create forwarding rules after compromising a mailbox.
+
+**Review:**
+
+|Mailbox Control|Requirement|
+|---|---|
+|External Forwarding|Disabled or restricted unless approved|
+|Inbox Rules|Review suspicious hidden rules|
+|Delegated Access|Review who can access mailboxes|
+|Shared Mailboxes|Assign owners and review access|
+|Mailbox Permissions|Remove old or unnecessary access|
+|Auto-Reply Rules|Review for data leakage|
+|Transport Rules|Review for risky exceptions|
+|Mail Connectors|Review and document|
+|POP and IMAP|Disable unless required|
+|SMTP Authentication|Disable where not needed|
+
+External forwarding should not be casually allowed.
+
+A mailbox that forwards copies to an outside account can leak data for months.
+
+## Step 6: Protect High-Risk Mailboxes
+
+Some mailboxes need stronger controls.
+
+**High-risk mailboxes include:**
+
+|Mailbox Type|Reason|
+|---|---|
+|Executive Mailboxes|Fraud, negotiation, confidential decisions|
+|Finance Mailboxes|Invoices, payments, bank details|
+|HR Mailboxes|Employee records and personal data|
+|IT Mailboxes|Password resets, admin notices, alerts|
+|Shared Mailboxes|Often used by teams and forgotten|
+|Customer Support Mailboxes|Customer records and attachments|
+|Sales Mailboxes|Contracts, pricing, customer lists|
+|Admin Mailboxes|Platform and system notifications|
+
+**Apply stronger controls:**
+
+|Control|Requirement|
+|---|---|
+|MFA|Required|
+|Password Manager|Required for any shared credentials|
+|Forwarding|Disabled or approved|
+|Delegation|Reviewed regularly|
+|Mailbox Rules|Reviewed regularly|
+|Phishing Protection|Stronger impersonation protection|
+|Recovery Settings|Protected from abuse|
+|Access Review|More frequent than normal users|
+
+Finance, HR, IT, and executives should not be treated like ordinary users.
+
+## Step 7: Protect Website and CMS Platforms
+
+Public websites need basic security controls.
+
+**Check:**
+
+| Website Protection Area | Requirement                                   |
+| ----------------------- | --------------------------------------------- |
+| CMS Core                | Updated                                       |
+| Plugins and Themes      | Updated and only necessary plugins retained   |
+| Unused Plugins          | Removed                                       |
+| Admin Accounts          | Named and limited                             |
+| MFA                     | Enabled where supported                       |
+| Admin URL               | Restricted where practical                    |
+| Hosting Account         | MFA enabled                                   |
+| Database Access         | Restricted                                    |
+| File Permissions        | Reviewed                                      |
+| Contact Forms           | Protected from spam and abuse                 |
+| File Upload Forms       | Restricted and scanned where possible         |
+| Backups                 | Confirmed                                     |
+| Staging Site            | Protected from public access                  |
+| Debug Mode              | Disabled in production                        |
+| HTTPS                   | Enforced                                      |
+| TLS                     | Current configuration                         |
+| Security Headers        | Configured where practical                    |
+| WAF                     | Used where appropriate                        |
+| Rate Limiting           | Used for login, forms, APIs, and abuse points |
+| Error Messages          | Do not expose sensitive details               |
+
+A website is an internet-facing system.
+
+Treat it as exposed by default.
+
+## Step 8: Protect Domain Registrar and DNS
+
+Domain and DNS compromise can damage email, websites, customer trust, and business operations.
+
+**Check:**
+
+|Domain and DNS Control|Requirement|
+|---|---|
+|Registrar Account|MFA enabled|
+|Registrar Admins|Limited and reviewed|
+|DNS Provider Account|MFA enabled|
+|DNS Admins|Limited and reviewed|
+|Domain Lock|Enabled where available|
+|Recovery Email|Controlled and monitored|
+|Payment Method|Current to avoid domain loss|
+|DNS Records|Reviewed regularly|
+|Old Records|Removed|
+|API Tokens|Limited and rotated|
+|Name Server Changes|Approved and documented|
+|SPF, DKIM, DMARC|Protected from unauthorized changes|
+
+Do not let one old web developer account control the company’s domain.
+
+## Step 9: Protect Cloud Storage and File Sharing
+
+Cloud storage is useful, but public links and uncontrolled sharing create risk.
+
+**Check:**
+
+|Cloud Storage Area|Requirement|
+|---|---|
+|External Sharing|Restricted by business need|
+|Public Links|Disabled or reviewed|
+|Anonymous Links|Blocked where possible|
+|Link Expiration|Required where available|
+|Download Permissions|Restricted for sensitive files|
+|Guest Users|Reviewed|
+|Shared Drives or Sites|Assigned owners|
+|Former Employees|Removed|
+|Sensitive Folders|Limited access|
+|Large Data Exports|Restricted|
+|Audit Logs|Enabled where available|
+|Retention|Configured where needed|
+|Backup|Confirmed where needed|
+
+Look especially at SharePoint, OneDrive, Google Drive, Dropbox, Box, and project folders.
+
+## Step 10: Protect Microsoft 365
+
+Microsoft 365 should be reviewed as a business-critical platform.
+
+**Check:**
+
+|Microsoft 365 Area|Requirement|
+|---|---|
+|MFA|Required for all users|
+|Admin MFA|Required with stronger controls|
+|Global Admins|Kept to a small number|
+|Security Defaults|Enabled where suitable|
+|Conditional Access|Used where licensing allows|
+|Legacy Authentication|Disabled|
+|Mail Forwarding|External forwarding restricted|
+|DKIM|Enabled|
+|DMARC|Configured|
+|SPF|Configured|
+|Anti-Phishing Policies|Enabled|
+|Safe Links|Enabled where licensed|
+|Safe Attachments|Enabled where licensed|
+|SharePoint Sharing|Restricted|
+|OneDrive Sharing|Restricted|
+|Teams Guest Access|Reviewed|
+|OAuth Apps|Reviewed|
+|User Consent|Restricted where appropriate|
+|Audit Logging|Enabled|
+|Secure Score|Reviewed regularly|
+|Break-Glass Accounts|Protected and documented|
+
+Do not assume the default tenant settings are enough.
+
+## Step 11: Protect Google Workspace
+
+Google Workspace should also be reviewed as a business-critical platform.
+
+**Check:**
+
+|Google Workspace Area|Requirement|
+|---|---|
+|2-Step Verification|Enforced|
+|Super Admins|Kept to a small number|
+|Admin Roles|Limited and reviewed|
+|Login Challenges|Enabled|
+|Context-Aware Access|Used where available|
+|Gmail Safety Settings|Reviewed|
+|SPF|Configured|
+|DKIM|Enabled|
+|DMARC|Configured|
+|Drive Sharing|Restricted|
+|Shared Drives|Assigned owners|
+|External Sharing|Controlled|
+|Groups|Reviewed for public or external exposure|
+|Third-Party Apps|Reviewed|
+|OAuth App Access|Restricted|
+|Mobile Management|Enabled where appropriate|
+|Audit Logs|Enabled|
+|Suspicious Login Alerts|Enabled|
+|Data Export Rights|Restricted|
+|Recovery Settings|Secured|
+
+Do not allow every user to approve every third-party app.
+
+OAuth app access must be controlled.
+
+## Step 12: Protect SaaS Platforms
+
+Every important SaaS tool needs a security review.
+
+**Review:**
+
+|SaaS Control Area|Requirement|
+|---|---|
+|Admin Users|Named and limited|
+|MFA|Enabled|
+|SSO|Enabled where possible|
+|User Provisioning|Controlled|
+|User Deprovisioning|Immediate when users leave|
+|Guest Access|Restricted|
+|External Sharing|Restricted|
+|Public Links|Disabled or reviewed|
+|API Keys|Documented and rotated|
+|OAuth Apps|Reviewed|
+|Integrations|Approved and documented|
+|Audit Logs|Enabled where available|
+|Data Export Rights|Limited|
+|Vendor Support Access|Controlled|
+|Default Settings|Reviewed|
+|Billing Admins|Controlled|
+|Backup or Export Options|Known|
+|Security Notifications|Sent to an owner|
+
+Apply this to CRM, accounting, payroll, HR, ticketing, project management, file storage, marketing tools, e-commerce, customer support, password managers, and developer platforms.
+
+## Step 13: Review SaaS Integrations and OAuth Apps
+
+SaaS tools often connect to each other.
+
+That creates hidden access.
+
+**Check:**
+
+|Integration Area|What to Review|
+|---|---|
+|OAuth Apps|Apps connected to Microsoft 365, Google Workspace, CRM, or file storage|
+|API Keys|Keys used by scripts, vendors, plugins, and automations|
+|Webhooks|Data sent automatically to other systems|
+|Browser Extensions|Extensions with access to SaaS data|
+|Marketplace Apps|Add-ons installed from SaaS marketplaces|
+|CRM Integrations|Marketing, support, finance, and automation tools|
+|Accounting Integrations|Payment processors, banks, payroll, invoices|
+|Website Integrations|Forms, analytics, chat widgets, payment plugins|
+|AI Integrations|Tools that read email, files, chat, code, or customer data|
+
+Remove integrations that are unused, unknown, over-permissioned, or ownerless.
+
+## Step 14: Protect Cloud Platforms
+
+Cloud platforms need strict guardrails.
+
+**Check:**
+
+|Cloud Control Area|Requirement|
+|---|---|
+|Root Account|MFA enabled and not used for daily work|
+|Admin Users|Limited|
+|IAM Roles|Least privilege|
+|Public Storage|Blocked unless approved|
+|Public Databases|Blocked unless formally approved|
+|Security Logging|Enabled|
+|Audit Logs|Retained|
+|Network Exposure|Restricted|
+|Security Groups|Reviewed|
+|Object Storage|Versioning and protection where needed|
+|Secrets|Stored in approved secrets manager|
+|Access Keys|Limited and rotated|
+|Snapshots|Protected|
+|Backups|Enabled where needed|
+|Billing Alerts|Enabled|
+|Unused Resources|Removed|
+|Regions|Limited where practical|
+|IaC Scanning|Used where technical teams manage infrastructure|
+|Cloud Posture Review|Run on a fixed schedule|
+
+Cloud mistakes can expose data quickly.
+
+Public storage, overpowered keys, and unmanaged admin roles are common problems.
+
+## Step 15: Protect Website Forms and Customer Data Collection
+
+Website forms often collect more data than people realize.
+
+**Check:**
+
+|Website Form Area|Requirement|
+|---|---|
+|Data Collected|Only collect what is needed|
+|Destination|Know where submissions go|
+|Email Copies|Avoid sending sensitive form data by email where possible|
+|Database Storage|Protected and backed up|
+|Spam Protection|Enabled|
+|File Uploads|Restricted and scanned where possible|
+|HTTPS|Required|
+|Admin Access|Limited|
+|Retention|Defined|
+|Third-Party Plugins|Reviewed|
+|Notifications|Sent only to approved mailboxes|
+
+Contact forms, quote forms, job application forms, support forms, and customer portals all need review.
+
+## Step 16: Protect APIs, Tokens, and Secrets
+
+APIs and tokens are often invisible to non-technical teams.
+
+**Check:**
+
+|Secret Type|Protection Requirement|
+|---|---|
+|API Keys|Stored securely and rotated|
+|OAuth Tokens|Reviewed and revoked when unused|
+|Webhooks|Documented and protected|
+|Service Accounts|Named and owned|
+|Access Tokens|Limited scope and expiration where possible|
+|SSH Keys|Reviewed and rotated where needed|
+|Cloud Keys|No broad permanent keys unless justified|
+|App Secrets|Not stored in code or spreadsheets|
+|CI/CD Secrets|Stored in approved secrets manager|
+|Vendor Tokens|Removed when vendor access ends|
+
+Do not store secrets in email, chat, spreadsheets, shared drives, or source code.
+
+## Step 17: Protect Browser Access to SaaS Tools
+
+The browser is the front door to many SaaS systems.
+
+**Check:**
+
+|Browser Area|Requirement|
+|---|---|
+|Browser Updates|Automatic updates enabled|
+|Extensions|Restricted to approved extensions|
+|Password Saving|Disabled or controlled where company password manager is used|
+|Risky Downloads|Blocked where possible|
+|Safe Browsing|Enabled|
+|Company Profiles|Used where practical|
+|Personal Sync|Restricted where company data is involved|
+|Third-Party Cookies|Controlled where practical|
+|Pop-Ups|Restricted|
+|Site Permissions|Reviewed|
+|Developer Tools|Limited where appropriate|
+
+Browser extensions should not have unlimited access to company email, CRM, files, or accounting systems without review.
+
+## Step 18: Use Secure DNS and Web Filtering
+
+DNS and web filtering can block many known malicious destinations before users connect.
+
+**Check:**
+
+|Web Filtering Area|Requirement|
+|---|---|
+|Malicious Domains|Blocked|
+|Phishing Domains|Blocked|
+|Newly Registered Domains|Block or warn where appropriate|
+|Malware Sites|Blocked|
+|Command-and-Control Domains|Blocked where feed supports it|
+|Adult or Illegal Content|Blocked according to company policy|
+|DNS Logs|Retained where practical|
+|Exceptions|Documented|
+|Remote Users|Protected where possible|
+
+This does not replace endpoint protection, but it reduces exposure.
+
+## Step 19: Control Public Sharing and Publishing
+
+Public exposure is often accidental.
+
+**Review:**
+
+|Public Exposure Area|What to Check|
+|---|---|
+|Public Cloud Folders|SharePoint, OneDrive, Google Drive, Dropbox, Box|
+|Public SaaS Pages|Notion, Confluence, project tools, CRM portals|
+|Public Calendars|Meeting details, customer names, internal links|
+|Public Groups|Google Groups, Microsoft Groups, mailing lists|
+|Public Repositories|GitHub, GitLab, Bitbucket|
+|Public Dashboards|Analytics, BI, operations dashboards|
+|Public Buckets|S3, Azure Blob, Google Cloud Storage|
+|Public Website Directories|Upload folders, backups, test folders|
+|Public Forms|Forms collecting sensitive data|
+|Public API Endpoints|Unauthenticated or poorly protected APIs|
+
+If it is public, assume attackers can find it.
+
+## Step 20: Protect Admin Consoles
+
+Admin portals must be treated as high-risk systems.
+
+**Protect:**
+
+|Admin Console|Required Control|
+|---|---|
+|Email Admin Console|MFA, limited admins, logging|
+|SaaS Admin Console|MFA, limited admins, review|
+|Cloud Console|MFA, least privilege, logging|
+|Website Admin|MFA and limited users|
+|Hosting Panel|MFA and limited users|
+|Domain Registrar|MFA and domain lock|
+|DNS Provider|MFA and limited admins|
+|Backup Console|MFA and restricted access|
+|Security Tools|MFA and limited admins|
+|Payment Platforms|MFA and finance approval|
+
+Admin access should be named, reviewed, and protected with stronger authentication.
+
+## Step 21: Configure Logging and Alerts
+
+This section is not the Detect section, but protection settings must enable useful logs.
+
+**Enable logs for:**
+
+|Platform|Logs to Enable|
+|---|---|
+|Email|Login, forwarding, rule changes, malware/phishing detections|
+|Microsoft 365|Audit logs, admin changes, risky sign-ins where available|
+|Google Workspace|Login, admin, Drive, Gmail, app access logs|
+|Website|Access logs, admin login logs, WAF logs, error logs|
+|Cloud|Cloud audit logs, IAM changes, storage access, network changes|
+|SaaS|Login logs, admin changes, data exports, integration changes|
+|DNS and Domain|DNS changes, registrar logins, API activity|
+|File Sharing|External sharing, public links, large downloads|
+
+Turn on the logs here.
+
+The Detect section will define how alerts are reviewed and escalated.
+
+## Step 22: Create a Platform Review Schedule
+
+**Review important platforms on a fixed schedule:**
+
+|Platform Type|Suggested Review Frequency|
+|---|---|
+|Email Security|Monthly|
+|Microsoft 365 or Google Workspace|Monthly or quarterly|
+|Domain and DNS|Quarterly and after changes|
+|Website and CMS|Monthly and after major updates|
+|Cloud Storage Sharing|Monthly or quarterly|
+|SaaS Admin Access|Quarterly|
+|SaaS Integrations|Quarterly|
+|Cloud Platform Security|Monthly or quarterly|
+|Public Exposure Checks|Monthly|
+|High-Risk Admin Consoles|Monthly|
+|Security Exceptions|Monthly or quarterly|
+
+Review sooner after a major system change, incident, vendor change, new SaaS platform, or new website launch.
+
+## Step 23: Document Exceptions
+
+Some platforms may not support MFA, SSO, strong logging, or external sharing controls.
+
+**Record the exception:**
+
+|Exception Field|What to Record|
+|---|---|
+|Platform|Affected system|
+|Missing Control|MFA, SSO, logging, sharing control, backup, admin review|
+|Reason|Vendor limitation, licensing, legacy platform, business need|
+|Risk|What could go wrong|
+|Temporary Control|Strong password, IP restriction, limited users, manual review|
+|Owner|Person responsible|
+|Expiration Date|When it must be reviewed|
+|Approval|Person who accepted the exception|
+
+An exception without a review date becomes a permanent weakness.
+
+## Step 24: Keep Evidence
+
+Keep proof that platform protections are configured.
+
+**Useful evidence includes:**
+
+|Evidence Type|Example|
+|---|---|
+|Email DNS Records|SPF, DKIM, DMARC screenshots or exports|
+|MFA Reports|Email, SaaS, cloud, and admin console MFA status|
+|Admin User Lists|Named admins and roles|
+|External Sharing Reports|Public links, guests, and shared files|
+|OAuth App Reports|Approved and removed apps|
+|SaaS Integration List|Connected apps and APIs|
+|Website Scan Results|TLS, headers, WAF, CMS scan reports|
+|Cloud Posture Reports|Prowler, ScoutSuite, Steampipe, cloud console reports|
+|Audit Log Settings|Proof logs are enabled|
+|Backup Settings|SaaS or website backup evidence|
+|Exception Approvals|Approved deviations with expiration dates|
+
+If the company cannot prove the control exists, assume it needs review.
+
+## Places Commonly Missed
+
+|Missed Area|What to Check|
+|---|---|
+|DMARC|Still set to p=none and never moved toward enforcement|
+|Marketing Platforms|Not included in SPF/DKIM records|
+|Old Email Senders|Still allowed to send as the company domain|
+|External Mail Forwarding|Hidden mailbox rules sending mail outside the company|
+|OAuth Apps|Unknown apps connected to email and files|
+|Public Cloud Links|Old SharePoint, OneDrive, Google Drive, Dropbox, or Box links|
+|Guest Users|Old customer, vendor, or contractor access|
+|Shared Mailboxes|Delegates and forwarding rules|
+|Domain Registrar|No MFA, old admin email, expired payment method|
+|DNS Provider|Old API keys and too many admins|
+|Website Staging Sites|Publicly accessible test sites|
+|Website Plugins|Old or unused plugins still active|
+|Contact Forms|Sensitive data sent by email|
+|Hosting Panels|Old developer accounts still active|
+|Cloud Storage Buckets|Public permissions|
+|SaaS Admins|Too many admins or former employees|
+|SaaS Exports|Anyone can export all customer records|
+|API Keys|Old keys that never expire|
+|Browser Extensions|Extensions reading email, CRM, or file storage|
+|AI SaaS Tools|Connected to email, documents, code, or customer data without review|
+|Backup SaaS Settings|No clear way to restore deleted SaaS data|
+|Audit Logs|Available but not turned on|
+
+## Recommended Tools and Solutions
+
+|Tool or Solution|Link|Type|Best Use|
+|---|---|---|---|
+|Microsoft Defender for Office 365|[Microsoft Defender for Office 365](https://www.microsoft.com/security/business/siem-and-xdr/microsoft-defender-office-365)|Commercial, often bundled|Email protection, Safe Links, Safe Attachments, anti-phishing, investigation|
+|Microsoft Secure Score|[Microsoft Secure Score](https://learn.microsoft.com/en-us/defender-xdr/microsoft-secure-score)|Included with Microsoft security portals|Microsoft 365 posture review and recommendations|
+|Microsoft Entra Admin Center|[Microsoft Entra](https://entra.microsoft.com/)|Included or paid by plan|Identity, app consent, enterprise apps, conditional access|
+|Google Workspace Security Center|[Google Workspace Security Center](https://support.google.com/a/answer/7492330)|Included depending on plan|Google Workspace security dashboard, alerts, investigation|
+|Google Workspace Security Checklists|[Google Workspace Security Checklists](https://knowledge.workspace.google.com/admin/security/security-checklists)|Free guidance|Google Workspace hardening and admin review|
+|Google Admin Console|[Google Admin Console](https://admin.google.com/)|Included with Google Workspace|Users, apps, devices, security, sharing, and admin settings|
+|DMARC.org|[DMARC.org](https://dmarc.org/)|Free resource|DMARC guidance and protocol reference|
+|MXToolbox|[MXToolbox](https://mxtoolbox.com/)|Free and paid options|SPF, DKIM, DMARC, DNS, blacklist, and mail diagnostics|
+|EasyDMARC|[EasyDMARC](https://easydmarc.com/)|Free tools and paid service|DMARC monitoring, reporting, SPF, DKIM, BIMI tools|
+|dmarcian|[dmarcian](https://dmarcian.com/)|Commercial with trial options|DMARC monitoring, reporting, and enforcement planning|
+|Proxmox Mail Gateway|[Proxmox Mail Gateway](https://www.proxmox.com/en/products/proxmox-mail-gateway/overview)|Open-source with paid support|Email gateway for spam, virus, phishing, and policy filtering|
+|Rspamd|[Rspamd](https://rspamd.com/)|Open-source|Spam filtering and email processing|
+|Apache SpamAssassin|[SpamAssassin](https://spamassassin.apache.org/)|Open-source|Spam filtering for self-hosted or gateway email environments|
+|Mailcow|[mailcow](https://mailcow.email/)|Open-source|Self-hosted mail server stack for technical teams|
+|Mail-in-a-Box|[Mail-in-a-Box](https://mailinabox.email/)|Open-source|Simple self-hosted mail server for technical teams|
+|Cloudflare|[Cloudflare](https://www.cloudflare.com/)|Free and paid options|DNS, CDN, WAF, DDoS protection, SSL, Turnstile, bot controls|
+|Cloudflare Turnstile|[Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/)|Free|CAPTCHA alternative for forms and abuse reduction|
+|OWASP Core Rule Set|[OWASP CRS](https://owasp.org/www-project-modsecurity-core-rule-set/)|Open-source|WAF rules for common web attacks|
+|ModSecurity|[ModSecurity](https://github.com/owasp-modsecurity/ModSecurity)|Open-source|Web application firewall engine|
+|Coraza|[Coraza](https://coraza.io/)|Open-source|WAF engine compatible with OWASP CRS|
+|CrowdSec|[CrowdSec](https://www.crowdsec.net/)|Open-source and commercial|Collaborative intrusion prevention for servers and web services|
+|Fail2ban|[Fail2ban](https://www.fail2ban.org/)|Open-source|Blocks repeated malicious login attempts on servers|
+|WPScan|[WPScan](https://wpscan.com/)|Free and paid options|WordPress vulnerability scanning|
+|Wordfence|[Wordfence](https://www.wordfence.com/)|Free and paid options|WordPress firewall and malware scanning|
+|Security Headers|[Security Headers](https://securityheaders.com/)|Free|Website security header review|
+|Mozilla Observatory|[Mozilla Observatory](https://observatory.mozilla.org/)|Free|Website security configuration review|
+|SSL Labs Server Test|[SSL Labs SSL Test](https://www.ssllabs.com/ssltest/)|Free|TLS and HTTPS configuration testing|
+|Internet.nl|[Internet.nl](https://internet.nl/)|Free|Website, email, DNSSEC, TLS, and standards testing|
+|Hardenize|[Hardenize](https://www.hardenize.com/)|Free and paid options|Domain, TLS, email, DNS, and internet exposure review|
+|Let’s Encrypt|[Let’s Encrypt](https://letsencrypt.org/)|Free|TLS certificates|
+|Caddy|[Caddy](https://caddyserver.com/)|Open-source|Web server with automatic HTTPS|
+|Prowler|[Prowler](https://prowler.com/)|Open-source and commercial|Cloud security posture for AWS, Azure, Google Cloud, Kubernetes, Microsoft 365, and more|
+|ScoutSuite|[ScoutSuite](https://github.com/nccgroup/ScoutSuite)|Open-source|Multi-cloud security auditing|
+|Steampipe|[Steampipe](https://steampipe.io/)|Open-source|Query cloud, SaaS, and infrastructure configuration with SQL|
+|Trivy|[Trivy](https://trivy.dev/)|Open-source|Cloud, container, repository, IaC, and Kubernetes scanning|
+|Open Policy Agent|[Open Policy Agent](https://www.openpolicyagent.org/)|Open-source|Policy-as-code for cloud, Kubernetes, and infrastructure workflows|
+|Checkov|[Checkov](https://www.checkov.io/)|Open-source and commercial|Infrastructure-as-code and cloud misconfiguration scanning|
+|GitHub Secret Scanning|[GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning)|Included depending on GitHub plan|Detect exposed secrets in repositories|
+|Gitleaks|[Gitleaks](https://github.com/gitleaks/gitleaks)|Open-source|Secret scanning for repositories, files, and pipelines|
+|TruffleHog|[TruffleHog](https://github.com/trufflesecurity/trufflehog)|Open-source and commercial|Secret discovery and verification|
+|Bitwarden|[Bitwarden](https://bitwarden.com/)|Open-source and low-cost|Password manager for admin credentials and shared vaults|
+|Passbolt|[Passbolt](https://www.passbolt.com/)|Open-source and low-cost|Team password and credential sharing|
+|Infisical|[Infisical](https://infisical.com/)|Open-source and commercial|Secrets management for developers and infrastructure|
+|OpenBao|[OpenBao](https://openbao.org/)|Open-source|Secrets management|
+|Wazuh|[Wazuh](https://wazuh.com/)|Open-source|Security monitoring, configuration assessment, and compliance support|
+|MISP|[MISP](https://www.misp-project.org/)|Open-source|Threat intelligence sharing and indicator management|
+
+## Practical Tool Stack for SMEs
+
+| Company Type                       | Suggested Stack                                                                                                                                           |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Very Small Company**             | Microsoft 365 or Google Workspace built-in protection, SPF/DKIM/DMARC, MXToolbox, Cloudflare, SSL Labs, Security Headers, Excel or Google Sheets register |
+| **Microsoft-Based SME**            | Microsoft Defender for Office 365, Microsoft Secure Score, Microsoft Entra, SharePoint sharing reports, DMARC monitoring, Cloudflare                      |
+| **Google Workspace SME**           | Google Admin Console, Google Workspace Security Center where available, Google security checklists, DMARC monitoring, Cloudflare, Hardenize               |
+| **Website-Heavy Company**          | Cloudflare, OWASP CRS or ModSecurity, WPScan, Wordfence, Security Headers, Mozilla Observatory, SSL Labs, Let’s Encrypt                                   |
+| **Self-Hosted Email Company**      | Proxmox Mail Gateway, Rspamd, SpamAssassin, DMARC tools, Mailcow or Mail-in-a-Box only if the team has the technical skill to maintain mail securely      |
+| **Cloud-Heavy Company**            | Prowler, ScoutSuite, Steampipe, Trivy, Checkov, cloud-native security tools, secrets manager, billing alerts                                              |
+| **SaaS-Heavy Company**             | Platform admin consoles, SSO where available, OAuth app reviews, external sharing reports, access reviews, manual SaaS register, DMARC monitoring         |
+| **Developer or Technical Company** | Trivy, Checkov, Gitleaks, TruffleHog, Infisical, OpenBao, GitHub Secret Scanning, Prowler                                                                 |
+
+## Platform Protection Register Template
+
+|Field|What to Record|
+|---|---|
+|Platform|Name of email, web, cloud, or SaaS system|
+|Type|Email, website, cloud, SaaS, storage, CRM, finance, HR|
+|Owner|Business owner and technical owner|
+|Admins|Named administrators|
+|MFA|Enabled, partial, unavailable, or unknown|
+|SSO|Enabled, unavailable, or not configured|
+|External Sharing|Blocked, restricted, allowed, or unknown|
+|Guest Access|Blocked, restricted, allowed, or unknown|
+|OAuth Apps|Reviewed, not reviewed, or not applicable|
+|API Keys|Documented, unknown, or not applicable|
+|Logs|Enabled, unavailable, or unknown|
+|Backup|Native, third-party, export, vendor recovery, or none|
+|Public Exposure|Yes, no, or unknown|
+|Main Weakness|Current issue|
+|Next Action|Required fix|
+|Last Review|Date|
+|Review Frequency|Monthly, quarterly, annually|
+
+## Expected Outputs from This Section
+
+At the end of this section, the company should have:
+
+- A named owner for email, website, cloud, and SaaS protection.
+- A platform protection register.
+- SPF, DKIM, and DMARC configured for company email domains.
+- Inbound email protection enabled and reviewed.
+- External forwarding and suspicious mailbox rules controlled.
+- High-risk mailboxes protected.
+- Website and CMS security settings reviewed.
+- Domain registrar and DNS access protected.
+- Cloud storage sharing controlled.
+- Microsoft 365 or Google Workspace reviewed.
+- Critical SaaS platforms reviewed.
+- OAuth apps and integrations reviewed.
+- Cloud platform guardrails checked.
+- Website forms reviewed.
+- API keys, tokens, and secrets controlled.
+- Browser access controls reviewed.
+- Secure DNS or web filtering considered.
+- Public sharing reviewed.
+- Admin consoles protected.
+- Platform logging enabled.
+- A review schedule.
+- Exception records.
+- Evidence showing key controls are active.
+
+## Objective
+
+Do not treat cloud and SaaS as automatically safe and remember that default settings are not a security plan.
+
+A company should leave this section able to say:
+
+“We know which email, web, cloud, and SaaS platforms we use. We know who administers them. We know which protections are enabled. We know where external sharing is allowed. We know which integrations exist. We know which admin consoles and domains need stronger protection.”
+
+That is email, web, cloud, and SaaS protection.
+
+----
+

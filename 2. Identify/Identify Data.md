@@ -2,6 +2,18 @@
 icon: triangle-right
 order: 90
 ---
+## Purpose of This Section
+
+The company cannot protect data it has not identified.
+
+Most SMEs have more sensitive data than they think. It may be in email inboxes, shared drives, laptops, accounting software, CRM systems, cloud storage, spreadsheets, chat tools, website forms, backup folders, HR systems, vendor portals, and old archives nobody has opened in years.
+
+Sensitive data does not only live in one neat system. It spreads over time. Employees copy it into spreadsheets. Sales teams export it from the CRM. Finance teams send it by email. HR stores it in folders. Managers keep copies on laptops. Vendors receive it to do their work. Old data remains long after the business still needs it.
+
+The goal of this section is to create a clear working inventory of the company’s important data.
+
+This is not yet the full data protection plan. That comes later. First, the company needs to know what data exists, where it is stored, who owns it, who can access it, and which systems or vendors touch it.
+
 ## Goals
 
 Overall, organizations should identify, classify, handle, retain and dispose of data when required, prioritize sensitive data, establish and maintain a data inventory. To do this, companies act to identify all such data with a variety of methods we lay out.
@@ -45,10 +57,10 @@ Before scanning or cataloging, define classification levels. Keep it simple enou
 
 A practical SME model:
 
-**Public** — safe for public release.  
-**Internal** — normal business information not meant for public release.  
-**Confidential** — sensitive business, customer, employee, financial, contractual, or operational data.  
-**Restricted** — regulated, high-risk, credential-related, security-sensitive, legal, or highly confidential data.
+- **Public** — safe for public release.  
+- **Internal** — normal business information not meant for public release.  
+- **Confidential** — sensitive business, customer, employee, financial, contractual, or operational data.  
+- **Restricted** — regulated, high-risk, credential-related, security-sensitive, legal, or highly confidential data.
 
 Answer the key question:
 
@@ -64,17 +76,17 @@ Minimum useful fields:
 
 Data name, data category, description, location, system or repository, owner, department, users/groups with access, sensitivity level, regulated status, source, format, retention requirement, backup location, third-party sharing, business purpose, last reviewed date, and status.
 
-For example:
+**For example:**
 
-Customer contracts  
-Location: SharePoint / Legal / Contracts  
-Owner: Legal Manager  
-Classification: Confidential  
-Contains: customer names, signatures, pricing, service terms  
-Access: Legal, Sales leadership, Finance  
-Retention: 7 years after contract end  
-Backed up: Microsoft 365 backup provider  
-Last reviewed: May 2026
+- Customer contracts  
+- Location: SharePoint / Legal / Contracts  
+- Owner: Legal Manager  
+- Classification: Confidential  
+- Contains: customer names, signatures, pricing, service terms  
+- Access: Legal, Sales leadership, Finance  
+- Retention: 7 years after contract end  
+- Backed up: Microsoft 365 backup provider  
+- Last reviewed: May 2026
 
 Answer the key question:
 
@@ -86,13 +98,13 @@ Use a combination of manual review, repository exports, search, metadata tools, 
 
 Methods include:
 
-Export folder structures from file shares.  
-Review SharePoint, OneDrive, Google Drive, and SaaS admin consoles.  
-Scan databases and data warehouses.  
-Search for sensitive patterns such as ID numbers, payment card numbers, tax IDs, health data, employee records, and credentials.  
-Scan Git repositories for secrets.  
-Review backup indexes and archive folders.  
-Check cloud storage buckets and object stores.
+- Export folder structures from file shares.  
+- Review SharePoint, OneDrive, Google Drive, and SaaS admin consoles.  
+- Scan databases and data warehouses.  
+- Search for sensitive patterns such as ID numbers, payment card numbers, tax IDs, health data, employee records, and credentials.  
+- Scan Git repositories for secrets.  
+- Review backup indexes and archive folders.  
+- Check cloud storage buckets and object stores.
 
 Answer the key question:
 
@@ -116,14 +128,14 @@ This is the step that turns a data inventory into a useful data map.
 
 Track:
 
-Where the data comes from.  
-Where it is stored.  
-Which systems process it.  
-Who accesses it.  
-Which vendors receive it.  
-Where it is exported.  
-Where it is backed up.  
-Where old copies may exist.
+- Where the data comes from
+- Where it is stored
+- Which systems process it
+- Who accesses it
+- Which vendors receive it
+- Where it is exported
+- Where it is backed up
+- Where old copies may exist
 
 Answer the key question:
 
@@ -135,16 +147,16 @@ This matters because data risk rarely sits only in the original system. It often
 
 Flag data that should be reviewed.
 
-Examples:
+**Examples:**
 
-Old employee records with no owner.  
-Customer exports stored on desktops.  
-Credentials inside spreadsheets or code repositories.  
-Financial records in personal cloud folders.  
-Old backups with unclear retention.  
-Duplicate contract folders.  
-Archived data nobody can justify keeping.  
-Publicly shared links containing confidential files.
+- Old employee records with no owner.  
+- Customer exports stored on desktops.  
+- Credentials inside spreadsheets or code repositories.  
+- Financial records in personal cloud folders.  
+- Old backups with unclear retention.  
+- Duplicate contract folders.  
+- Archived data nobody can justify keeping.  
+- Publicly shared links containing confidential files.
 
 Answer the key question:
 
@@ -156,15 +168,15 @@ This is still part of Identify. You are not yet fixing everything. You are expos
 
 Send the inventory to department owners for confirmation.
 
-Ask:
+**Ask:**
 
-Is this data still used?  
-Who owns it?  
-Who needs access?  
-Is the classification correct?  
-Is the retention period correct?  
-Is it stored in the correct place?  
-Is anything missing?
+- Is this data still used?  
+- Who owns it?  
+- Who needs access?  
+- Is the classification correct?  
+- Is the retention period correct?  
+- Is it stored in the correct place?  
+- Is anything missing?
 
 Answer the key question:
 
@@ -176,21 +188,21 @@ Data identification is not a one-time cleanup. It needs triggers.
 
 Update the inventory when:
 
-A new system is added.  
-A new SaaS tool is approved.  
-A new data type is collected.  
-A vendor starts receiving company data.  
-A database, shared drive, or cloud storage bucket is created.  
-A major report/export process is introduced.  
-A system is retired.  
-A backup location changes.  
-A department changes its process.
+- A new system is added.  
+- A new SaaS tool is approved.  
+- A new data type is collected.  
+- A vendor starts receiving company data.  
+- A database, shared drive, or cloud storage bucket is created.  
+- A major report/export process is introduced.  
+- A system is retired.  
+- A backup location changes.  
+- A department changes its process.
 
-Minimum cadence:
+**Minimum schedules:**
 
-Quarterly review for sensitive data.  
-Annual review for the full data inventory.  
-Immediate update when new high-risk data or systems are introduced.
+- **Quarterly** review for sensitive data.  
+- **Annual** review for the full data inventory.  
+- **Immediate** update when new high-risk data or systems are introduced.
 
 CIS specifically recommends reviewing and updating the data inventory annually at minimum, with priority on sensitive data. ([CIS Controls](https://cas.docs.cisecurity.org/en/latest/source/Controls3/?utm_source=chatgpt.com "CIS Control 3: Data Protection"))
 
@@ -297,3 +309,8 @@ A mature company will have a firm knowledge base of:
 - Who owns each data set 
 
 This key oversight thus enables the digital assets to be properly protected.
+
+
+---
+
+
