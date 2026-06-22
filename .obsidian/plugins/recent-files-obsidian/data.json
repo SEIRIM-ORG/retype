@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Respond Overview",
-      "path": "5. Respond/Respond Overview.md"
-    },
-    {
-      "basename": "Eradication, Stabilization, and Safe Handoff to Recover",
-      "path": "5. Respond/Eradication, Stabilization, and Safe Handoff to Recover.md"
-    },
-    {
-      "basename": "Communication, Escalation, and External Support",
-      "path": "5. Respond/Communication, Escalation, and External Support.md"
-    },
-    {
-      "basename": "Containment and Immediate Risk Reduction",
-      "path": "5. Respond/Containment and Immediate Risk Reduction.md"
-    },
-    {
-      "basename": "Initial Triage, Evidence, and Incident Classification",
-      "path": "5. Respond/Initial Triage, Evidence, and Incident Classification.md"
-    },
-    {
-      "basename": "Incident Response Ownership and Activation",
-      "path": "5. Respond/Incident Response Ownership and Activation.md"
-    },
-    {
-      "basename": "Detect Checklist",
-      "path": "4. Detect/Detect Checklist.md"
-    },
-    {
-      "basename": "External Exposure and Control Failure Detection",
-      "path": "4. Detect/External Exposure and Control Failure Detection.md"
-    },
-    {
-      "basename": "Detect Overview",
-      "path": "4. Detect/Detect Overview.md"
-    },
-    {
-      "basename": "Monitoring the Main Attack Paths",
-      "path": "4. Detect/Monitoring the Main Attack Paths.md"
-    },
-    {
-      "basename": "Logging, Alerts, and Security Visibility",
-      "path": "4. Detect/Logging, Alerts, and Security Visibility.md"
-    },
-    {
-      "basename": "Employee Reporting, Triage, and Handoff to Respond",
-      "path": "4. Detect/Employee Reporting, Triage, and Handoff to Respond.md"
-    },
-    {
-      "basename": "Detection Ownership and Coverage",
-      "path": "4. Detect/Detection Ownership and Coverage.md"
-    },
-    {
-      "basename": "Protect Overview",
-      "path": "3. Protect/Protect Overview.md"
-    },
-    {
-      "basename": "_Endpoint Detection and Response",
-      "path": "4. Detect/_Endpoint Detection and Response.md"
-    },
-    {
-      "basename": "_Intrusion Detection and Prevention",
-      "path": "4. Detect/_Intrusion Detection and Prevention.md"
-    },
-    {
-      "basename": "Protect Checklist",
-      "path": "3. Protect/Protect Checklist.md"
-    },
-    {
-      "basename": "Assessments Checklist",
-      "path": "1. Assess/Assessments Checklist.md"
-    },
-    {
-      "basename": "Identify Checklist",
-      "path": "2. Identify/Identify Checklist.md"
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "Educate Checklist",
       "path": "8. Educate/Educate Checklist.md"
     },
     {
+      "basename": "8.5 Training Evidence, Metrics, and Continuous Improvement",
+      "path": "8. Educate/8.5 Training Evidence, Metrics, and Continuous Improvement.md"
+    },
+    {
+      "basename": "8.4 Reporting Culture, Simulations, and Practice",
+      "path": "8. Educate/8.4 Reporting Culture, Simulations, and Practice.md"
+    },
+    {
+      "basename": "8.3 Role-Based and High-Risk Team Training",
+      "path": "8. Educate/8.3 Role-Based and High-Risk Team Training.md"
+    },
+    {
+      "basename": "8.2 Core Employee Cybersecurity Training",
+      "path": "8. Educate/8.2 Core Employee Cybersecurity Training.md"
+    },
+    {
+      "basename": "8.1 Security Awareness Ownership and Training Plan",
+      "path": "8. Educate/8.1 Security Awareness Ownership and Training Plan.md"
+    },
+    {
+      "basename": "Educate Overview",
+      "path": "8. Educate/Educate Overview.md"
+    },
+    {
       "basename": "Review Checklist",
       "path": "7. Review/Review Checklist.md"
     },
     {
-      "basename": "Recover Checklist",
-      "path": "6. Recover/Recover Checklist.md"
+      "basename": "7.5 Evidence, Reporting, and Leadership Closure",
+      "path": "7. Review/7.5 Evidence, Reporting, and Leadership Closure.md"
     },
     {
-      "basename": "Respond Checklist",
-      "path": "5. Respond/Respond Checklist.md"
+      "basename": "7.4 Improvement Actions and Control Updates",
+      "path": "7. Review/7.4 Improvement Actions and Control Updates.md"
     },
     {
-      "basename": "Network, Remote Access, and Internet Exposure Protection",
-      "path": "3. Protect/Network, Remote Access, and Internet Exposure Protection.md"
+      "basename": "7.3 Response and Recovery Performance Review",
+      "path": "7. Review/7.3 Response and Recovery Performance Review.md"
     },
     {
-      "basename": "Endpoint, Server, and Mobile Device Protection",
-      "path": "3. Protect/Endpoint, Server, and Mobile Device Protection.md"
+      "basename": "7.2 Root Cause and Control Failure Analysis",
+      "path": "7. Review/7.2 Root Cause and Control Failure Analysis.md"
     },
     {
-      "basename": "Email, Web, Cloud, and SaaS Protection",
-      "path": "3. Protect/Email, Web, Cloud, and SaaS Protection.md"
+      "basename": "Review Overview",
+      "path": "7. Review/Review Overview.md"
     },
     {
-      "basename": "Vulnerability and Patch Management",
-      "path": "3. Protect/Vulnerability and Patch Management.md"
+      "basename": "7.1 Post-Incident Review and Timeline",
+      "path": "7. Review/7.1 Post-Incident Review and Timeline.md"
     },
     {
-      "basename": "Identity and Access Management",
-      "path": "3. Protect/Identity and Access Management.md"
+      "basename": "1.5 Measure Current Security Maturity Gap",
+      "path": "1. Assess/1.5 Measure Current Security Maturity Gap.md"
     },
     {
-      "basename": "Systems Hardening",
-      "path": "3. Protect/Systems Hardening.md"
+      "basename": "1.4 Conduct a Risk Assessment",
+      "path": "1. Assess/1.4 Conduct a Risk Assessment.md"
     },
     {
-      "basename": "Backup and Recovery Readiness",
-      "path": "3. Protect/Backup and Recovery Readiness.md"
+      "basename": "1.3 Gather Compliance and Contractual Requirements",
+      "path": "1. Assess/1.3 Gather Compliance and Contractual Requirements.md"
     },
     {
-      "basename": "Identify Overview",
-      "path": "2. Identify/Identify Overview.md"
+      "basename": "1.2 Understand the Current Threat Environment",
+      "path": "1. Assess/1.2 Understand the Current Threat Environment.md"
     },
     {
-      "basename": "Identify Dependencies",
-      "path": "2. Identify/Identify Dependencies.md"
-    },
-    {
-      "basename": "Identify Users and Accounts",
-      "path": "2. Identify/Identify Users and Accounts.md"
-    },
-    {
-      "basename": "Identify Apps and Services",
-      "path": "2. Identify/Identify Apps and Services.md"
-    },
-    {
-      "basename": "Identify Physical Assets",
-      "path": "2. Identify/Identify Physical Assets.md"
-    },
-    {
-      "basename": "Identify Data",
-      "path": "2. Identify/Identify Data.md"
-    },
-    {
-      "basename": "Measure Current Security Maturity Gap",
-      "path": "1. Assess/Measure Current Security Maturity Gap.md"
+      "basename": "1.1 Understand Common Attack Types",
+      "path": "1. Assess/1.1 Understand Common Attack Types.md"
     },
     {
       "basename": "Assess Overview",
       "path": "1. Assess/Assess Overview.md"
     },
     {
-      "basename": "Conduct a Risk Assessment",
-      "path": "1. Assess/Conduct a Risk Assessment.md"
+      "basename": "2.5 Identify Dependencies",
+      "path": "2. Identify/2.5 Identify Dependencies.md"
     },
     {
-      "basename": "Gather Compliance and Contractual Requirements",
-      "path": "1. Assess/Gather Compliance and Contractual Requirements.md"
+      "basename": "2.4 Identify Users and Accounts",
+      "path": "2. Identify/2.4 Identify Users and Accounts.md"
     },
     {
-      "basename": "Understand the Current Threat Environment",
-      "path": "1. Assess/Understand the Current Threat Environment.md"
+      "basename": "2.3 Identify Apps and Services",
+      "path": "2. Identify/2.3 Identify Apps and Services.md"
     },
     {
-      "basename": "Understand Common Attack Types",
-      "path": "1. Assess/Understand Common Attack Types.md"
+      "basename": "2.2 Identify Physical Assets",
+      "path": "2. Identify/2.2 Identify Physical Assets.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "2.1 Identify Data",
+      "path": "2. Identify/2.1 Identify Data.md"
     },
     {
-      "basename": "Verizon - Known initial access vectors over time",
-      "path": "Verizon - Known initial access vectors over time.png"
+      "basename": "Identify Overview",
+      "path": "2. Identify/Identify Overview.md"
     },
     {
-      "basename": "_Start Here",
-      "path": "_Start Here.md"
+      "basename": "3.7 Network, Remote Access, and Internet Exposure Protection",
+      "path": "3. Protect/3.7 Network, Remote Access, and Internet Exposure Protection.md"
     },
     {
-      "basename": "Risk Assessment Frameworks",
-      "path": "Worksheets/Risk Assessment Frameworks.md"
+      "basename": "3.6 Email, Web, Cloud, and SaaS Protection",
+      "path": "3. Protect/3.6 Email, Web, Cloud, and SaaS Protection.md"
     },
     {
-      "basename": "CIS RAM Risk Assessments",
-      "path": "Worksheets/CIS RAM Risk Assessments.md"
+      "basename": "3.5 Endpoint, Server, and Mobile Device Protection",
+      "path": "3. Protect/3.5 Endpoint, Server, and Mobile Device Protection.md"
     },
     {
-      "basename": "index",
-      "path": "3. Protect/index.md"
+      "basename": "3.4 Vulnerability and Patch Management",
+      "path": "3. Protect/3.4 Vulnerability and Patch Management.md"
     },
     {
-      "basename": "Unprepared Incident Response",
-      "path": "Emergency Kit/Unprepared Incident Response.md"
+      "basename": "3.3 Systems Hardening",
+      "path": "3. Protect/3.3 Systems Hardening.md"
     },
     {
-      "basename": "Incident Response Toolkit",
-      "path": "Emergency Kit/Incident Response Toolkit.md"
+      "basename": "3.2 Backup and Recovery Readiness",
+      "path": "3. Protect/3.2 Backup and Recovery Readiness.md"
+    },
+    {
+      "basename": "3.1 Identity and Access Management",
+      "path": "3. Protect/3.1 Identity and Access Management.md"
+    },
+    {
+      "basename": "Protect Overview",
+      "path": "3. Protect/Protect Overview.md"
+    },
+    {
+      "basename": "4.5 Employee Reporting, Triage, and Handoff to Respond",
+      "path": "4. Detect/4.5 Employee Reporting, Triage, and Handoff to Respond.md"
+    },
+    {
+      "basename": "4.4 External Exposure and Control Failure Detection",
+      "path": "4. Detect/4.4 External Exposure and Control Failure Detection.md"
+    },
+    {
+      "basename": "4.3 Monitoring the Main Attack Paths",
+      "path": "4. Detect/4.3 Monitoring the Main Attack Paths.md"
+    },
+    {
+      "basename": "4.2 Logging, Alerts, and Security Visibility",
+      "path": "4. Detect/4.2 Logging, Alerts, and Security Visibility.md"
+    },
+    {
+      "basename": "4.1 Detection Ownership and Coverage",
+      "path": "4. Detect/4.1 Detection Ownership and Coverage.md"
+    },
+    {
+      "basename": "Detect Overview",
+      "path": "4. Detect/Detect Overview.md"
+    },
+    {
+      "basename": "5.5 Eradication, Stabilization, and Safe Handoff to Recover",
+      "path": "5. Respond/5.5 Eradication, Stabilization, and Safe Handoff to Recover.md"
+    },
+    {
+      "basename": "5.4 Communication, Escalation, and External Support",
+      "path": "5. Respond/5.4 Communication, Escalation, and External Support.md"
+    },
+    {
+      "basename": "5.3 Containment and Immediate Risk Reduction",
+      "path": "5. Respond/5.3 Containment and Immediate Risk Reduction.md"
+    },
+    {
+      "basename": "5.2 Initial Triage, Evidence, and Incident Classification",
+      "path": "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md"
+    },
+    {
+      "basename": "5.1 Incident Response Ownership and Activation",
+      "path": "5. Respond/5.1 Incident Response Ownership and Activation.md"
+    },
+    {
+      "basename": "Respond Overview",
+      "path": "5. Respond/Respond Overview.md"
+    },
+    {
+      "basename": "Recover Overview",
+      "path": "6. Recover/Recover Overview.md"
+    },
+    {
+      "basename": "6.4 Communication and Business Continuity During Recovery",
+      "path": "6. Recover/6.4 Communication and Business Continuity During Recovery.md"
+    },
+    {
+      "basename": "Recover Checklist",
+      "path": "6. Recover/Recover Checklist.md"
     }
   ],
   "omittedPaths": [],

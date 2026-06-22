@@ -49,7 +49,7 @@
               "state": {
                 "file": "Home.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Home"
@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Protect/Identity and Access Management.md",
+                "file": "3. Protect/3.1 Identity and Access Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identity and Access Management"
+              "title": "3.1 Identity and Access Management"
             }
           },
           {
@@ -297,12 +297,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Identify/Identify Physical Assets.md",
+                "file": "2. Identify/2.2 Identify Physical Assets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identify Physical Assets"
+              "title": "2.2 Identify Physical Assets"
             }
           },
           {
@@ -325,12 +325,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Protect/Backup and Recovery Readiness.md",
+                "file": "3. Protect/3.2 Backup and Recovery Readiness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backup and Recovery Readiness"
+              "title": "3.2 Backup and Recovery Readiness"
             }
           },
           {
@@ -353,12 +353,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Detect/Employee Reporting, Triage, and Handoff to Respond.md",
+                "file": "4. Detect/4.5 Employee Reporting, Triage, and Handoff to Respond.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Employee Reporting, Triage, and Handoff to Respond"
+              "title": "4.5 Employee Reporting, Triage, and Handoff to Respond"
             }
           },
           {
@@ -367,12 +367,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Detect/External Exposure and Control Failure Detection.md",
+                "file": "4. Detect/4.4 External Exposure and Control Failure Detection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "External Exposure and Control Failure Detection"
+              "title": "4.4 External Exposure and Control Failure Detection"
             }
           },
           {
@@ -381,12 +381,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Detect/Monitoring the Main Attack Paths.md",
+                "file": "4. Detect/4.3 Monitoring the Main Attack Paths.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monitoring the Main Attack Paths"
+              "title": "4.3 Monitoring the Main Attack Paths"
             }
           },
           {
@@ -395,12 +395,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Detect/Logging, Alerts, and Security Visibility.md",
+                "file": "4. Detect/4.2 Logging, Alerts, and Security Visibility.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logging, Alerts, and Security Visibility"
+              "title": "4.2 Logging, Alerts, and Security Visibility"
             }
           },
           {
@@ -409,12 +409,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Detect/Detection Ownership and Coverage.md",
+                "file": "4. Detect/4.1 Detection Ownership and Coverage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Detection Ownership and Coverage"
+              "title": "4.1 Detection Ownership and Coverage"
             }
           },
           {
@@ -437,12 +437,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Identify/Identify Dependencies.md",
+                "file": "2. Identify/2.5 Identify Dependencies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identify Dependencies"
+              "title": "2.5 Identify Dependencies"
             }
           },
           {
@@ -451,12 +451,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Protect/Vulnerability and Patch Management.md",
+                "file": "3. Protect/3.4 Vulnerability and Patch Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vulnerability and Patch Management"
+              "title": "3.4 Vulnerability and Patch Management"
             }
           },
           {
@@ -465,12 +465,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Protect/Endpoint, Server, and Mobile Device Protection.md",
+                "file": "3. Protect/3.5 Endpoint, Server, and Mobile Device Protection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Endpoint, Server, and Mobile Device Protection"
+              "title": "3.5 Endpoint, Server, and Mobile Device Protection"
             }
           },
           {
@@ -479,12 +479,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Protect/Email, Web, Cloud, and SaaS Protection.md",
+                "file": "3. Protect/3.6 Email, Web, Cloud, and SaaS Protection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Email, Web, Cloud, and SaaS Protection"
+              "title": "3.6 Email, Web, Cloud, and SaaS Protection"
             }
           },
           {
@@ -493,12 +493,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Protect/Network, Remote Access, and Internet Exposure Protection.md",
+                "file": "3. Protect/3.7 Network, Remote Access, and Internet Exposure Protection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network, Remote Access, and Internet Exposure Protection"
+              "title": "3.7 Network, Remote Access, and Internet Exposure Protection"
             }
           },
           {
@@ -507,12 +507,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Protect/Systems Hardening.md",
+                "file": "3. Protect/3.3 Systems Hardening.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Systems Hardening"
+              "title": "3.3 Systems Hardening"
             }
           },
           {
@@ -521,12 +521,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Identify/Identify Users and Accounts.md",
+                "file": "2. Identify/2.4 Identify Users and Accounts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identify Users and Accounts"
+              "title": "2.4 Identify Users and Accounts"
             }
           },
           {
@@ -535,12 +535,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Identify/Identify Apps and Services.md",
+                "file": "2. Identify/2.3 Identify Apps and Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identify Apps and Services"
+              "title": "2.3 Identify Apps and Services"
             }
           },
           {
@@ -549,12 +549,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Identify/Identify Data.md",
+                "file": "2. Identify/2.1 Identify Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identify Data"
+              "title": "2.1 Identify Data"
             }
           },
           {
@@ -600,45 +600,17 @@
             }
           },
           {
-            "id": "65a06348c5d9028b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Recover/Test Backup Regime.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Test Backup Regime"
-            }
-          },
-          {
             "id": "8e3ef92f934f2a02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Respond/Incident Response Ownership and Activation.md",
+                "file": "5. Respond/5.1 Incident Response Ownership and Activation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Incident Response Ownership and Activation"
-            }
-          },
-          {
-            "id": "01da1d0031ba15f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. Review/After Action Review.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "After Action Review"
+              "title": "5.1 Incident Response Ownership and Activation"
             }
           },
           {
@@ -661,12 +633,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Assess/Understand Common Attack Types.md",
+                "file": "1. Assess/1.1 Understand Common Attack Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understand Common Attack Types"
+              "title": "1.1 Understand Common Attack Types"
             }
           },
           {
@@ -675,12 +647,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Assess/Gather Compliance and Contractual Requirements.md",
+                "file": "1. Assess/1.3 Gather Compliance and Contractual Requirements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gather Compliance and Contractual Requirements"
+              "title": "1.3 Gather Compliance and Contractual Requirements"
             }
           },
           {
@@ -689,12 +661,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Assess/Conduct a Risk Assessment.md",
+                "file": "1. Assess/1.4 Conduct a Risk Assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conduct a Risk Assessment"
+              "title": "1.4 Conduct a Risk Assessment"
             }
           },
           {
@@ -731,12 +703,96 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Assess/Measure Current Security Maturity Gap.md",
+                "file": "1. Assess/1.5 Measure Current Security Maturity Gap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Measure Current Security Maturity Gap"
+              "title": "1.5 Measure Current Security Maturity Gap"
+            }
+          },
+          {
+            "id": "baf811694d408a2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. Review/Review Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Review Overview"
+            }
+          },
+          {
+            "id": "3d95e6651c3e9f3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. Review/7.5 Evidence, Reporting, and Leadership Closure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.5 Evidence, Reporting, and Leadership Closure"
+            }
+          },
+          {
+            "id": "6c9d454da0f22c93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. Review/7.4 Improvement Actions and Control Updates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.4 Improvement Actions and Control Updates"
+            }
+          },
+          {
+            "id": "7ba413a440599062",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. Review/7.3 Response and Recovery Performance Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.3 Response and Recovery Performance Review"
+            }
+          },
+          {
+            "id": "7cd6844a331002c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. Review/7.2 Root Cause and Control Failure Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.2 Root Cause and Control Failure Analysis"
+            }
+          },
+          {
+            "id": "3e3f60fd79badce0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. Review/7.1 Post-Incident Review and Timeline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.1 Post-Incident Review and Timeline"
             }
           },
           {
@@ -810,17 +866,101 @@
             }
           },
           {
+            "id": "38dacd1f813a5bb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Recover/Recover Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Recover Overview"
+            }
+          },
+          {
+            "id": "d7a2b372d79820c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Recover/6.5 Recovery Documentation and Handoff to Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.5 Recovery Documentation and Handoff to Review"
+            }
+          },
+          {
+            "id": "2b3dc1d6c2157988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Recover/6.4 Communication and Business Continuity During Recovery.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.4 Communication and Business Continuity During Recovery"
+            }
+          },
+          {
+            "id": "5a396d9bd45bd89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Recover/6.3 Validate Restored Systems and Business Operations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.3 Validate Restored Systems and Business Operations"
+            }
+          },
+          {
+            "id": "e5da45a438507c2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Recover/6.2 Restore Systems, Data, and Access Safely.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.2 Restore Systems, Data, and Access Safely"
+            }
+          },
+          {
+            "id": "c78cf870aa3256ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Recover/6.1 Recovery Ownership, Priorities, and Readiness.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.1 Recovery Ownership, Priorities, and Readiness"
+            }
+          },
+          {
             "id": "091c14edeb4f169e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Respond/Eradication, Stabilization, and Safe Handoff to Recover.md",
+                "file": "5. Respond/5.5 Eradication, Stabilization, and Safe Handoff to Recover.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Eradication, Stabilization, and Safe Handoff to Recover"
+              "title": "5.5 Eradication, Stabilization, and Safe Handoff to Recover"
             }
           },
           {
@@ -829,12 +969,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Respond/Communication, Escalation, and External Support.md",
+                "file": "5. Respond/5.4 Communication, Escalation, and External Support.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Communication, Escalation, and External Support"
+              "title": "5.4 Communication, Escalation, and External Support"
             }
           },
           {
@@ -843,12 +983,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Respond/Containment and Immediate Risk Reduction.md",
+                "file": "5. Respond/5.3 Containment and Immediate Risk Reduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Containment and Immediate Risk Reduction"
+              "title": "5.3 Containment and Immediate Risk Reduction"
             }
           },
           {
@@ -857,12 +997,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Respond/Initial Triage, Evidence, and Incident Classification.md",
+                "file": "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Initial Triage, Evidence, and Incident Classification"
+              "title": "5.2 Initial Triage, Evidence, and Incident Classification"
             }
           },
           {
@@ -908,6 +1048,90 @@
             }
           },
           {
+            "id": "51e5e4e0f390c50e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Educate/Educate Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Educate Overview"
+            }
+          },
+          {
+            "id": "ddebde510da303ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Educate/8.5 Training Evidence, Metrics, and Continuous Improvement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8.5 Training Evidence, Metrics, and Continuous Improvement"
+            }
+          },
+          {
+            "id": "94daf3355e81ff94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Educate/8.4 Reporting Culture, Simulations, and Practice.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8.4 Reporting Culture, Simulations, and Practice"
+            }
+          },
+          {
+            "id": "930f7c744f656348",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Educate/8.3 Role-Based and High-Risk Team Training.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8.3 Role-Based and High-Risk Team Training"
+            }
+          },
+          {
+            "id": "942a8e3798f96847",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Educate/8.2 Core Employee Cybersecurity Training.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8.2 Core Employee Cybersecurity Training"
+            }
+          },
+          {
+            "id": "439ae2aa71ff7813",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Educate/8.1 Security Awareness Ownership and Training Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8.1 Security Awareness Ownership and Training Plan"
+            }
+          },
+          {
             "id": "548de85a1b86ebee",
             "type": "leaf",
             "state": {
@@ -927,16 +1151,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Assess/Understand the Current Threat Environment.md",
+                "file": "1. Assess/1.2 Understand the Current Threat Environment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understand the Current Threat Environment"
+              "title": "1.2 Understand the Current Threat Environment"
             }
           }
         ],
-        "currentTab": 56
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1013,7 +1237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 352.5
   },
   "right": {
     "id": "4589af81faa337a5",
@@ -1120,34 +1344,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "74e4cae70f070fcd",
+  "active": "d63f113a40dfa925",
   "lastOpenFiles": [
-    "5. Respond/Eradication, Stabilization, and Safe Handoff to Recover.md",
-    "5. Respond/Respond Overview.md",
-    "5. Respond/Communication, Escalation, and External Support.md",
-    "5. Respond/Containment and Immediate Risk Reduction.md",
-    "5. Respond/Initial Triage, Evidence, and Incident Classification.md",
-    "5. Respond/Incident Response Ownership and Activation.md",
-    "4. Detect/Detect Checklist.md",
-    "4. Detect/External Exposure and Control Failure Detection.md",
-    "4. Detect/Detect Overview.md",
-    "4. Detect/Monitoring the Main Attack Paths.md",
-    "4. Detect/Logging, Alerts, and Security Visibility.md",
-    "4. Detect/Employee Reporting, Triage, and Handoff to Respond.md",
-    "4. Detect/Detection Ownership and Coverage.md",
-    "3. Protect/Protect Overview.md",
-    "4. Detect/_Endpoint Detection and Response.md",
-    "4. Detect/_Intrusion Detection and Prevention.md",
-    "3. Protect/Protect Checklist.md",
-    "1. Assess/Assessments Checklist.md",
-    "2. Identify/Identify Checklist.md",
     "8. Educate/Educate Checklist.md",
+    "8. Educate/8.5 Training Evidence, Metrics, and Continuous Improvement.md",
+    "8. Educate/8.4 Reporting Culture, Simulations, and Practice.md",
+    "8. Educate/8.3 Role-Based and High-Risk Team Training.md",
+    "8. Educate/8.2 Core Employee Cybersecurity Training.md",
+    "8. Educate/8.1 Security Awareness Ownership and Training Plan.md",
+    "8. Educate/Educate Overview.md",
     "7. Review/Review Checklist.md",
-    "6. Recover/Recover Checklist.md",
-    "5. Respond/Respond Checklist.md",
-    "3. Protect/Network, Remote Access, and Internet Exposure Protection.md",
-    "3. Protect/Endpoint, Server, and Mobile Device Protection.md",
-    "3. Protect/Email, Web, Cloud, and SaaS Protection.md",
+    "7. Review/7.5 Evidence, Reporting, and Leadership Closure.md",
+    "7. Review/7.4 Improvement Actions and Control Updates.md",
+    "7. Review/7.3 Response and Recovery Performance Review.md",
+    "7. Review/7.2 Root Cause and Control Failure Analysis.md",
+    "7. Review/Review Overview.md",
+    "7. Review/7.1 Post-Incident Review and Timeline.md",
+    "7. Review/After Action Review.md",
+    "1. Assess/1.5 Measure Current Security Maturity Gap.md",
+    "1. Assess/1.4 Conduct a Risk Assessment.md",
+    "1. Assess/1.3 Gather Compliance and Contractual Requirements.md",
+    "1. Assess/1.2 Understand the Current Threat Environment.md",
+    "1. Assess/1.1 Understand Common Attack Types.md",
+    "1. Assess/Assess Overview.md",
+    "2. Identify/2.5 Identify Dependencies.md",
+    "2. Identify/2.4 Identify Users and Accounts.md",
+    "2. Identify/2.3 Identify Apps and Services.md",
+    "2. Identify/2.2 Identify Physical Assets.md",
+    "2. Identify/2.1 Identify Data.md",
     "Risk-blocks-on-white.jpg",
     "Verizon - Known initial access vectors over time.png",
     "Assess/Understand Current Threats",

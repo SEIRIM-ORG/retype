@@ -1,5 +1,5 @@
 ---
-icon: chevron-right
+icon: north-star
 order: 100
 ---
 

@@ -101,7 +101,7 @@ From top to bottom, our SEIRIM playbook walks your company through all critical 
 
 Our Playbook approach at SEIRIM is: 
 
-### Assess
+## Assess
 
 Your company or organization will benefit from clear assessments of:
 
@@ -114,7 +114,7 @@ Your company or organization will benefit from clear assessments of:
 [Conduct Assessments of your company's threats and preparedness ➝](Assess)
 
 
-### Identify
+## Identify
 
 An old adage is you can't "You can't protect what you don't know", which helps point out the importance of becoming aware of any and all assets, services, dependencies and more that could negatively affect the organization if left unobserved and unprotected.
 
@@ -126,11 +126,11 @@ Tasks include:
 - Staff and suppliers who have access to what data and services
 - 
 
-[Identify your company's valuable assets ➝](Identify%20Physical%20Assets.md)
+[Identify your company's valuable assets ➝](2.2%20Identify%20Physical%20Assets.md)
 
 
 
-### Protect
+## Protect
 
 
 Once you have determined the threats to your organization and everything you need to protect, it's time to,,, protect it!
@@ -144,38 +144,91 @@ Some main tasks include:
 - Backup Testing - ensure backups are working well
 - Redundancy in Critical Systems - install redundant capabilities for every critical work task
 
+
 ![[x 483 Header 100 Point QA Checklist.jpg]]
 
 
 
-### Detect
 
+## Detect
 
+The Detect section defines how the company notices suspicious activity, control failures, and signs of compromise.
 
+This includes logging, alerting, monitoring, employee reporting, external exposure checks, and visibility across the main attack paths.
 
-### Respond
+Detect answers the question:
 
+“How will we know if something suspicious or unsafe is happening?”
 
-### Recover
+Without detection, incidents can continue unnoticed until customers, vendors, banks, attackers, or external parties discover the problem first.
 
+## Respond
 
+The Respond section defines what the company does when a cybersecurity incident is suspected or confirmed.
 
-### Review
+This includes incident ownership, activation, triage, evidence preservation, containment, communication, escalation, external support, eradication, and safe handoff to recovery.
 
+Respond answers the question:
 
+“What do we do first, who is in charge, and how do we limit the damage?”
 
-### Educate
+A good response is controlled action under pressure. The company should avoid panic, guessing, evidence destruction, uncontrolled communication, and uncoordinated technical changes.
 
+## Recover
 
+The Recover section defines how the company restores systems, data, access, and business operations safely.
 
+This includes recovery ownership, recovery priorities, trusted restore sources, staged access restoration, validation, business continuity, documentation, and handoff to review.
 
-test video placement:
+Recover answers the question:
 
+“How do we restore operations without restoring the incident or creating new risk?”
 
-![](https://youtu.be/tW1FcB8LGGo?si=MinjaLCmzzHN8rVf)
+Recovery is not complete just because systems turn back on. Systems, data, access, security controls, backups, monitoring, and business processes must be validated before the company returns to normal operations.
 
+## Review
 
+The Review section defines how the company learns from incidents and converts lessons into improvement.
 
+This includes the incident timeline, root cause analysis, control failure analysis, response and recovery performance review, improvement actions, evidence preservation, reporting, and leadership closure.
 
-[!embed](https://www.youtube.com/embed/C0DPdy98e4c)
+Review answers the question:
+
+“What happened, why did it happen, how well did we handle it, and what must change?”
+
+An incident is not fully closed until the company understands the cause, documents the facts, assigns corrective actions, and tracks improvements to completion.
+
+## Educate
+
+The Educate section defines how the company trains employees, managers, executives, and high-risk teams to make safer decisions.
+
+This includes security awareness ownership, core employee training, role-based training, reporting culture, simulations, tabletop exercises, training evidence, metrics, and continuous improvement.
+
+Educate answers the question:
+
+“Do our people know the risks connected to their work, and do they know what to do when something seems wrong?”
+
+People are part of the security system. Employees should know how to recognize suspicious activity, report mistakes quickly, verify risky requests, protect data, use approved tools, and follow the company’s response process.
+
+## How the Sections Work Together
+
+**These eight sections are connected:**
+
+- **Assess** shows where the company is exposed.
+
+- **Identify** shows what needs to be protected.
+
+- **Protect** reduces the chance and impact of incidents.
+
+- **Detect** helps the company notice problems early.
+
+- **Respond** limits damage when something happens.
+
+- **Recover** restores operations safely.
+
+- **Review** turns incidents and near misses into improvement.
+
+- **Educate** strengthens behavior and decision-making across the company.
+
+The sections should not be treated as isolated documents. They form a cycle that should be repeated as the business changes, technology changes, threats change, vendors change, and lessons are learned.
 
