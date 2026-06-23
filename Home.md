@@ -31,32 +31,21 @@ The Playbook is organized with the first steps and highest priorities at the top
 
 We will highlight these main themes that your company must address:
 
-#### Training and Policies 
+### Training and Policies 
 
 - People are the weakest link in security, and it's not a moral judgment it's just because people represent half the equation sat across from the computers on this side of the screen! So it's unfortunately an ongoing and time-burdensome requirement, but all workers must be taught at least basic cybersecurity best practices to follow.
 
-#### Vulnerability Management and Systems Hardening 
+### Vulnerability Management and Systems Hardening 
 
 - A major failure at SME's is that vulnerabilities are just there, unknown and not fixed. So a regime must be put in place to find all vulnerabilities everywhere and resolve them, and not just once but on an ongoing basis. Further, every feature, application and the whole of the digital ecosystem needs to be reduced and properly configured to minimize the attack surface and weaknesses.
 
-#### Backup and Resilience 
+### Backup and Resilience 
 
 - Incidents will occur, attacks will happen, and the better and more secure the backup and resilience regime the faster and better can bounce back, and the less the impacts in costs and consequences. This refers to data backups, but also in the resilience in being able to still perform the operations of the business in case any feature capacity is lost
 
-#### Incident Response
+### Incident Response
 
 - Attacks and issues will occur, so it's key to have plans and tools in place for when they happen. The plans must also be practiced routinely and improved upon, and made sure to be up to date with changes in the company's profile.
-
-
------
-
-<br>
-<br>
-
-![[x 483 Header Pros Cons Program Lang.jpg]]
-
-<br>
-<br>
 
 
 ## Complete Security Process
@@ -89,9 +78,11 @@ Critical to remember is that though we list our process in an order:
 
 From top to bottom, our SEIRIM playbook walks your company through all critical cybersecurity steps, though if you're in a rush, can jump to our 'Rush Page' to just jump into some top 10 items you could do today that will have the most impact. 
 
+In addition to following the Playbook, also use the Worksheet or adapt it to track the work and progress, found here: [[Playbook Worksheet]]
+
 Our Playbook approach at SEIRIM is: 
 
-## Assess
+## 1. Assess
 
 Your company or organization will benefit from clear assessments of:
 
@@ -100,11 +91,10 @@ Your company or organization will benefit from clear assessments of:
 - Consider your group's valuable assets and services you rely on whose loss or degradation would have the most negative impacts
 - Analyze your current security preparedness and 
 
+[[Assess Overview]]
 
-[Conduct Assessments of your company's threats and preparedness ➝](Assess)
 
-
-## Identify
+## 2. Identify
 
 An old adage is you can't "You can't protect what you don't know", which helps point out the importance of becoming aware of any and all assets, services, dependencies and more that could negatively affect the organization if left unobserved and unprotected.
 
@@ -113,87 +103,140 @@ Another new mantra is "You can't secure what you don't understand" which pushes 
 **Tasks include:**
 
 - Data and assets inventory
-- Staff and suppliers who have access to what data and services
-- 
-
-[Identify your company's valuable assets ➝](2.2%20Identify%20Physical%20Assets.md)
-
+- Identify applications and services on which your business relies
+- Identify users and accounts, retaining awareness of all of them but especially privileged accounts
+- Identify dependencies on which critical business capabilities rely
 
 
-## Protect
+[[Identify Overview]]
+
+
+## 3. Protect
 
 
 Once you have determined the threats to your organization and everything you need to protect, it's time to,,, protect it!
 
-Some main tasks include:
+**Main Sections Include:**
 
-- Vulnerability Remediation - find and fix all vulnerabilities
-- Systems Hardening - lock down all configurations, settings, accounts and more
-- Penetration Testing - find even more issues to resolve with the red team approach
-- Backup Regime - backup all data in multiple locations and formats
-- Backup Testing - ensure backups are working well
-- Redundancy in Critical Systems - install redundant capabilities for every critical work task
+- Identity and Access Management
+- Backup Regimes and Recovery Readiness
+- Systems Hardening and Secure Configuration
+- Vulnerability and Patch Management
+- Endpoint, Server, and Mobile Device Protection
+- Email, Web, Cloud, and SaaS Protection
+- Network, Remote Access, and Internet Exposure Protection
 
+[[Protect Overview]]
 
-## Detect
+## 4. Detect
 
 The Detect section defines how the company notices suspicious activity, control failures, and signs of compromise.
 
 This includes logging, alerting, monitoring, employee reporting, external exposure checks, and visibility across the main attack paths.
 
-Detect answers the question:
+**Main Sections Include:**
+
+- Detection Ownership and Coverage
+- Logging, Alerts, and Security Visibility
+- Monitoring the Main Attack Paths
+- External Exposure and Control Failure Detection
+- Employee Reporting, Triage, and Handoff to Respond
+
+**Detect answers the question:**
 
 “How will we know if something suspicious or unsafe is happening?”
 
 Without detection, incidents can continue unnoticed until customers, vendors, banks, attackers, or external parties discover the problem first.
 
-## Respond
+[[Detect Overview]]
+
+## 5. Respond
 
 The Respond section defines what the company does when a cybersecurity incident is suspected or confirmed.
 
 This includes incident ownership, activation, triage, evidence preservation, containment, communication, escalation, external support, eradication, and safe handoff to recovery.
 
-Respond answers the question:
+**Main Sections Include:**
+
+- Incident Response Ownership and Activation
+- Initial Triage, Evidence, and Incident Classification
+- Containment and Immediate Risk Reduction
+- Communication, Escalation, and External Support
+- Eradication, Stabilization, and Safe Handoff to Recover
+
+**Respond answers the question:**
 
 “What do we do first, who is in charge, and how do we limit the damage?”
 
 A good response is controlled action under pressure. The company should avoid panic, guessing, evidence destruction, uncontrolled communication, and uncoordinated technical changes.
 
-## Recover
+[[Respond Overview]]
+
+## 6. Recover
 
 The Recover section defines how the company restores systems, data, access, and business operations safely.
 
 This includes recovery ownership, recovery priorities, trusted restore sources, staged access restoration, validation, business continuity, documentation, and handoff to review.
 
-Recover answers the question:
+**Main Sections Include:**
+
+- Recovery Ownership, Priorities, and Readiness
+- Restore Systems, Data, and Access Safely
+- Validate Restored Systems and Business Operations
+- Communication and Business Continuity During Recovery
+- Recovery Documentation and Handoff to Review
+
+**Recover answers the question:**
 
 “How do we restore operations without restoring the incident or creating new risk?”
 
 Recovery is not complete just because systems turn back on. Systems, data, access, security controls, backups, monitoring, and business processes must be validated before the company returns to normal operations.
 
-## Review
+[[Recover Overview]]
+
+## 7. Review
 
 The Review section defines how the company learns from incidents and converts lessons into improvement.
 
 This includes the incident timeline, root cause analysis, control failure analysis, response and recovery performance review, improvement actions, evidence preservation, reporting, and leadership closure.
 
-Review answers the question:
+**Main Sections Include:**
+
+- Post-Incident Review and Timeline
+- Root Cause and Control Failure Analysis
+- Response and Recovery Performance Review
+- Improvement Actions and Control Updates
+- Evidence, Reporting, and Leadership Closure
+
+**Review answers the question:**
 
 “What happened, why did it happen, how well did we handle it, and what must change?”
 
 An incident is not fully closed until the company understands the cause, documents the facts, assigns corrective actions, and tracks improvements to completion.
 
-## Educate
+[[Review Overview]]
+
+## 8. Educate
 
 The Educate section defines how the company trains employees, managers, executives, and high-risk teams to make safer decisions.
 
 This includes security awareness ownership, core employee training, role-based training, reporting culture, simulations, tabletop exercises, training evidence, metrics, and continuous improvement.
 
-Educate answers the question:
+**Main Sections Include:**
+
+- Security Awareness Ownership and Training Plan
+- Core Employee Cybersecurity Training
+- Role-Based and High-Risk Team Training
+- Reporting Culture, Simulations, and Practice
+- Training Evidence, Metrics, and Continuous Improvement
+
+**Educate answers the question:**
 
 “Do our people know the risks connected to their work, and do they know what to do when something seems wrong?”
 
 People are part of the security system. Employees should know how to recognize suspicious activity, report mistakes quickly, verify risky requests, protect data, use approved tools, and follow the company’s response process.
+
+[[Educate Overview]]
 
 ## How the Sections Work Together
 

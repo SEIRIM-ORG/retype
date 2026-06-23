@@ -5,12 +5,12 @@
       "path": "Home.md"
     },
     {
-      "basename": "Incident Response Toolkit",
-      "path": "Emergency Kit/Incident Response Toolkit.md"
-    },
-    {
       "basename": "Playbook Worksheet",
       "path": "Appendix/Playbook Worksheet.md"
+    },
+    {
+      "basename": "Incident Response Toolkit",
+      "path": "Emergency Kit/Incident Response Toolkit.md"
     },
     {
       "basename": "More Cybersecurity Playbooks",
