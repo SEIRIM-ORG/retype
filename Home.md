@@ -89,16 +89,6 @@ Critical to remember is that though we list our process in an order:
 
 From top to bottom, our SEIRIM playbook walks your company through all critical cybersecurity steps, though if you're in a rush, can jump to our 'Rush Page' to just jump into some top 10 items you could do today that will have the most impact. 
 
-
-<br>
-<br>
-
-![[x 483 Header Image Mobile EDR.webp]]
-
-<br>
-<br>
-
-
 Our Playbook approach at SEIRIM is: 
 
 ## Assess
@@ -120,7 +110,7 @@ An old adage is you can't "You can't protect what you don't know", which helps p
 
 Another new mantra is "You can't secure what you don't understand" which pushes for more than just awareness, we need to look under the hood of what we rely on to protect it well.
 
-Tasks include:
+**Tasks include:**
 
 - Data and assets inventory
 - Staff and suppliers who have access to what data and services
@@ -143,11 +133,6 @@ Some main tasks include:
 - Backup Regime - backup all data in multiple locations and formats
 - Backup Testing - ensure backups are working well
 - Redundancy in Critical Systems - install redundant capabilities for every critical work task
-
-
-![[x 483 Header 100 Point QA Checklist.jpg]]
-
-
 
 
 ## Detect

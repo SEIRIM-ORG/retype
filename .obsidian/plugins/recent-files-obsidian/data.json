@@ -5,6 +5,38 @@
       "path": "Home.md"
     },
     {
+      "basename": "Incident Response Toolkit",
+      "path": "Emergency Kit/Incident Response Toolkit.md"
+    },
+    {
+      "basename": "Playbook Worksheet",
+      "path": "Appendix/Playbook Worksheet.md"
+    },
+    {
+      "basename": "More Cybersecurity Playbooks",
+      "path": "Appendix/More Cybersecurity Playbooks.md"
+    },
+    {
+      "basename": "Risk Assessment Frameworks",
+      "path": "Appendix/Risk Assessment Frameworks.md"
+    },
+    {
+      "basename": "_Further Reading",
+      "path": "Appendix/_Further Reading.md"
+    },
+    {
+      "basename": "_CIS RAM Risk Assessments",
+      "path": "Appendix/_CIS RAM Risk Assessments.md"
+    },
+    {
+      "basename": "Emergency Do-Not-Do List",
+      "path": "Emergency Kit/Emergency Do-Not-Do List.md"
+    },
+    {
+      "basename": "Unprepared Incident Response",
+      "path": "Emergency Kit/Unprepared Incident Response.md"
+    },
+    {
       "basename": "Educate Checklist",
       "path": "8. Educate/Educate Checklist.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "5.5 Eradication, Stabilization, and Safe Handoff to Recover",
       "path": "5. Respond/5.5 Eradication, Stabilization, and Safe Handoff to Recover.md"
-    },
-    {
-      "basename": "5.4 Communication, Escalation, and External Support",
-      "path": "5. Respond/5.4 Communication, Escalation, and External Support.md"
-    },
-    {
-      "basename": "5.3 Containment and Immediate Risk Reduction",
-      "path": "5. Respond/5.3 Containment and Immediate Risk Reduction.md"
-    },
-    {
-      "basename": "5.2 Initial Triage, Evidence, and Incident Classification",
-      "path": "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md"
-    },
-    {
-      "basename": "5.1 Incident Response Ownership and Activation",
-      "path": "5. Respond/5.1 Incident Response Ownership and Activation.md"
-    },
-    {
-      "basename": "Respond Overview",
-      "path": "5. Respond/Respond Overview.md"
-    },
-    {
-      "basename": "Recover Overview",
-      "path": "6. Recover/Recover Overview.md"
-    },
-    {
-      "basename": "6.4 Communication and Business Continuity During Recovery",
-      "path": "6. Recover/6.4 Communication and Business Continuity During Recovery.md"
-    },
-    {
-      "basename": "Recover Checklist",
-      "path": "6. Recover/Recover Checklist.md"
     }
   ],
   "omittedPaths": [],
