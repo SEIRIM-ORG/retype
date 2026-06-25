@@ -2,7 +2,6 @@
 icon: north-star
 order: 100
 ---
-![[x 483 Header 100 Point QA Checklist 1.jpg]]
 
 ## Identify Goals
 

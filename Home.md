@@ -18,47 +18,16 @@ The steps and solutions within are geared towards small to medium sized business
 
 If you "complete" this playbook, and continue with an ongoing cybersecurity mindset and behaviors in your organization you will achieve:
 
-- Cybersecurity awareness in your personnel making them much less likely to all cyber attack attempts to succeed
-- Resiliency in backups, alternative workflows, services and more that enable the company to keep performing key work during incidents and bounce back faster once issues are resolved
-- Plans in place so staff know what to do in advance of incidents occurring
-- Technical and operational preventions that greatly lessen the likelihood and impacts of cyber incidents
+- Cybersecurity awareness in your personnel making them much less likely to allow cyber attack attempts to break through.
+- Resiliency in backups, alternative workflows, services and more enabling your company to keep performing key work during incidents and bounce back faster once issues are resolved.
+- Plans in place so staff know what to do in advance of incidents occurring.
+- Technical and operational preventions that greatly lessen the likelihood and impacts of cyber incidents.
 
 Every needed step, action, implementation and response is covered. 
 
 If you follow this playbook and adhere to its plan your company will be more secure and minimize losses from cyber attacks and incidents.
 
 The Playbook is organized with the first steps and highest priorities at the top, but because in security it's important to get "everything right" as it only takes a single angle of failure to cause harm, it is necessary to address every aspect of the playbook from top to bottom.
-
-We will highlight these main themes that your company must address:
-
-### Training and Policies 
-
-- People are the weakest link in security, and it's not a moral judgment it's just because people represent half the equation sat across from the computers on this side of the screen! So it's unfortunately an ongoing and time-burdensome requirement, but all workers must be taught at least basic cybersecurity best practices to follow.
-
-### Vulnerability Management and Systems Hardening 
-
-- A major failure at SME's is that vulnerabilities are just there, unknown and not fixed. So a regime must be put in place to find all vulnerabilities everywhere and resolve them, and not just once but on an ongoing basis. Further, every feature, application and the whole of the digital ecosystem needs to be reduced and properly configured to minimize the attack surface and weaknesses.
-
-### Backup and Resilience 
-
-- Incidents will occur, attacks will happen, and the better and more secure the backup and resilience regime the faster and better can bounce back, and the less the impacts in costs and consequences. This refers to data backups, but also in the resilience in being able to still perform the operations of the business in case any feature capacity is lost
-
-### Incident Response
-
-- Attacks and issues will occur, so it's key to have plans and tools in place for when they happen. The plans must also be practiced routinely and improved upon, and made sure to be up to date with changes in the company's profile.
-
-
-## Complete Security Process
-
-
-The above are the "must haves" but they leave out some ideal steps which the whole playbook does include, of course. 
-
-The first thing to know about cybersecurity is that it's ongoing, time-consuming, and resource intensive - and worth it.
-
-It never feels like it until you need it, or it goes unappreciated because it prevents or minimizes attacks but then people feel safe and might take it for granted, and grow complacent.
-
-All it takes is one serious attack or incident to cost or wipe out millions of dollars in costs, or in legal consequences, or in loss of reputation with customers and partners.  
-
 
 ## Step By Step
 
@@ -80,7 +49,7 @@ From top to bottom, our SEIRIM playbook walks your company through all critical 
 
 In addition to following the Playbook, also use the Worksheet or adapt it to track the work and progress, found here: [[Playbook Worksheet]]
 
-Our Playbook approach at SEIRIM is: 
+**Our Playbook steps and approach process at SEIRIM is:** 
 
 ## 1. Assess
 
@@ -258,5 +227,5 @@ People are part of the security system. Employees should know how to recognize s
 
 - **Educate** strengthens behavior and decision-making across the company.
 
-The sections should not be treated as isolated documents. They form a cycle that should be repeated as the business changes, technology changes, threats change, vendors change, and lessons are learned.
+The sections form a cycle that should be repeated as the business changes, technology changes, threats change, vendors change, and lessons are learned.
 

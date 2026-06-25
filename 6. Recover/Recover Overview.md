@@ -1,5 +1,5 @@
 ---
-icon: command-palette
+icon: north-star
 order: 100
 ---
 

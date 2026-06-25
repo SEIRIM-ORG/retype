@@ -26,25 +26,31 @@ This phase should be led by business leadership with support from IT, security s
 
 The Assess phase is divided into five main parts.
 
-## Understand Common Attack Types
+## 1. Understand Common Attack Types
 
 The company first needs to understand the main types of cyberattacks that commonly affect companies like theirs. These include social engineering attacks such as phishing, business email compromise, ransomware, stolen credentials, cloud account compromise, malware, invoice fraud, third-party compromise, and exploitation of unpatched systems.
 
 This step gives executives and staff a realistic view of what they are defending against. Most cyber incidents do not begin with sophisticated movie-style hacking. They usually begin with ordinary weaknesses: a reused password, an exposed system, an unpatched device, a fake invoice, a manipulated employee, or a vendor account that was not properly controlled.
 
-## Understand the Current Threat Environment
+[[1.1 Understand Common Attack Types]]
+
+## 2. Understand the Current Threat Environment
 
 Cybersecurity risks change over time. Attackers adapt their methods, target new technologies, exploit newly discovered vulnerabilities, and take advantage of business trends such as remote work, cloud adoption, AI tools, and outsourced IT services.
 
 This step helps the company understand the current threat environment and how it may affect its own operations. The purpose is not to follow every cybersecurity headline. The purpose is to identify which current threats are relevant to the company’s size, industry, systems, vendors, and data.
 
-## Gather Compliance and Contractual Requirements
+[[1.2 Understand the Current Threat Environment]]
+
+## 3. Gather Compliance and Contractual Requirements
 
 The company must understand the cybersecurity obligations it is already expected to meet. These may come from laws, regulations, customer contracts, vendor agreements, cyber insurance policies, payment processors, industry standards, or data protection requirements.
 
 This step prevents the company from treating cybersecurity as optional. In many cases, the business has already promised customers, insurers, regulators, or partners that certain controls are in place. Those obligations must be identified before the company can accurately assess risk.
 
-## Conduct a Risk Assessment
+[[1.3 Gather Compliance and Contractual Requirements]]
+
+## 4. Conduct a Risk Assessment
 
 The risk assessment is the core activity of the Assess phase. It identifies the most important cyber risks facing the company, estimates their likelihood and business impact, and prioritizes them for action.
 
@@ -52,13 +58,17 @@ A practical SME risk assessment should focus on realistic business scenarios. Fo
 
 The output should be a ranked list of risks with clear ownership, recommended treatment, and next steps. If the risk assessment does not lead to decisions and action, it has failed.
 
-## Measure Cybersecurity Maturity Gap
+[[1.4 Conduct a Risk Assessment]]
+
+## 5. Measure Current Security Maturity Gap
 
 After identifying risks, the company should compare its current cybersecurity practices against a reasonable target baseline. This shows the gap between where the company is now and where it needs to be.
 
 This maturity review should examine practical areas such as asset inventory, MFA, access control, patching, backups, endpoint protection, email security, vendor management, employee training, logging, incident response, and recovery planning.
 
 The cybersecurity maturity gap analysis aims to identify the most important gaps and create a realistic improvement roadmap.
+
+[[1.5 Measure Current Security Maturity Gap]]
 
 ## Expected Outputs from the Assess Phase
 
@@ -80,7 +90,7 @@ At the end of the Assess phase, the company should have:
 ## Bird's Eye View Take on the Process
 
 
-Consider it a crash course in cybersecurity risks. Ask and answer the following 10 strong starter questions for your in-house cybersecurity risk assessment:
+As a quick primer, ask and answer the following 10 starter questions to get an idea of the direction of your upcoming comprehensive cybersecurity risk assessment:
 
 1. **What are our most critical business systems?**  
     Example: email, accounting software, CRM, payroll, e-commerce site, file storage, production systems.

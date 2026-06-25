@@ -56,6 +56,20 @@
             }
           },
           {
+            "id": "b0544259ad79e5f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Scratch dropped text.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Scratch dropped text"
+            }
+          },
+          {
             "id": "270f0fcb9a853631",
             "type": "leaf",
             "state": {
@@ -1202,7 +1216,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 65
       }
     ],
     "direction": "vertical"
@@ -1386,10 +1400,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d63f113a40dfa925",
+  "active": "38dacd1f813a5bb7",
   "lastOpenFiles": [
-    "Appendix/Playbook Worksheet.md",
+    "2. Identify/Identify Overview.md",
+    "2. Identify/2.1 Identify Data.md",
+    "1. Assess/1.1 Understand Common Attack Types.md",
+    "1. Assess/Assess Overview.md",
     "Home.md",
+    "_Scratch dropped text.md",
+    "Appendix/Playbook Worksheet.md",
     "Emergency Kit/Incident Response Toolkit.md",
     "Appendix/More Cybersecurity Playbooks.md",
     "Appendix/Risk Assessment Frameworks.md",
@@ -1409,11 +1428,6 @@
     "7. Review/7.4 Improvement Actions and Control Updates.md",
     "7. Review/7.3 Response and Recovery Performance Review.md",
     "7. Review/7.2 Root Cause and Control Failure Analysis.md",
-    "7. Review/Review Overview.md",
-    "7. Review/7.1 Post-Incident Review and Timeline.md",
-    "7. Review/After Action Review.md",
-    "1. Assess/1.5 Measure Current Security Maturity Gap.md",
-    "1. Assess/1.4 Conduct a Risk Assessment.md",
     "Risk-blocks-on-white.jpg",
     "Verizon - Known initial access vectors over time.png",
     "Assess/Understand Current Threats",

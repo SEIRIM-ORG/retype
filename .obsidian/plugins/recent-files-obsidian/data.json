@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Recover Overview",
+      "path": "6. Recover/Recover Overview.md"
+    },
+    {
+      "basename": "Identify Overview",
+      "path": "2. Identify/Identify Overview.md"
+    },
+    {
+      "basename": "2.1 Identify Data",
+      "path": "2. Identify/2.1 Identify Data.md"
+    },
+    {
+      "basename": "1.1 Understand Common Attack Types",
+      "path": "1. Assess/1.1 Understand Common Attack Types.md"
+    },
+    {
+      "basename": "Assess Overview",
+      "path": "1. Assess/Assess Overview.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "_Scratch dropped text",
+      "path": "_Scratch dropped text.md"
     },
     {
       "basename": "Playbook Worksheet",
@@ -109,14 +133,6 @@
       "path": "1. Assess/1.2 Understand the Current Threat Environment.md"
     },
     {
-      "basename": "1.1 Understand Common Attack Types",
-      "path": "1. Assess/1.1 Understand Common Attack Types.md"
-    },
-    {
-      "basename": "Assess Overview",
-      "path": "1. Assess/Assess Overview.md"
-    },
-    {
       "basename": "2.5 Identify Dependencies",
       "path": "2. Identify/2.5 Identify Dependencies.md"
     },
@@ -131,14 +147,6 @@
     {
       "basename": "2.2 Identify Physical Assets",
       "path": "2. Identify/2.2 Identify Physical Assets.md"
-    },
-    {
-      "basename": "2.1 Identify Data",
-      "path": "2. Identify/2.1 Identify Data.md"
-    },
-    {
-      "basename": "Identify Overview",
-      "path": "2. Identify/Identify Overview.md"
     },
     {
       "basename": "3.7 Network, Remote Access, and Internet Exposure Protection",
@@ -191,14 +199,6 @@
     {
       "basename": "4.1 Detection Ownership and Coverage",
       "path": "4. Detect/4.1 Detection Ownership and Coverage.md"
-    },
-    {
-      "basename": "Detect Overview",
-      "path": "4. Detect/Detect Overview.md"
-    },
-    {
-      "basename": "5.5 Eradication, Stabilization, and Safe Handoff to Recover",
-      "path": "5. Respond/5.5 Eradication, Stabilization, and Safe Handoff to Recover.md"
     }
   ],
   "omittedPaths": [],
