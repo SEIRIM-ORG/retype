@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Playbook Worksheet",
+      "path": "Appendix/Playbook Worksheet.md"
+    },
+    {
       "basename": "Recover Overview",
       "path": "6. Recover/Recover Overview.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "_Scratch dropped text",
       "path": "_Scratch dropped text.md"
-    },
-    {
-      "basename": "Playbook Worksheet",
-      "path": "Appendix/Playbook Worksheet.md"
     },
     {
       "basename": "Incident Response Toolkit",

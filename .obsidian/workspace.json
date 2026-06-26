@@ -1216,7 +1216,7 @@
             }
           }
         ],
-        "currentTab": 65
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1400,8 +1400,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "38dacd1f813a5bb7",
+  "active": "270f0fcb9a853631",
   "lastOpenFiles": [
+    "Master Action Tracker in Playbook sheet.jpg",
+    "6. Recover/Recover Overview.md",
     "2. Identify/Identify Overview.md",
     "2. Identify/2.1 Identify Data.md",
     "1. Assess/1.1 Understand Common Attack Types.md",
@@ -1426,8 +1428,6 @@
     "7. Review/Review Checklist.md",
     "7. Review/7.5 Evidence, Reporting, and Leadership Closure.md",
     "7. Review/7.4 Improvement Actions and Control Updates.md",
-    "7. Review/7.3 Response and Recovery Performance Review.md",
-    "7. Review/7.2 Root Cause and Control Failure Analysis.md",
     "Risk-blocks-on-white.jpg",
     "Verizon - Known initial access vectors over time.png",
     "Assess/Understand Current Threats",

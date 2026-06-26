@@ -2,7 +2,11 @@
 icon: triangle-right
 order: 100
 ---
-Consider creating or using our provided Master Action Playbook Worksheet to track your progress through the Playbook, available here: 
+Consider creating or using our provided Master Action Playbook Worksheet to track your progress through the Playbook, available here: https://fileshare.seirim.com/s/9iAWWstT7AdBoYC
+
+
+![[Master Action Tracker in Playbook sheet.jpg]]
+
 
 ### How to Use the Cybersecurity Playbook Workbook
 
