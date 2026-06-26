@@ -1,6 +1,8 @@
 ---
 icon: arrow-right
 order: 10000
+title: Cybersecurity Playbook
+description: The SEIRIM Cybersecurity Playbook is a comprehensive plan to guide SMEs through the whole process to strengthen the security of their companies and remain resilient when incidents occur.
 ---
 
 

@@ -1216,7 +1216,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 50
       }
     ],
     "direction": "vertical"
@@ -1400,17 +1400,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "270f0fcb9a853631",
+  "active": "83c81bbd55fbd025",
   "lastOpenFiles": [
+    "1. Assess/1.3 Gather Compliance and Contractual Requirements.md",
+    "1. Assess/1.2 Understand the Current Threat Environment.md",
+    "1. Assess/1.1 Understand Common Attack Types.md",
+    "Home.md",
+    "1. Assess/Assess Overview.md",
+    "Appendix/Playbook Worksheet.md",
     "Master Action Tracker in Playbook sheet.jpg",
     "6. Recover/Recover Overview.md",
     "2. Identify/Identify Overview.md",
     "2. Identify/2.1 Identify Data.md",
-    "1. Assess/1.1 Understand Common Attack Types.md",
-    "1. Assess/Assess Overview.md",
-    "Home.md",
     "_Scratch dropped text.md",
-    "Appendix/Playbook Worksheet.md",
     "Emergency Kit/Incident Response Toolkit.md",
     "Appendix/More Cybersecurity Playbooks.md",
     "Appendix/Risk Assessment Frameworks.md",
@@ -1427,7 +1429,6 @@
     "8. Educate/Educate Overview.md",
     "7. Review/Review Checklist.md",
     "7. Review/7.5 Evidence, Reporting, and Leadership Closure.md",
-    "7. Review/7.4 Improvement Actions and Control Updates.md",
     "Risk-blocks-on-white.jpg",
     "Verizon - Known initial access vectors over time.png",
     "Assess/Understand Current Threats",
