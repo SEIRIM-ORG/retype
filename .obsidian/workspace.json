@@ -1216,7 +1216,7 @@
             }
           }
         ],
-        "currentTab": 50
+        "currentTab": 49
       }
     ],
     "direction": "vertical"
@@ -1400,10 +1400,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "83c81bbd55fbd025",
+  "active": "3b70f42466f677e1",
   "lastOpenFiles": [
-    "1. Assess/1.3 Gather Compliance and Contractual Requirements.md",
     "1. Assess/1.2 Understand the Current Threat Environment.md",
+    "1. Assess/1.5 Measure Current Security Maturity Gap.md",
+    "1. Assess/1.4 Conduct a Risk Assessment.md",
+    "1. Assess/1.3 Gather Compliance and Contractual Requirements.md",
     "1. Assess/1.1 Understand Common Attack Types.md",
     "Home.md",
     "1. Assess/Assess Overview.md",
@@ -1427,8 +1429,6 @@
     "8. Educate/8.2 Core Employee Cybersecurity Training.md",
     "8. Educate/8.1 Security Awareness Ownership and Training Plan.md",
     "8. Educate/Educate Overview.md",
-    "7. Review/Review Checklist.md",
-    "7. Review/7.5 Evidence, Reporting, and Leadership Closure.md",
     "Risk-blocks-on-white.jpg",
     "Verizon - Known initial access vectors over time.png",
     "Assess/Understand Current Threats",

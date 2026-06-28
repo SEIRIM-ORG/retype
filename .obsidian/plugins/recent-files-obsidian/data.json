@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "1.4 Conduct a Risk Assessment",
-      "path": "1. Assess/1.4 Conduct a Risk Assessment.md"
-    },
-    {
       "basename": "1.3 Gather Compliance and Contractual Requirements",
       "path": "1. Assess/1.3 Gather Compliance and Contractual Requirements.md"
     },
     {
       "basename": "1.2 Understand the Current Threat Environment",
       "path": "1. Assess/1.2 Understand the Current Threat Environment.md"
+    },
+    {
+      "basename": "1.5 Measure Current Security Maturity Gap",
+      "path": "1. Assess/1.5 Measure Current Security Maturity Gap.md"
+    },
+    {
+      "basename": "1.4 Conduct a Risk Assessment",
+      "path": "1. Assess/1.4 Conduct a Risk Assessment.md"
     },
     {
       "basename": "1.1 Understand Common Attack Types",
@@ -127,10 +131,6 @@
     {
       "basename": "7.1 Post-Incident Review and Timeline",
       "path": "7. Review/7.1 Post-Incident Review and Timeline.md"
-    },
-    {
-      "basename": "1.5 Measure Current Security Maturity Gap",
-      "path": "1. Assess/1.5 Measure Current Security Maturity Gap.md"
     },
     {
       "basename": "2.5 Identify Dependencies",
