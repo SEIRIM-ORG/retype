@@ -2,7 +2,6 @@
 icon: shield-check
 order: -10
 ---
-# Identify Section Checklist
 
 Use this checklist to confirm that the company has identified the data, assets, systems, accounts, and dependencies that must be protected.
 

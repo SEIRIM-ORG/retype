@@ -3,7 +3,7 @@ icon: north-star
 order: 100
 ---
 
-## Identify Goals
+### Identify Goals
 
 The goal of the **Identify** stage is to create a clear, accurate map of the company’s digital environment so your business knows exactly what must be protected, who can access it, where critical data lives, and what systems or vendors the company depends on.
 

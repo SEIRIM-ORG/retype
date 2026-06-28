@@ -2,7 +2,6 @@
 icon: triangle-right
 order: 20
 ---
-# Emergency Do-Not-Do List
 
 
 - During a serious cybersecurity incident, the company should avoid rushed actions that may destroy evidence, increase damage, or make recovery harder.
