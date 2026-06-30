@@ -88,6 +88,18 @@ Protect the company network, remote access paths, Wi-Fi, and internet-facing sys
 
 This section covers firewall configuration, secure Wi-Fi, guest network separation, VPN security, remote desktop restrictions, secure DNS filtering, router and firewall admin controls, network segmentation, exposed service review, protection of public-facing systems, and access controls for remote workers.
 
+### 8. Insider Threat Mitigation
+
+**Goal:**
+
+Recognize and account for the risk of incidents occurring from within the organization.
+
+**Includes:**
+
+Covers determining the users, accounts, services, trusted contracted partners and situations which can be the spark of an incident from inside the organization and how to mitigate for these threats.
+
+
+
 ### Protect Section Table of Contents
 
 1. Identity and Access Management
@@ -103,3 +115,6 @@ This section covers firewall configuration, secure Wi-Fi, guest network separati
 6. Email, Web, Cloud, and SaaS Protection
     
 7. Network, Remote Access, and Internet Exposure Protection
+    
+8. Insider Threat Mitigation
+    

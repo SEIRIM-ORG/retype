@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Protect Overview",
+      "path": "3. Protect/Protect Overview.md"
+    },
+    {
+      "basename": "3.8 Insider Threat Mitigation",
+      "path": "3. Protect/3.8 Insider Threat Mitigation.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -169,10 +177,6 @@
       "path": "4. Detect/4.1 Detection Ownership and Coverage.md"
     },
     {
-      "basename": "Protect Overview",
-      "path": "3. Protect/Protect Overview.md"
-    },
-    {
       "basename": "Protect Checklist",
       "path": "3. Protect/Protect Checklist.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3.3 Systems Hardening",
       "path": "3. Protect/3.3 Systems Hardening.md"
-    },
-    {
-      "basename": "3.2 Backup and Recovery Readiness",
-      "path": "3. Protect/3.2 Backup and Recovery Readiness.md"
     }
   ],
   "omittedPaths": [],
