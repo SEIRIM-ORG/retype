@@ -1230,7 +1230,7 @@
             }
           }
         ],
-        "currentTab": 45
+        "currentTab": 43
       }
     ],
     "direction": "vertical"
@@ -1414,8 +1414,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "38f2847a5d34354d",
+  "active": "7560b83d4975eae0",
   "lastOpenFiles": [
+    "2. Identify/2.3 Identify Apps and Services.md",
+    "2. Identify/2.2 Identify Physical Assets.md",
+    "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md",
+    "3. Protect/Protect Overview.md",
     "3. Protect/3.8 Insider Threat Mitigation.md",
     "Home.md",
     "Emergency Kit/Unprepared Incident Response.md",
@@ -1438,10 +1442,6 @@
     "7. Review/7.3 Response and Recovery Performance Review.md",
     "7. Review/7.2 Root Cause and Control Failure Analysis.md",
     "7. Review/7.1 Post-Incident Review and Timeline.md",
-    "6. Recover/Recover Overview.md",
-    "6. Recover/Recover Checklist.md",
-    "6. Recover/6.5 Recovery Documentation and Handoff to Review.md",
-    "6. Recover/6.4 Communication and Business Continuity During Recovery.md",
     "Master Action Tracker in Playbook sheet.jpg",
     "Risk-blocks-on-white.jpg",
     "Verizon - Known initial access vectors over time.png",

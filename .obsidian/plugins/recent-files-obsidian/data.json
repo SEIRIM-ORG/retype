@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2.1 Identify Data",
+      "path": "2. Identify/2.1 Identify Data.md"
+    },
+    {
+      "basename": "2.3 Identify Apps and Services",
+      "path": "2. Identify/2.3 Identify Apps and Services.md"
+    },
+    {
+      "basename": "2.2 Identify Physical Assets",
+      "path": "2. Identify/2.2 Identify Physical Assets.md"
+    },
+    {
+      "basename": "5.2 Initial Triage, Evidence, and Incident Classification",
+      "path": "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md"
+    },
+    {
       "basename": "Protect Overview",
       "path": "3. Protect/Protect Overview.md"
     },
@@ -141,10 +157,6 @@
       "path": "5. Respond/5.3 Containment and Immediate Risk Reduction.md"
     },
     {
-      "basename": "5.2 Initial Triage, Evidence, and Incident Classification",
-      "path": "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md"
-    },
-    {
       "basename": "5.1 Incident Response Ownership and Activation",
       "path": "5. Respond/5.1 Incident Response Ownership and Activation.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "3.6 Email, Web, Cloud, and SaaS Protection",
       "path": "3. Protect/3.6 Email, Web, Cloud, and SaaS Protection.md"
-    },
-    {
-      "basename": "3.5 Endpoint, Server, and Mobile Device Protection",
-      "path": "3. Protect/3.5 Endpoint, Server, and Mobile Device Protection.md"
-    },
-    {
-      "basename": "3.4 Vulnerability and Patch Management",
-      "path": "3. Protect/3.4 Vulnerability and Patch Management.md"
-    },
-    {
-      "basename": "3.3 Systems Hardening",
-      "path": "3. Protect/3.3 Systems Hardening.md"
     }
   ],
   "omittedPaths": [],
