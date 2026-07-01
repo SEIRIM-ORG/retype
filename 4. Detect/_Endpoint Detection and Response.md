@@ -1,3 +1,0 @@
----
-icon: triangle-right
----

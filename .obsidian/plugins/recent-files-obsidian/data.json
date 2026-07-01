@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "x 483 Header Pros Cons Program Lang",
+      "path": "x 483 Header Pros Cons Program Lang.jpg"
+    },
+    {
+      "basename": "x 483 Header Image Mobile EDR",
+      "path": "x 483 Header Image Mobile EDR.webp"
+    },
+    {
+      "basename": "x 483 Header Annual Reports",
+      "path": "x 483 Header Annual Reports.jpg"
+    },
+    {
+      "basename": "Verizon - Known initial access vectors over time",
+      "path": "Verizon - Known initial access vectors over time.png"
+    },
+    {
+      "basename": "Master Action Tracker in Playbook sheet",
+      "path": "Master Action Tracker in Playbook sheet.jpg"
+    },
+    {
       "basename": "2.1 Identify Data",
       "path": "2. Identify/2.1 Identify Data.md"
     },
@@ -23,10 +47,6 @@
     {
       "basename": "3.8 Insider Threat Mitigation",
       "path": "3. Protect/3.8 Insider Threat Mitigation.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Unprepared Incident Response",
@@ -179,26 +199,6 @@
     {
       "basename": "4.3 Monitoring the Main Attack Paths",
       "path": "4. Detect/4.3 Monitoring the Main Attack Paths.md"
-    },
-    {
-      "basename": "4.2 Logging, Alerts, and Security Visibility",
-      "path": "4. Detect/4.2 Logging, Alerts, and Security Visibility.md"
-    },
-    {
-      "basename": "4.1 Detection Ownership and Coverage",
-      "path": "4. Detect/4.1 Detection Ownership and Coverage.md"
-    },
-    {
-      "basename": "Protect Checklist",
-      "path": "3. Protect/Protect Checklist.md"
-    },
-    {
-      "basename": "3.7 Network, Remote Access, and Internet Exposure Protection",
-      "path": "3. Protect/3.7 Network, Remote Access, and Internet Exposure Protection.md"
-    },
-    {
-      "basename": "3.6 Email, Web, Cloud, and SaaS Protection",
-      "path": "3. Protect/3.6 Email, Web, Cloud, and SaaS Protection.md"
     }
   ],
   "omittedPaths": [],
