@@ -1159,7 +1159,8 @@
               "title": "1.2 Understand the Current Threat Environment"
             }
           }
-        ]
+        ],
+        "currentTab": 36
       }
     ],
     "direction": "vertical"
@@ -1343,8 +1344,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d63f113a40dfa925",
+  "active": "c63f0c90c6c2cb84",
   "lastOpenFiles": [
+    "Appendix/More Cybersecurity Playbooks.md",
+    "Appendix/Risk Assessment Frameworks.md",
+    "3. Protect/3.2 Backup and Recovery Readiness.md",
+    "3. Protect/Protect Checklist.md",
+    "3. Protect/Protect Overview.md",
+    "Home.md",
     "x 483 Header Pros Cons Program Lang.jpg",
     "x 483 Header Image Mobile EDR.webp",
     "x 483 Header Annual Reports.jpg",
@@ -1367,17 +1374,12 @@
     "2. Identify/2.3 Identify Apps and Services.md",
     "2. Identify/2.2 Identify Physical Assets.md",
     "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md",
-    "3. Protect/Protect Overview.md",
     "3. Protect/3.8 Insider Threat Mitigation.md",
-    "Home.md",
     "Emergency Kit/Unprepared Incident Response.md",
     "Emergency Kit/Incident Response Toolkit.md",
     "Emergency Kit/Emergency Do-Not-Do List.md",
-    "Appendix/Risk Assessment Frameworks.md",
     "Appendix/Playbook Worksheet.md",
-    "Appendix/More Cybersecurity Playbooks.md",
     "8. Educate/Educate Overview.md",
-    "8. Educate/Educate Checklist.md",
     "Assess/Understand Current Threats",
     "Appendix",
     "static/seirim-logo-light.svg",

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "3.6 Email, Web, Cloud, and SaaS Protection",
+      "path": "3. Protect/3.6 Email, Web, Cloud, and SaaS Protection.md"
+    },
+    {
+      "basename": "More Cybersecurity Playbooks",
+      "path": "Appendix/More Cybersecurity Playbooks.md"
+    },
+    {
+      "basename": "Risk Assessment Frameworks",
+      "path": "Appendix/Risk Assessment Frameworks.md"
+    },
+    {
+      "basename": "3.2 Backup and Recovery Readiness",
+      "path": "3. Protect/3.2 Backup and Recovery Readiness.md"
+    },
+    {
+      "basename": "Protect Checklist",
+      "path": "3. Protect/Protect Checklist.md"
+    },
+    {
+      "basename": "Protect Overview",
+      "path": "3. Protect/Protect Overview.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -41,10 +65,6 @@
       "path": "5. Respond/5.2 Initial Triage, Evidence, and Incident Classification.md"
     },
     {
-      "basename": "Protect Overview",
-      "path": "3. Protect/Protect Overview.md"
-    },
-    {
       "basename": "3.8 Insider Threat Mitigation",
       "path": "3. Protect/3.8 Insider Threat Mitigation.md"
     },
@@ -61,16 +81,8 @@
       "path": "Emergency Kit/Emergency Do-Not-Do List.md"
     },
     {
-      "basename": "Risk Assessment Frameworks",
-      "path": "Appendix/Risk Assessment Frameworks.md"
-    },
-    {
       "basename": "Playbook Worksheet",
       "path": "Appendix/Playbook Worksheet.md"
-    },
-    {
-      "basename": "More Cybersecurity Playbooks",
-      "path": "Appendix/More Cybersecurity Playbooks.md"
     },
     {
       "basename": "Educate Overview",
@@ -187,18 +199,6 @@
     {
       "basename": "Detect Checklist",
       "path": "4. Detect/Detect Checklist.md"
-    },
-    {
-      "basename": "4.5 Employee Reporting, Triage, and Handoff to Respond",
-      "path": "4. Detect/4.5 Employee Reporting, Triage, and Handoff to Respond.md"
-    },
-    {
-      "basename": "4.4 External Exposure and Control Failure Detection",
-      "path": "4. Detect/4.4 External Exposure and Control Failure Detection.md"
-    },
-    {
-      "basename": "4.3 Monitoring the Main Attack Paths",
-      "path": "4. Detect/4.3 Monitoring the Main Attack Paths.md"
     }
   ],
   "omittedPaths": [],
