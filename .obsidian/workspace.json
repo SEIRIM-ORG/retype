@@ -109,8 +109,7 @@
               "title": "Vertical tabs"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -221,7 +220,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "843dbbeaaae9454d",
+  "active": "7c2b27ef7790285c",
   "lastOpenFiles": [
     "Home.md",
     "3. Protect/3.8 Insider Threat Mitigation.md",
