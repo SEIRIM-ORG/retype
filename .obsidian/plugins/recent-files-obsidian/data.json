@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "3.6 Email, Web, Cloud, and SaaS Protection",
-      "path": "3. Protect/3.6 Email, Web, Cloud, and SaaS Protection.md"
-    },
-    {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "Rush Page (non-emergency)",
+      "path": "Emergency Kit/Rush Page (non-emergency).md"
+    },
+    {
+      "basename": "Unprepared Incident Response",
+      "path": "Emergency Kit/Unprepared Incident Response.md"
+    },
+    {
+      "basename": "Incident Response Toolkit",
+      "path": "Emergency Kit/Incident Response Toolkit.md"
+    },
+    {
+      "basename": "Emergency Do-Not-Do List",
+      "path": "Emergency Kit/Emergency Do-Not-Do List.md"
+    },
+    {
+      "basename": "3.6 Email, Web, Cloud, and SaaS Protection",
+      "path": "3. Protect/3.6 Email, Web, Cloud, and SaaS Protection.md"
     },
     {
       "basename": "3.8 Insider Threat Mitigation",
@@ -27,18 +43,6 @@
     {
       "basename": "Index",
       "path": "Emergency Kit/Index.md"
-    },
-    {
-      "basename": "Incident Response Toolkit",
-      "path": "Emergency Kit/Incident Response Toolkit.md"
-    },
-    {
-      "basename": "Unprepared Incident Response",
-      "path": "Emergency Kit/Unprepared Incident Response.md"
-    },
-    {
-      "basename": "Emergency Do-Not-Do List",
-      "path": "Emergency Kit/Emergency Do-Not-Do List.md"
     },
     {
       "basename": "More Cybersecurity Playbooks",
@@ -195,10 +199,6 @@
     {
       "basename": "8.5 Training Evidence, Metrics, and Continuous Improvement",
       "path": "8. Educate/8.5 Training Evidence, Metrics, and Continuous Improvement.md"
-    },
-    {
-      "basename": "Review Overview",
-      "path": "7. Review/Review Overview.md"
     }
   ],
   "omittedPaths": [],

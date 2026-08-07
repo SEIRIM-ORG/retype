@@ -25,7 +25,7 @@ If you "complete" this playbook, and continue with an ongoing cybersecurity mind
 - Plans in place so staff know what to do in advance of incidents occurring.
 - Technical and operational preventions that greatly lessen the likelihood and impacts of cyber incidents.
 
-Every needed step, action, implementation and response is covered. 
+The playbook is designed to cover the major steps an SME needs to organize cybersecurity work. 
 
 If you follow this playbook and adhere to its plan your company will be more secure and minimize losses from cyber attacks and incidents.
 
@@ -47,7 +47,9 @@ Critical to remember is that though we list our process in an order:
 - Some items can and should be done not necessarily in this order, depending on the situation
 - The process is ongoing and iterative - every company needs to continually and routinely act on security
 
-From top to bottom, our SEIRIM playbook walks your company through all critical cybersecurity steps, though if you're in a rush, can jump to our 'Rush Page' to just jump into some top 10 items you could do today that will have the most impact. 
+From top to bottom, our SEIRIM playbook walks your company through all critical cybersecurity steps, though if you're in a rush, can jump to our '[[Rush Page (non-emergency)]]' to just jump into some top 10 items you could do today that will have the most impact. 
+
+If you are currently experiencing an incident, please check the [[Unprepared Incident Response]] page, the [[Emergency Do-Not-Do List]] page, and the [[Incident Response Toolkit]] for any needed tools, and of course feel free to [contact us](https://seirim.com/en/contact) at SEIRIM for help.
 
 In addition to following the Playbook, also use the Worksheet or adapt it to track the work and progress, found here: [[Playbook Worksheet]]
 
@@ -67,7 +69,7 @@ Your company or organization will benefit from clear assessments of:
 
 ## 2. Identify
 
-An old adage is you can't "You can't protect what you don't know", which helps point out the importance of becoming aware of any and all assets, services, dependencies and more that could negatively affect the organization if left unobserved and unprotected.
+An old adage is "you can't protect what you don't know", which helps point out the importance of becoming aware of any and all assets, services, dependencies and more that could negatively affect the organization if left unobserved and unprotected.
 
 Another new mantra is "You can't secure what you don't understand" which pushes for more than just awareness, we need to look under the hood of what we rely on to protect it well.
 
@@ -85,7 +87,7 @@ Another new mantra is "You can't secure what you don't understand" which pushes 
 ## 3. Protect
 
 
-Once you have determined the threats to your organization and everything you need to protect, it's time to,,, protect it!
+Once you have determined the threats to your organization and everything you need to protect, it's time to implement all needed protections.
 
 **Main Sections Include:**
 
