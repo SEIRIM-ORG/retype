@@ -142,7 +142,7 @@ Due date: ____________________
 - What decisions leadership must make
 - Who owns the next actions
 
-# Practical Rule
+## Practical Rule
 
 Leadership does not need every technical detail.
 

@@ -890,7 +890,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1076,8 +1076,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "375d0b57632f9fcb",
+  "active": "dd648dc5e7b7ade8",
   "lastOpenFiles": [
+    "Appendix/Policy & Template Library/Governance/Security Exception and Risk Acceptance Form.md",
+    "Appendix/Policy and Template Library Directory.md",
     "Appendix/Policy & Template Library/Vendors/Vendor Security Assessment Questionnaire.md",
     "Appendix/Policy & Template Library/Vendors/Vendor Offboarding Checklist.md",
     "Appendix/Policy & Template Library/Vendors/Vendor Cybersecurity Policy.md",
@@ -1102,8 +1104,6 @@
     "Appendix/Policy & Template Library/Incident Response/Emergency Cybersecurity Contact List.md",
     "Appendix/Policy & Template Library/Incident Response/Cyber Incident Response Plan.md",
     "Appendix/Policy & Template Library/Incident Response/Customer or Vendor Incident Holding Statement.md",
-    "Appendix/Policy & Template Library/Governance/Cybersecurity Policy.md",
-    "Appendix/Policy & Template Library/Governance/Untitled.md",
     "Appendix/Policy & Template Library/Training",
     "Appendix/Policy & Template Library/Review",
     "Appendix/Policy & Template Library/Finance",

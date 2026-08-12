@@ -128,6 +128,6 @@ Resolution evidence: ____________________
 
 Closure date: ____________________
 
-# Practical Rule
+## Practical Rule
 
 Every security exception should have a reason, a risk owner, temporary protection, and an expiry or review date.
